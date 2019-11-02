@@ -21,17 +21,17 @@ The removal of the Oracles also frees up a HUGE amount of code. I have been stru
 Like this one: Ultima V style (kindof) reagent mixing! That is now in, for better or for worse.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/mixing_reagents_2.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/mixing_reagents_2.png" />
 	<figcaption>Mixing 34 reagents...</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/mixing_reagents_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/mixing_reagents_1.png" />
 	<figcaption>Subtracting reagents...</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/mixing_reagents_3.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/mixing_reagents_3.png" />
 	<figcaption>34 more Cure spells!</figcaption>
 </figure>
 
