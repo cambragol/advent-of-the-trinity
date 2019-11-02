@@ -15,7 +15,7 @@ Unlike the 'dungeons' of the original game, the 'crypts' of Trinity have relativ
 Anyway, one of the dungeons I have made is...potentially...difficult. It has 125 interconnected rooms. With nearly zero connecting hallways (ladders only). So using Peer or View to navigate your way through will be of limited help. 
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_1.jpg" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_1.jpg" />
 	<figcaption>Um...whoa...too difficult?</figcaption>
 </figure>
 
