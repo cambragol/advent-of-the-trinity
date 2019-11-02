@@ -887,7 +887,7 @@ ul li.cd-single-point {
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "{{ site.url }}/assets/js/js-dos.js" 
+        wdosboxUrl: "{{ site.url }}/assets/js/wdosbox.js" 
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima.zip").then(() => {
         main(["-c", "ultima.com"])
