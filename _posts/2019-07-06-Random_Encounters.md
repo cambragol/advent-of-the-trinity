@@ -19,17 +19,17 @@ However, I have hit upon a snag, which is that the transition from the 'World' t
 This is very much not default behavior, but I wonder whether it wouldn't be worth it to have random encounters, and whether the effect doesn't improve the experience somewhat?
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/random_encounter.gif" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/random_encounter.gif" />
 	<figcaption>A Random Encounter!</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/attacked_rogue.gif" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/attacked_rogue.gif" />
 	<figcaption>Bumped into a rogue on the way to Britain...</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/enter_castle.gif" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/enter_castle.gif" />
 	<figcaption>Entering a castle...please don't mind the testing area mess...</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ EDIT
 I have settled on a new style for the encounters. It is shown below. It will only be used for combat and encounters. Entering towns or castles etc. will be handled the original way. The flash of light helps convey...something serious is happening, I think.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/attacked_rogue_2.gif" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/attacked_rogue_2.gif" />
 	<figcaption>Another pesky rogue, and a flash of light!</figcaption>
 </figure>
 
