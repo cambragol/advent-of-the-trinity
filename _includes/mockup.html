@@ -1,5 +1,5 @@
 <section class="cd-product ScrollRev">
-        
+    <canvas id="jsdos"></canvas>    
     <div class="cd-product-intro">
         <h2>ULTIMA IV</h2>
         <h2>Advent of the Trinity</h2>
@@ -884,3 +884,13 @@ ul li.cd-single-point {
   }
 }
 </style>
+
+  <script>
+    Dos(document.getElementById("jsdos"), { 
+        wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js" 
+    }).ready((fs, main) => {
+      fs.extract("https://js-dos.com/6.22/current/test/digger.zip").then(() => {
+        main(["-c", "DIGGER.COM"])
+      });
+    });
+  </script>
