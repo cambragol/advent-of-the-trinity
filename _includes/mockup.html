@@ -887,10 +887,10 @@ ul li.cd-single-point {
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox.js" 
+        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/dosbox.js" 
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima.zip").then(() => {
-        main(["-c", "ultima"])
+        main(["-c", "ultima.com"])
       });
     });
   </script>
