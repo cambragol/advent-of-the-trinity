@@ -1,10 +1,10 @@
 title:            Ultima IV - Advent of the Trinity
 tagline:          The first mod for the original DOS Ultima IV.
 description:      Advent of the Trinity for Ultima IV
-url: "https://cambragol.github.io/ultima-IV-trinity"
+url: "https://cambragol.github.io/advent-of-the-trinity"
 baseurl: ""
-home: https://cambragol.github.io/ultima-IV-trinity
-repository: "cambragol/ultima-IV-trinity"
+home: https://cambragol.github.io/advent-of-the-trinity
+repository: "cambragol/advent-of-the-trinity"
 
 # Owner/author information
 owner:
@@ -13,7 +13,7 @@ owner:
   bio:            "Modding not Coding"
   email:          griffon_academy@yahoo.ca
   github:         cambragol
-  disqus:         https-cambragol-github-io-ultima-iv-trinity
+  disqus:         https-cambragol-github-io-advent-of-the-trinity
   location:       "Somewhere, Somewhere"
   # Plug in your disqus shortname!
 
@@ -37,7 +37,7 @@ links:
   - title: Articles
     url: /articles
   - title: Github
-    url: https://github.com/cambragol/ultima-IV-trinity
+    url: https://github.com/cambragol/advent-of-the-trinity
     external: true
 
 
@@ -66,7 +66,7 @@ sass:
     
 # Staticman comments (full configuration in staticman.yml)
 staticman:
-api: "https://staticman3.herokuapp.com/v3/entry/github/cambragol/ultima-IV-trinity/master/comments"
+api: "https://staticman3.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
  
  
 # https://github.com/mojombo/jekyll/wiki/Permalinks
