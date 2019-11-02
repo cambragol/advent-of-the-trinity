@@ -17,7 +17,7 @@ Now, aside from that final bit of quest related dialogue, I have to do the very 
 In the meantime, here is a gif going on a little tour of a castle with in all it's new graphics and multi-level glory.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/multi-level-castles.gif" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/multi-level-castles.gif" />
 	<figcaption>A Tour of the Lycaeum</figcaption>
 </figure>
 
