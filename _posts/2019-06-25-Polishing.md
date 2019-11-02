@@ -19,7 +19,7 @@ While doing this there were a few final dialogues that needed fixing. Fixed thos
 Fixed up some code too. Like Peer. It wasn't displaying the new tiles the way I liked, so I customized it to look goooood. Now it does. Like this:
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/peer_new.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/peer_new.png" />
 	<figcaption>The view of the roof of Serpents Hold</figcaption>
 </figure>
 
@@ -33,51 +33,51 @@ Here are some shots of the three styles 'in progress'
 Dungeon Town is like a monster version of Buccaneer's Den. Fully of baddies. Possibility of getting attacked. Danger lurking behind each door. A somewhat 'ruined' style.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_town1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_town1.png" />
 	<figcaption>Dungeon Town</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_town3.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_town3.png" />
 	<figcaption>Dungeon Town</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_town5.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_town5.png" />
 	<figcaption>Dungeon Town</figcaption>
 </figure>
 
 Style 1 for the 'Mine' is full of support columns, ruined, but organized. It had a layout at one point, but now it is falling into decay, leaking and dripping water everywhere.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style1_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style1_1.png" />
 	<figcaption>Style 1</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style1_2.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style1_2.png" />
 	<figcaption>Style 1</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style1_3.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style1_3.png" />
 	<figcaption>Style 1</figcaption>
 </figure>
 
 Style 2 is very simple, basically just 'cave' rooms. A primitive cave/mine that is now the dwelling place of various monsters.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style2_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style2_1.png" />
 	<figcaption>Style 2</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style2_2.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style2_2.png" />
 	<figcaption>Style 2</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style2_3.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style2_3.png" />
 	<figcaption>Style 2</figcaption>
 </figure>
 
@@ -88,11 +88,11 @@ If I can't hammer out or become satisfied with a style soon, I will scrap the 'm
 Here is a third style, something between the other two. Narrow corridors, supported by decaying timber beams and posts. Narrow passages make it suitable to small, low level parties.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style3_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style3_1.png" />
 	<figcaption>Style 3</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dungeon_style3_2.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_style3_2.png" />
 	<figcaption>Style 3</figcaption>
 </figure>
