@@ -15,24 +15,24 @@ So, I stripped out the code and got about 1000bytes. More than enough to bring d
 I've added a little gif below showing the dragon in action. I tried my best to make all interface interactions mirror or follow the standards from the vanilla game.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dragon.gif" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dragon.gif" />
 	<figcaption>Houston, we have dragons, I repeat, we have dragons.</figcaption>
 </figure>
 
 But I did it. I also managed to fix up an old bug with the game, which would allow players to exit a ship, then quickly board it again, and have the hitpoints back up to maximum. This is fixed along with the Dragon code, so dragons and ships scattered about the map all have unique and stored/saved hitpoints, which are restored on remounting. I managed this without adding anything to any of the save games, so everything is still compatible between Trinity and vanilla Ultima IV.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/frigate_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/frigate_1.png" />
 	<figcaption>My first fancy frigate...Not in the best of condition.</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/dragon_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dragon_1.png" />
 	<figcaption>Mount up my dragon...oooh...he's full strength!</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/frigate_2.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/frigate_2.png" />
 	<figcaption>Board my other firgate...man, these ships are beat!</figcaption>
 </figure>
 
