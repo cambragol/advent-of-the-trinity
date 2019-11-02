@@ -11,9 +11,7 @@
 
 
 {% endif %}
-  
-  {% include mockup.html %}
-
+ 
   
       <article class="wrap post">
                         
@@ -23,6 +21,9 @@
             <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
           </hgroup>
         </header>
+        
+          {% include mockup.html %}
+
 
         
         {{ content }}
