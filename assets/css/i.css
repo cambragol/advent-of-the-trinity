@@ -635,10 +635,11 @@ header.site-header nav ul li a:hover {
   background: rgba(0, 0, 0, 0.1);
 }
 .article .featured-image {
-  vertical-align: middle;
-    /* Sizing */
-    width: 100vw;
-    height: 40vh;
+        vertical-align: middle;
+        min-height: 360px;
+        height: 50vh;
+        width: 100%;
+        max-height: 800px;
   background-position: center center;
   background-size: cover;
   vertical-align: middle;
