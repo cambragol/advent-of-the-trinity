@@ -19,7 +19,7 @@ Since I couldn't find the fix, I decided to quickly whip one up myself. However,
 I went into the Apple II version and found that it suffered from the exact same flaws/bugs.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/apple_hythloth.jpg" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/apple_hythloth.jpg" />
 	<figcaption>Same room as the Dos version. No way out to the west, and no clean way to make a secret door open and logically mesh with the central room.</figcaption>
 </figure>
 
@@ -37,17 +37,17 @@ Get it directly from the repository:
 I think these images are kindof spoilers, as they reveal the rooms in complete detail. If you like/want to experience the rooms spoiler free, don't click on the images below.
 
 <figure>
-	<img class="ScrollRev spoiler" data-tilt src="/ultima-IV-trinity/images/hythloth_eastern.jpg" />
+	<img class="ScrollRev spoiler" data-tilt src="{{ site.url }}/images/hythloth_eastern.jpg" />
 	<figcaption>The New Hythloth Eastern Room</figcaption>
 </figure>
 
 <figure>
-	<img class="spoiler" data-tilt src="/ultima-IV-trinity/images/hythloth_central.jpg" />
+	<img class="spoiler" data-tilt src="{{ site.url }}/images/hythloth_central.jpg" />
 	<figcaption>Hythloth Central Room</figcaption>
 </figure>
 
 <figure>
-	<img class="spoiler" data-tilt src="/ultima-IV-trinity/images/hythloth_western.jpg" />
+	<img class="spoiler" data-tilt src="{{ site.url }}/images/hythloth_western.jpg" />
 	<figcaption>Hythloth Western Room</figcaption>
 </figure>
 
