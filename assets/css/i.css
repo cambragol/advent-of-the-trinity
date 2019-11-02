@@ -638,7 +638,7 @@ header.site-header nav ul li a:hover {
   vertical-align: middle;
     /* Sizing */
     width: 100vw;
-    height: 100vh;
+    height: 40vh;
   background-position: center center;
   background-size: cover;
   vertical-align: middle;
