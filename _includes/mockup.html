@@ -893,4 +893,9 @@ ul li.cd-single-point {
         main(["-c", "ultima.com"])
       });
     });
+          Dos(canvas, { 
+        onprogress: (stage, total, loaded) => {
+            console.log(stage, loaded * 100 / total + "%");
+        },
+    }).ready(...);
   </script>
