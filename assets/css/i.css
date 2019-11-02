@@ -638,7 +638,7 @@ header.site-header nav ul li a:hover {
   vertical-align: middle;
     /* Sizing */
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
   background-position: center center;
   background-size: cover;
   vertical-align: middle;
@@ -694,7 +694,7 @@ header.site-header nav ul li a:hover {
   display: block;
   margin: 0 auto;
   float: none;
-  padding-top: 140px;
+  padding-top: 100px;
 }
 .archive-wrap .post-list {
   list-style-type: none;
