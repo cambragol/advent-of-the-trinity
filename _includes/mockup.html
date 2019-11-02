@@ -13,7 +13,7 @@
     <!-- cd-product-intro -->
 
     <div id="cd-product-tour" class="cd-product-mockup swiper-slide">
-            <canvas id="jsdos"></canvas>    
+            <canvas id="jsdos" width="640" height="320" style="width: 963px; height: 674px"></canvas>
         <!--<img src="images/mockup_ani.gif" alt="Preview image" />-->
         <!-- mockup image -->
 
@@ -893,9 +893,4 @@ ul li.cd-single-point {
         main(["-c", "ultima.com"])
       });
     });
-          Dos(canvas, { 
-        onprogress: (stage, total, loaded) => {
-            console.log(stage, loaded * 100 / total + "%");
-        },
-    }).ready(...);
   </script>
