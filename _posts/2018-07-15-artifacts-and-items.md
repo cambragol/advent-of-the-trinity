@@ -22,14 +22,14 @@ There have been many criticisms leveled at Ultima IV over the years, and mostly 
 First would be the endless flow of enemies to face whilst traversing the lands of Britannia. There were many a time when I just wanted to get somewhere, but was thwarted by wave after wave of orcs, skeletons, mages and daemons.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/chased.jpg" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/chased.jpg" />
 	<figcaption>Can a guy just travel through the mountains?? I mean..C'mon!!</figcaption>
 </figure>
 
 Second would be the poisonings. How many times was I poisoned? Hundreds, for certain. Any venturing onto any marsh would always, ALWAYS result in someone getting poisoned. Early on in the game, that was often fatal, until one mastered the cure spell.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/poisoned.jpg" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/poisoned.jpg" />
 	<figcaption>Are you kidding me!? It's like...two feet of swamp!</figcaption>
 </figure>
 
