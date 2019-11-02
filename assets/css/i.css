@@ -650,7 +650,9 @@ header.site-header nav ul li a:hover {
   top: 0;
   z-index: -1;
 }
-
+.article .featured-image img {
+  max-height: 800px;
+}
 .article header {
   margin: 66px 0 33px 0;
 }
