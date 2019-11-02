@@ -1,0 +1,158 @@
+<div class="push"></div>
+  <footer>
+    <aside class="wrap">
+      <ol class="prev-posts">
+        <p class="list-title">Recent Posts</p>
+        {% for post in site.posts | limit:3 %} <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
+              <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
+            </li>
+        {% endfor %}
+	</ol>
+
+      <div class="social">
+        <ul>
+            <li><a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link">Contact Me</span></a></li>
+
+            {% if site.owner.twitter %}
+            <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>
+            {% endif %}
+
+
+            {% if site.owner.dribbble %}
+            <li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link">Dribbble</span></a></li>
+            {% endif %}
+		
+	    <li><a href="https://www.moddb.com/mods/advent-of-the-trinity" title="View Advent of the Trinity on Mod DB" target="_blank"><img src="https://media.moddb.com/images/global/moddb.png" alt="Advent of the Trinity" /></a></li>
+		
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme. Augmented with <a href="https://gitlab.com/staticmanlab">Staticmanlab</a></small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="{{ site.url }}/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="{{ site.url }}/assets/js/scripts.js"></script>
+  <script src="{{ site.url }}/assets/js/mockup.js"></script>
+
+<script> jQuery(document).ready(function($){
+		
+ // Defining a function to set size for #hero 
+	function fullscreen(){
+		jQuery('.featured-image').css({
+            width: jQuery(window).width(),
+            height: jQuery(window).height()
+        });
+	}
+  
+	fullscreen();
+		
+	function fullscreen2(){
+		jQuery('.overlay').css({
+            width: jQuery(window).width(),
+            height: jQuery(window).height()
+        });
+	}
+  
+	fullscreen2();
+  // Pixelate to hide spoilers
+  $('img.spoiler').pixelate({ value: 0.1, reveal: false, revealonclick: true });
+		
+  // Run the function in case of window resize
+  jQuery(window).resize(function() {
+       fullscreen();         
+    });
+		
+
+  // Run the function in case of window resize
+  jQuery(window).resize(function() {
+       fullscreen2();         
+    });
+	
+      (function(){
+
+        var config = {
+          viewFactor : 0.15,
+          duration   : 800,
+          distance   : "0px",
+          scale      : 0.9,
+        }
+
+        window.sr = new ScrollReveal(config)
+	sr.reveal('.ScrollRev');
+	      
+      })()
+		
+});
+</script>
+
+<!-- script for comments  -->
+  <script>
+    (function ($) {
+    var $comments = $('.js-comments');
+
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fas fa-spinner fa-spin fa-fw"></i> Loading...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Submitted');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Submit comment');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
+
+  <!--<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      spoilerAlert('spoiler');
+      spoilerAlert('.spoiler', {max: 20, partial: 10});
+    });
+  </script>-->
+
+<script>
+	jQuery(document).ready(function($){var MQL=1170;if($(window).width()>MQL){var headerHeight=$('.site-header').height();$(window).on('scroll',{previousTop:0},function(){var currentTop=$(window).scrollTop();if(currentTop<this.previousTop){if(currentTop>0&&$('.site-header').hasClass('is-fixed')){$('.site-header').addClass('is-visible');}else{$('.site-header').removeClass('is-visible is-fixed');}}else{$('.site-header').removeClass('is-visible');if(currentTop>headerHeight&&!$('.site-header').hasClass('is-fixed'))$('.site-header').addClass('is-fixed');}
+this.previousTop=currentTop;});}
+$('.cd-primary-nav-trigger').on('click',function(){$('.cd-menu-icon').toggleClass('is-clicked');$('.site-header').toggleClass('menu-is-open');if($('.cd-primary-nav').hasClass('is-visible')){$('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$('body').removeClass('overflow-hidden');});}else{$('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$('body').addClass('overflow-hidden');});}});});
+</script>
+
+  <script src="{{ site.url }}/assets/js/tilt.jquery.js"></script>
+  <!--script src="{{ site.url }}/assets/js/spoiler.min.js"></script>-->
+  <script src="{{ site.url }}/assets/js/pixelate.min.js"></script>
+  <script src="{{ site.url }}/assets/js/scrollreveal.js"></script>
+  <!--<script src="https://unpkg.com/scrollreveal"></script>-->
+  <!--<script src="{{ site.url }}/assets/js/swiper.min.js"></script>-->
+
+
+  </body>
+</html>
