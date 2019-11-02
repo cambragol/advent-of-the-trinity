@@ -21,17 +21,17 @@ Should I do it… I am torn. The new sprites are cool, and together start to giv
 I'll add screenshots here if I go any further with this.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/castle_roof_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/castle_roof_1.png" />
 	<figcaption>Wait...these crenellations look familiar...</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/castle_roof_2.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/castle_roof_2.png" />
 	<figcaption>So do these windows...</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/gargoyles.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/gargoyles.png" />
 	<figcaption>How many familiar sprites can you find in this screenshot?</figcaption>
 </figure>
 
