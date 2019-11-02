@@ -14,24 +14,24 @@ So I have  found myself fooling about with the structure of the townes I have al
 Whilst polishing them I found myself tempted to make further changes to the default town levels. Currently the only changes I had made were to add ladders at strategic points to facilitate passage to the new upper and lower levels. However, to integrate the upper, and possibly, lower levels more smoothly, some changes may need to be made to the default, vanilla levels. I am not sure about this, as so far I have avoided nearly any interference with the default game, only adjusting things in one or two places in a way that affects the default content. 
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/empath_level_1.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/empath_level_1.png" />
 	<figcaption>Here I am at the tower...Oh! Look! Two new ladders! Goody!</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/empath_level_2.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/empath_level_2.png" />
 	<figcaption>What's up here...ewww...guards quarters...smells great.</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="/ultima-IV-trinity/images/empath_basement.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/empath_basement.png" />
 	<figcaption>What's down here...hmmm...a locked door...</figcaption>
 </figure>
 
 But...if I could modify the default 'main' levels in some of the new 3 level locations, I could have routes that wind their way through the 3 levels in complex ways, making exploring and finding secret passages even more rewarding.
 
 <figure>
-	<img class="ScrollRev spoiler" data-tilt src="/ultima-IV-trinity/images/empath_view.png" />
+	<img class="ScrollRev spoiler" data-tilt src="{{ site.url }}/images/empath_view.png" />
 	<figcaption>Okay, that definitely looks like a secret passage.</figcaption>
 </figure>
 
