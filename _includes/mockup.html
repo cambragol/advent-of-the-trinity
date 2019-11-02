@@ -13,12 +13,12 @@
     <!-- cd-product-intro -->
 
     <div id="cd-product-tour" class="cd-product-mockup swiper-slide">
-            <canvas id="jsdos"></canvas>    
+            <canvas id="jsdos" width="640" height="320" style="width: 963px; height: 674px"></canvas>
         <!--<img src="images/mockup_ani.gif" alt="Preview image" />-->
         <!-- mockup image -->
 
         <!-- points of interest -->
-        <ul class="cd-points-container">
+       <!-- <ul class="cd-points-container">
             <li class="cd-single-point">
                 <a class="cd-img-replace" href="#0">More info</a>
                 <div class="cd-more-info cd-left">
@@ -75,7 +75,7 @@
                     <a href="#0" class="cd-close-info cd-img-replace">Close</a>
                 </div>
             </li>
-        </ul>
+        </ul>-->
         <!-- points of interest end -->
 
         <div class="cd-3d-right-side"></div>
@@ -887,10 +887,10 @@ ul li.cd-single-point {
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js" 
+        wdosboxUrl: "{{ site.url }}/assets/js/wdosbox.js" 
     }).ready((fs, main) => {
-      fs.extract("{{ site.url }}/assets/zip/ultimaiv.zip").then(() => {
-        main(["-c", "avatar.exe"])
+      fs.extract("{{ site.url }}/assets/zip/ultima.zip").then(() => {
+        main(["-c", "ultima.com"])
       });
     });
   </script>
