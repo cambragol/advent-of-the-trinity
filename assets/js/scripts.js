@@ -13,9 +13,6 @@ $(document).ready(function() {
     }
   });
 
-	window.sr = new ScrollReveal(config)
-	sr.reveal('.ScrollRev');
-
   $('article.post iframe').wrap('<div class="video-container" />');
 
 });
