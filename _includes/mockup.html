@@ -13,7 +13,7 @@
     <!-- cd-product-intro -->
 
     <div id="cd-product-tour" class="cd-product-mockup swiper-slide">
-            <canvas id="jsdos" width="640" height="320" style="width: 963px; height: 674px"></canvas>
+            <canvas id="jsdos" width="640" height="320" style="width: 963px; height: 674px; background-color: #c7c7c7;"></canvas>
         <!--<img src="images/mockup_ani.gif" alt="Preview image" />-->
         <!-- mockup image -->
 
@@ -89,6 +89,8 @@
 <!-- .cd-product -->
 
 <style>
+
+
 
 *,*::after,*::before {
  box-sizing:border-box
@@ -291,7 +293,7 @@
   transform:rotateX(-60deg) rotateZ(-40deg) translateX(50px) translateY(300px);
   -webkit-transition:-webkit-transform .6s;
   -moz-transition:-moz-transform .6s;
-  transition:transform .6s
+  transition:transform .6s;
  }
 .cd-product-mockup::before {
   display:block;
@@ -309,7 +311,8 @@
   transform:translateZ(-100px) translateY(480px);
   -webkit-transition:-webkit-transform .6s;
   -moz-transition:-moz-transform .6s;
-  transition:transform .6s
+  transition:transform .6s;
+    background-color:#c7c7c7;
  }
  .is-product-tour .cd-product-mockup {
   -webkit-transform:translateX(0);
@@ -361,9 +364,9 @@
 }
 @media only screen and (min-width:1170px) {
  .cd-3d-right-side {
-  top:5px;
-  width:10px;
-  height:99%;
+  top:0px;
+  width:15px;
+  height:99.7%;
   background-size:auto 100%;
   -webkit-transform-origin:left center;
   -moz-transform-origin:left center;
@@ -377,9 +380,9 @@
   transform:translateZ(-1px) translateY(1px) rotateY(-90deg)
  }
  .cd-3d-bottom-side {
-  bottom:0;
-  width:100%;
-  height:10px;
+  bottom:3px;
+  width:99%;
+  height:16px;
   background-position:bottom center;
   background-size:100% auto;
   -webkit-transform-origin:center bottom;
@@ -883,14 +886,15 @@ ul li.cd-single-point {
  height:15px;
   }
 }
+
 </style>
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox.js" 
+        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/dosbox.js" 
     }).ready((fs, main) => {
-      fs.extract("{{ site.url }}/assets/zip/ultima.zip", "{{ site.url }}/assets/zip/ultima").then(() => {
-        main(["-c", "cd ultima", "-c", "ultima.com"])
+      fs.extract("{{ site.url }}/assets/zip/ultima.zip").then(() => {
+        main(["-c", "ultima.com"])
       });
     });
   </script>

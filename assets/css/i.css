@@ -307,6 +307,15 @@ blockquote, blockquote p {
   margin-bottom: 33px;
 }
 
+canvas {
+      width: 963px;
+      height: 674px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 /*   Code Formatting    */
 code {
   color: #24536b;
@@ -636,8 +645,7 @@ header.site-header nav ul li a:hover {
 }
 .article .featured-image {
         vertical-align: middle;
-        min-height: 360px;
-        height: 30vh;
+        height: 35vh;
         width: 100%;
         max-height: 800px;
   background-position: center center;
@@ -1381,6 +1389,11 @@ footer .social ul li:last-child {
   h1 {
     font-size: 48px;
   }
+   
+  canvas {
+      width: 640px;
+      height: 400px;
+   }
 
   blockquote, blockquote p {
     font-size: 32px;
@@ -1401,6 +1414,10 @@ footer .social ul li:last-child {
 @media only screen and (max-width: 500px) {
   footer .social {
     display: none;
+  }
+  canvas {
+      width: 320px;
+      height: 200px;
   }
   footer aside {
     width: 90%;
