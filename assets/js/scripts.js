@@ -1,11 +1,3 @@
- $(document).ready(function(){
-
-  window.sr = new ScrollReveal(config)
-	sr.reveal('.ScrollRev');
-		
-});
-
-
 
 $(document).ready(function() {
   $('a.menu').click(function() {
@@ -21,6 +13,8 @@ $(document).ready(function() {
     }
   });
 
+	window.sr = new ScrollReveal(config)
+	sr.reveal('.ScrollRev');
 
   $('article.post iframe').wrap('<div class="video-container" />');
 
