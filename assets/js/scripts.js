@@ -1,3 +1,5 @@
+	window.sr = new ScrollReveal(config)
+	sr.reveal('.ScrollRev');
 
 $(document).ready(function() {
   $('a.menu').click(function() {
