@@ -316,6 +316,7 @@ canvas {
     margin-right: auto;
     display: block;
 }
+.dosbox-container { position: relative; min-width: 320px; min-height: 200px;}
 
 /*   Code Formatting    */
 code {
