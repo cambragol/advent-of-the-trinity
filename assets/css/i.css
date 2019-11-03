@@ -307,6 +307,11 @@ blockquote, blockquote p {
   margin-bottom: 33px;
 }
 
+canvas {
+      width: 963px;
+      height: 674px;
+}
+
 /*   Code Formatting    */
 code {
   color: #24536b;
@@ -1380,6 +1385,11 @@ footer .social ul li:last-child {
   h1 {
     font-size: 48px;
   }
+   
+  canvas {
+      width: 640px;
+      height: 400px;
+   }
 
   blockquote, blockquote p {
     font-size: 32px;
@@ -1400,6 +1410,10 @@ footer .social ul li:last-child {
 @media only screen and (max-width: 500px) {
   footer .social {
     display: none;
+  }
+  canvas {
+      width: 320px;
+      height: 200px;
   }
   footer aside {
     width: 90%;
