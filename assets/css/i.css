@@ -310,7 +310,11 @@ blockquote, blockquote p {
 canvas {
       width: 963px;
       height: 674px;
-      margin: 0 auto 50px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /*   Code Formatting    */
