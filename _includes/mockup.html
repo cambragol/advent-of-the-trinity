@@ -894,7 +894,7 @@ ul li.cd-single-point {
         wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-nosync.js" 
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima.zip").then(() => {
-        main(["-c", "avatar.exe"]).then((ci) => {
+        main(["-c", "cd ultima", "-c", "avatar.exe"]).then((ci) => {
                 ci.simulateKeyPress(37); // left arrow
                 ci.simulateKeyPress(37); // left arrow
                 ci.simulateKeyPress(37); // left arrow
