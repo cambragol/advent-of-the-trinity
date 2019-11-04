@@ -4,12 +4,15 @@
   
 {% if page.image.feature %}
   {% if page.image.feature contains 'https://' | escape or page.image.feature contains 'http://' | escape %}
-  <div class="featured-image" id="cd-intro-background" style="background-image: url({{ page.image.feature }})"></div>
+  <div class="featured-image-box">
+  <div class="featured-image" id="cd-intro-background" style="background-image: url({{ page.image.feature }})"></div></div>
   {% else %}
-  <div class="featured-image" id="cd-intro-background" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
+  <div class="featured-image-box">
+  <div class="featured-image" id="cd-intro-background" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div></div>
   {% endif %}
 {% else %}
-  <div class="featured-image" id="cd-intro-background" style="background-image: url({{ site.url }}/images/text_3.jpg)"></div>
+  <div class="featured-image-box">
+  <div class="featured-image" id="cd-intro-background" style="background-image: url({{ site.url }}/images/text_3.jpg)"></div></div>
 {% endif %}
 
       <article class="wrap post">
