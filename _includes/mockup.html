@@ -92,7 +92,7 @@
     Dos(document.getElementById("jsdos"), { 
         wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-nosync.js" 
     }).ready((fs, main) => {
-      fs.extract("{{ site.url }}/assets/zip/ultima.zip", "/ultima").then(() => {
+      fs.extract("{{ site.url }}/assets/zip/ultima.zip", "{{ site.url }}/assets/zip/ultima").then(() => {
         main(["-c", "cd ultima", "-c", "avatar.exe"]).then((ci) => {
                 ci.simulateKeyPress(37); // left arrow
                 ci.simulateKeyPress(37); // left arrow
