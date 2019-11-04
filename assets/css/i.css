@@ -1819,29 +1819,28 @@ footer .social ul li:last-child {
   max-width:100%;
 }
 .cd-btn {
- display:inline-block;
- width:120px;
- height:40px;
- line-height:40px;
- margin-right:8px;
- text-align:center;
- text-transform:uppercase;
- font-weight:700;
- font-size:1.2rem;
- font-family:pt sans,sans-serif;
- color:#fff;
- background-color:#7c8cee;
- box-shadow:0 1px 6px rgba(0,0,0,.1),inset 0 1px 0 rgba(255,255,255,.2);
- /*! border-radius: 25px; */
+display: inline-block;
+margin-bottom: 0.25em;
+padding: 0.5em 1em;
+font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size: 1em;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+border-width: 0;
+border-radius: 4px;
+background-color: #3b3b3b;
+cursor: pointer;
+ color: #fff;
 }
 .no-touch .cd-btn:hover {
- background-color:#fff
+ background-color:#62686d;
+  color:#fff;
 }
 @media only screen and (min-width:1170px) {
  .cd-btn:hover {
 
-  background-color: #0a0;
- }
+background-color:#62686d;
+color:#fff; }
 }
 .cd-nugget-info {
  text-align:center;
@@ -1932,6 +1931,7 @@ footer .social ul li:last-child {
   -webkit-transition:-webkit-transform .6s,opacity .6s;
   -moz-transition:-moz-transform .6s,opacity .6s;
   transition:transform .6s,opacity .6s
+    
  }
  .is-product-tour .cd-product-intro {
   opacity:0;
