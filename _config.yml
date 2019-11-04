@@ -36,9 +36,6 @@ links:
     url: /screenshots
   - title: Articles
     url: /articles
-  - title: Github
-    url: https://github.com/cambragol/advent-of-the-trinity
-    external: true
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
