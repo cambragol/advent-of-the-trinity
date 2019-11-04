@@ -90,7 +90,7 @@
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox.js" 
+        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-nosync.js" 
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima.zip", "/ultima2").then(() => {
         main(["-c", "cd ultima2", "-c", "avatar.exe"])
