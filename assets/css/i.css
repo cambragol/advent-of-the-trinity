@@ -656,6 +656,7 @@ header.site-header nav ul li a:hover {
 .featured-image-box {
      background-color: #3b3b3b;
    height: 35vh;
+   float: inline-end;
 }
 .article .featured-image img {
   max-height: 800px;
