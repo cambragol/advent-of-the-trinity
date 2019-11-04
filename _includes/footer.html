@@ -95,9 +95,13 @@ this.previousTop=currentTop;});}
 $('.cd-primary-nav-trigger').on('click',function(){$('.cd-menu-icon').toggleClass('is-clicked');$('.site-header').toggleClass('menu-is-open');if($('.cd-primary-nav').hasClass('is-visible')){$('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$('body').removeClass('overflow-hidden');});}else{$('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$('body').addClass('overflow-hidden');});}});});
 </script>
 <script>
+	function myCallback (el) {
+    ScrollReveal().destroy();
+}
+	
 	ScrollReveal().reveal('.ScrollRev');
-	ScrollReveal().reveal('.cd-product-mockup', { origin: 'right', distance: '600px', afterReveal: ScrollReveal().destroy() });
-	ScrollReveal().reveal('.dosbox-container', { origin: 'right', distance: '600px', afterReveal: ScrollReveal().destroy() });
+	ScrollReveal().reveal('.cd-product-mockup', { origin: 'right', distance: '600px', afterReveal: myCallback });
+	ScrollReveal().reveal('.dosbox-container', { origin: 'right', distance: '600px', afterReveal: myCallback });
 </script>
 
   <script src="{{ site.url }}/assets/js/tilt.jquery.js"></script>
