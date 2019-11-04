@@ -786,8 +786,10 @@ header.site-header nav ul li a:hover {
   vertical-align: middle;
 }
 
-
-
+/*hides the game at page load*/
+html.sr .load-hidden {
+    visibility: hidden;
+}
 
 .post {
   min-height: 500px;
