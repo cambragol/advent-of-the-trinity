@@ -197,8 +197,12 @@ font-size: 100%;
 cursor: pointer;
 line-height: inherit;
 text-shadow: 0 0 2px rgba(0,0,0,.5);
+float:left;
 }
-
+.ytp-svg-fill {
+    fill: 
+    #aaaaaa;
+}
 @media only screen and (max-width: 480px) {
   p {
     font-size: 16px;
