@@ -1,10 +1,8 @@
 ---
 layout: home
-title: "Demo"
-tags: [Jekyll, theme, responsive, blog, template]
+permalink: /demo.html
+title: "Demos"
+tags: [blog, graphic design]
 image:
-  feature: typewriter.jpg
+  feature: book_3.jpg
 ---
-
-
-Testing
