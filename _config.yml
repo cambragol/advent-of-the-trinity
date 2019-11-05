@@ -32,10 +32,12 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Screenshots
-    url: /screenshots
   - title: Articles
     url: /articles
+  - title: Demo
+    url: /demo
+  - title: Screenshots
+    url: /screenshots
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
