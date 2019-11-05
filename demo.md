@@ -1,5 +1,5 @@
 ---
-layout: mockup_home
+layout: page
 permalink: /demo.html
 title: "Demos"
 tags: [blog, graphic design]
