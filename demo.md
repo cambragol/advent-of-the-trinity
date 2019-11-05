@@ -1,10 +1,9 @@
 ---
 layout: home
 title: "Demo"
-permalink: /demo.html
-description: "Some screenshots of the current state of the mod"
-comments: true
+tags: [Jekyll, theme, responsive, blog, template]
 image:
+  feature: typewriter.jpg
 ---
 
 
