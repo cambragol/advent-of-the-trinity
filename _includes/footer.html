@@ -95,7 +95,7 @@ this.previousTop=currentTop;});}
 $('.cd-primary-nav-trigger').on('click',function(){$('.cd-menu-icon').toggleClass('is-clicked');$('.site-header').toggleClass('menu-is-open');if($('.cd-primary-nav').hasClass('is-visible')){$('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$('body').removeClass('overflow-hidden');});}else{$('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){$('body').addClass('overflow-hidden');});}});});
 </script>
 <script>	
-	ScrollReveal().reveal('.ScrollRev', { origin: 'bottom', distance: '20px', duration: 1200, scale: 1.1, delay: 300 });
+	ScrollReveal().reveal('.ScrollRev', { origin: 'bottom', distance: '15px', duration: 1000, scale: 1.05, delay: 200 });
 </script>
 
   <script src="{{ site.url }}/assets/js/tilt.jquery.js"></script>
