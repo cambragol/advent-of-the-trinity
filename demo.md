@@ -1,6 +1,6 @@
 
 ---
-layout: post-light-feature
+layout: mockup_home
 title: "Demo"
 permalink: /demo.html
 description: "Some screenshots of the current state of the mod"
