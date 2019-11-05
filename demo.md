@@ -1,4 +1,3 @@
-
 ---
 layout: mockup_home
 title: "Demo"
