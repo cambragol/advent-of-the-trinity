@@ -16,12 +16,12 @@ $(document).ready(function() {
 
 });
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     var vpH = $(window).height();
-    var vH = vpH - 350;
+    var vH = vpH - 500;
     $('.overlay').css("height", vH);
     $('.featured-image').css("height", vH);
-});
+});*/
 
 $(function(){
   $('<img>').attr('src',function(){
