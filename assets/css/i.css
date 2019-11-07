@@ -906,6 +906,7 @@ html.sr .load-hidden {
   text-align: center;
   display: block;
   margin: 0 auto;
+  margin-top: 80px;
   width: 76px;
   font-size: 16px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
