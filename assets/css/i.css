@@ -1447,7 +1447,8 @@ footer .social ul li:last-child {
     right: 10vw;
   }
   .hero-text img {
-    width:450px;
+    top:5%;
+    width:400px;
     height:150px;
   }
 }
@@ -1596,10 +1597,10 @@ footer .social ul li:last-child {
     float: none;
   }
   .hero-text img {
-    top: 5%;
-    width:280px;
+    width:325px;
     height:150px;
   }
+
   footer {
     font-size: 16px;
   }
