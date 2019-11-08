@@ -1446,10 +1446,12 @@ footer .social ul li:last-child {
   footer .social {
     right: 10vw;
   }
-  .hero-text img {
+  .hero-text {
     top:5%;
-    width:400px;
-    height:150px;
+  }
+  .hero-text img {
+    width:375px;
+    height:125px;
   }
 }
 /* Mobile
@@ -1598,7 +1600,7 @@ footer .social ul li:last-child {
   }
   .hero-text img {
     width:325px;
-    height:150px;
+    height:100px;
   }
 
   footer {
