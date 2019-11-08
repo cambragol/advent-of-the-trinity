@@ -1596,10 +1596,10 @@ footer .social ul li:last-child {
     float: none;
   }
   .hero-text img {
-    width:325px;
+    top: 5%;
+    width:280px;
     height:150px;
   }
-
   footer {
     font-size: 16px;
   }
