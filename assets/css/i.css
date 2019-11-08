@@ -207,13 +207,18 @@ float:left;
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: 
     white;
    z-index: 100;
 }
+
+  .hero-text img {
+    width:600px;
+    height:150px;
+  }
 
 @media only screen and (max-width: 480px) {
   p {
@@ -1441,6 +1446,10 @@ footer .social ul li:last-child {
   footer .social {
     right: 10vw;
   }
+  .hero-text img {
+    width:450px;
+    height:150px;
+  }
 }
 /* Mobile
    ========================================================================== */
@@ -1585,6 +1594,10 @@ footer .social ul li:last-child {
     display: block;
     margin: 0 auto;
     float: none;
+  }
+  .hero-text img {
+    width:325px;
+    height:150px;
   }
 
   footer {
