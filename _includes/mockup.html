@@ -1,12 +1,15 @@
 <section class="cd-product ScrollRev load-hidden">
     <div class="cd-product-intro">
-        <h2>ULTIMA IV</h2>
-        <h2>Advent of the Trinity</h2>
+        <h2>ALPHA DEMO</h2>
         <p> 
             <br />
             <br />
             <br />
-            Beta demo is available for testing/debugging now! Play in your browser, save games will be restored bewteen sessions (maybe).
+            <br />
+            <br />
+
+
+            The Alpha Demo includes one town and a sample dungeon. Take it for a spin, note any game-breaking bugs.
             <!--An Addon for Ultima IV for Dos-->
         </p>
         <div class="cd-triggers">
@@ -20,12 +23,12 @@
             <canvas id="jsdos" width="640" height="320" style="width: 963px; height: 674px; background-color: #c7c7c7;"></canvas>
             <button class="fullscreen" onclick="ci.fullscreen()">
                 <svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%"><g class="ytp-fullscreen-button-corner-0"><use class="ytp-svg-shadow" xlink:href="#ytp-id-25"></use><path class="ytp-svg-fill" d="m 10,16 2,0 0,-4 4,0 0,-2 L 10,10 l 0,6 0,0 z" id="ytp-id-25"></path></g><g class="ytp-fullscreen-button-corner-1"><use class="ytp-svg-shadow" xlink:href="#ytp-id-26"></use><path class="ytp-svg-fill" d="m 20,10 0,2 4,0 0,4 2,0 L 26,10 l -6,0 0,0 z" id="ytp-id-26"></path></g><g class="ytp-fullscreen-button-corner-2"><use class="ytp-svg-shadow" xlink:href="#ytp-id-27"></use><path class="ytp-svg-fill" d="m 24,24 -4,0 0,2 L 26,26 l 0,-6 -2,0 0,4 0,0 z" id="ytp-id-27"></path></g><g class="ytp-fullscreen-button-corner-3"><use class="ytp-svg-shadow" xlink:href="#ytp-id-28"></use><path class="ytp-svg-fill" d="M 12,20 10,20 10,26 l 6,0 0,-2 -4,0 0,-4 0,0 z" id="ytp-id-28"></path></g></svg>
-        </button>
+            </button>
         <!--<img src="images/mockup_ani.gif" alt="Preview image" />-->
         <!-- mockup image -->
 
         <!-- points of interest -->
-       <!-- <ul class="cd-points-container">
+      <!-- <ul class="cd-points-container">
             <li class="cd-single-point">
                 <a class="cd-img-replace" href="#0">More info</a>
                 <div class="cd-more-info cd-left">
@@ -97,7 +100,7 @@
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-nosync.js" 
+        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox.js" 
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima.zip", "/ultima2").then(() => {
         main(["-c", "cd ultima2", "-c", "avatar.exe"]).then((ci) => {
