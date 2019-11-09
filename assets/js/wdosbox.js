@@ -5126,7 +5126,7 @@ var WDOSBOX = (function() {
                             })
                         }
                     }
-                    switch (event.type) {
+                    /*switch (event.type) {
                         case "touchstart":
                         case "touchmove":
                             {
@@ -5312,7 +5312,7 @@ var WDOSBOX = (function() {
                             }
                             event.preventDefault();
                             break;
-                        /*case "focus":
+                        case "focus":
                             SDL.events.push(event);
                             event.preventDefault();
                             break;
@@ -5320,7 +5320,7 @@ var WDOSBOX = (function() {
                             SDL.events.push(event);
                             unpressAllPressedKeys();
                             event.preventDefault();
-                            break;*/
+                            break;
                         case "visibilitychange":
                             SDL.events.push({
                                 type: "visibilitychange",
@@ -5341,7 +5341,7 @@ var WDOSBOX = (function() {
                                 event.preventDefault()
                             }
                             break
-                    }
+                    }*/
                     if (SDL.events.length >= 1e4) {
                         err("SDL event queue full, dropping events");
                         SDL.events = SDL.events.slice(0, 1e4)
