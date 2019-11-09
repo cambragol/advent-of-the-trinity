@@ -5126,7 +5126,7 @@ var WDOSBOX = (function() {
                             })
                         }
                     }
-                    /*switch (event.type) {
+                    switch (event.type) {
                         case "touchstart":
                         case "touchmove":
                             {
@@ -5251,7 +5251,7 @@ var WDOSBOX = (function() {
                         case "mousedown":
                         case "mouseup":
                             if (event.type !== "keydown" || !SDL.unicode && !SDL.textInput || (event.keyCode === 8 || event.keyCode === 9)) {
-                                event.preventDefault()
+                                /*event.preventDefault()*/
                             }
                             if (event.type == "mousedown") {
                                 SDL.DOMButtons[event.button] = 1;
@@ -5341,7 +5341,7 @@ var WDOSBOX = (function() {
                                 event.preventDefault()
                             }
                             break
-                    }*/
+                    }
                     if (SDL.events.length >= 1e4) {
                         err("SDL event queue full, dropping events");
                         SDL.events = SDL.events.slice(0, 1e4)
