@@ -14,7 +14,7 @@
         </p>
         <div class="cd-triggers">
             <!--<a href="#0" class="cd-btn">Download</a>-->
-            <a href="#cd-product-tour" id="cd-start" class="cd-btn" onclick="StartDos()">Start Demo</a>
+            <a href="#cd-product-tour" id="cd-start" class="cd-btn">Start Demo</a>
         </div>
     </div>
     <!-- cd-product-intro -->
@@ -109,15 +109,4 @@
         });
       });
     });
-    function StartDos() {
-    Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox.js" 
-    }).ready((fs, main) => {
-      fs.extract("{{ site.url }}/assets/zip/ultima.zip", "/ultima2").then(() => {
-        main(["-c", "cd ultima2", "-c", "avatar.exe"]).then((ci) => {
-            window.ci = ci;
-        });
-      });
-    });
-    }
   </script>
