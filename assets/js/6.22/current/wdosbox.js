@@ -5251,7 +5251,7 @@ var WDOSBOX = (function() {
                         case "mousedown":
                         case "mouseup":
                             if (event.type !== "keydown" || !SDL.unicode && !SDL.textInput || (event.keyCode === 8 || event.keyCode === 9)) {
-                                /*event.preventDefault()*/
+                                event.preventDefault()
                             }
                             if (event.type == "mousedown") {
                                 SDL.DOMButtons[event.button] = 1;
