@@ -5315,7 +5315,7 @@ var WDOSBOX = (function() {
                             }
                             event.preventDefault();
                             break;
-                        case "focus":
+                        /*case "focus":
                             SDL.events.push(event);
                             event.preventDefault();
                             break;
@@ -5323,7 +5323,7 @@ var WDOSBOX = (function() {
                             SDL.events.push(event);
                             unpressAllPressedKeys();
                             event.preventDefault();
-                            break;
+                            break;*/
                         case "visibilitychange":
                             SDL.events.push({
                                 type: "visibilitychange",
