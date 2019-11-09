@@ -4257,7 +4257,7 @@ var WDOSBOX = (function() {
                             canvas.addEventListener("click", function(ev) {
                                 if (!Browser.pointerLock && Module["canvas"].requestPointerLock) {
                                     Module["canvas"].requestPointerLock();
-                                    /*ev.preventDefault()*/
+                                    ev.preventDefault()
                                 }
                             }, false)
                         }
@@ -5251,7 +5251,7 @@ var WDOSBOX = (function() {
                         case "mousedown":
                         case "mouseup":
                             if (event.type !== "keydown" || !SDL.unicode && !SDL.textInput || (event.keyCode === 8 || event.keyCode === 9)) {
-                                event.preventDefault()
+                                /*event.preventDefault()*/
                             }
                             if (event.type == "mousedown") {
                                 SDL.DOMButtons[event.button] = 1;
