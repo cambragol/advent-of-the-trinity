@@ -4257,7 +4257,7 @@ var WDOSBOX = (function() {
                             canvas.addEventListener("click", function(ev) {
                                 if (!Browser.pointerLock && Module["canvas"].requestPointerLock) {
                                     Module["canvas"].requestPointerLock();
-                                    ev.preventDefault()
+                                    /*ev.preventDefault()*/
                                 }
                             }, false)
                         }
