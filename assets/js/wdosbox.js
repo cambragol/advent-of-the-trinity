@@ -5251,7 +5251,7 @@ var WDOSBOX = (function() {
                         case "mousedown":
                         case "mouseup":
                             if (event.type !== "keydown" || !SDL.unicode && !SDL.textInput || (event.keyCode === 8 || event.keyCode === 9)) {
-                                /*event.preventDefault()*/
+                                event.preventDefault()
                             }
                             if (event.type == "mousedown") {
                                 SDL.DOMButtons[event.button] = 1;
@@ -5314,12 +5314,12 @@ var WDOSBOX = (function() {
                             break;
                         case "focus":
                             SDL.events.push(event);
-                            event.preventDefault();
+                            /*event.preventDefault();*/
                             break;
                         case "blur":
                             SDL.events.push(event);
                             unpressAllPressedKeys();
-                            event.preventDefault();
+                            /*event.preventDefault();*/
                             break;
                         case "visibilitychange":
                             SDL.events.push({
