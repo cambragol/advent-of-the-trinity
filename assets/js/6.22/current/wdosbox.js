@@ -5250,9 +5250,12 @@ var WDOSBOX = (function() {
                         case "keypress":
                         case "mousedown":
                         case "mouseup":
-                            if (event.type !== "keydown" || !SDL.unicode && !SDL.textInput || (event.keyCode === 8 || event.keyCode === 9 || event.keyCode === 38 || event.keyCode === 40)) {
+                            /*if (event.type !== "keydown" || !SDL.unicode && !SDL.textInput || (event.keyCode === 8 || event.keyCode === 9 || event.keyCode === 38 || event.keyCode === 40)) {
                                 event.preventDefault()
-                            }
+                            }*/
+			    if (event.keyCode === 38 || event.keyCode === 40) {
+                                event.preventDefault()
+			    }
                             if (event.type == "mousedown") {
                                 SDL.DOMButtons[event.button] = 1;
                                 SDL.events.push({
