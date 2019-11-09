@@ -4257,7 +4257,7 @@ var WDOSBOX = (function() {
                             canvas.addEventListener("click", function(ev) {
                                 if (!Browser.pointerLock && Module["canvas"].requestPointerLock) {
                                     Module["canvas"].requestPointerLock();
-                                    ev.preventDefault()
+                                    /*ev.preventDefault()*/
                                 }
                             }, false)
                         }
@@ -5126,7 +5126,7 @@ var WDOSBOX = (function() {
                             })
                         }
                     }
-                    /*switch (event.type) {
+                    switch (event.type) {
                         case "touchstart":
                         case "touchmove":
                             {
@@ -5341,7 +5341,7 @@ var WDOSBOX = (function() {
                                 event.preventDefault()
                             }
                             break
-                    }*/
+                    }
                     if (SDL.events.length >= 1e4) {
                         err("SDL event queue full, dropping events");
                         SDL.events = SDL.events.slice(0, 1e4)
