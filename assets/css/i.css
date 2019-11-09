@@ -346,7 +346,7 @@ blockquote, blockquote p {
 
 canvas {
       width: 963px;
-      height: 674px;
+      /*height: 674px;*/
 }
 /*   Code Formatting    */
 code {
