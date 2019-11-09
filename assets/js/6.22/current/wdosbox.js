@@ -5315,15 +5315,15 @@ var WDOSBOX = (function() {
                             }
                             event.preventDefault();
                             break;
-                        case "focus":
+                        /*case "focus":
                             SDL.events.push(event);
-                            /*event.preventDefault();*/
+                            event.preventDefault();
                             break;
                         case "blur":
                             SDL.events.push(event);
                             unpressAllPressedKeys();
-                            /*event.preventDefault();*/
-                            break;
+                            event.preventDefault();
+                            break;*/
                         case "visibilitychange":
                             SDL.events.push({
                                 type: "visibilitychange",
