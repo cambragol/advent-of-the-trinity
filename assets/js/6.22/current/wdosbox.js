@@ -5317,12 +5317,12 @@ var WDOSBOX = (function() {
                             break;
                         case "focus":
                             SDL.events.push(event);
-                            event.preventDefault();
+                            /*event.preventDefault();*/
                             break;
                         case "blur":
                             SDL.events.push(event);
                             unpressAllPressedKeys();
-                            event.preventDefault();
+                            /*event.preventDefault();*/
                             break;
                         case "visibilitychange":
                             SDL.events.push({
