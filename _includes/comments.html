@@ -23,21 +23,18 @@
 <script>
   
 function timeFunction() {
-            setTimeout(function getExit() {
-  /*ci.exit();*/
-}, 1000);
+  ci.simulateKeyPress(36);
 }
 
 
 function losefocus() {
   ci.simulateKeyPress(36);
-  document.getElementById("jsdos").unbind();
 }
 </script>
         
         
           <!-- Start new comment form -->
-          <div class="page__comments-form" onclick="losefocus();timeFunction()">
+          <div class="page__comments-form" onmouseover="losefocus()" onmouseout="timeFunction()">
             <h3 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h3>
             <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
             <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://staticman3.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments">
