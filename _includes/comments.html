@@ -22,19 +22,19 @@
         
 <script>
   
-function timeFunction() {
-  ci.simulateKeyPress(36);
+function unpauseGame() {
+  ci.simulateKeyPress(35);
 }
 
 
-function losefocus() {
+function pauseGame() {
   ci.simulateKeyPress(36);
 }
 </script>
         
         
           <!-- Start new comment form -->
-          <div class="page__comments-form" onmouseenter="losefocus()" onmouseleave="timeFunction()">
+          <div class="page__comments-form" onmouseenter="pauseGame()" onmouseleave="unpauseGame()">
             <h3 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h3>
             <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
             <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://staticman3.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments">
