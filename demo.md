@@ -1,6 +1,6 @@
 ---
 layout: mockup_home
-permalink: /demo/demo.html
+permalink: /demo.html
 title: "Demos"
 comments: true
 tags: [blog, graphic design, demo]
