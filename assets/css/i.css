@@ -592,6 +592,12 @@ header.site-header hgroup {
 }
 .header_title {
   visibility: hidden;
+  opacity:0;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+.is-visible .header_title {
+  visibility: visible;
+  opacity:1;
 }
 header.site-header hgroup h1 {
   font-weight: 700;
@@ -1953,6 +1959,13 @@ color:#fff; }
 .cd-product-intro {
  padding:50px 0;
  text-align:center
+}
+.cd-product-intro h1 {
+ margin-bottom:10px;
+ font-size:2.5rem;
+ font-weight:700;
+ font-family:pt sans,sans-serif;
+ color:#fff
 }
 .cd-product-intro p {
  max-width:560px;
