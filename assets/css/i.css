@@ -590,6 +590,9 @@ header.site-header hgroup {
   float: left;
   padding-left: 5vw;
 }
+.header_title {
+  visibility: hidden;
+}
 header.site-header hgroup h1 {
   font-weight: 700;
   font-size: 18px;
@@ -1489,7 +1492,12 @@ footer .social ul li:last-child {
     right: 6%;
     left: inherit;
   }
-
+  .header_title {
+  visibility: visible;
+  }
+  .hero_title {
+    visibility: hidden;
+  }
   header.site-header {
     min-height: 59px;
     margin-top: 20px;
