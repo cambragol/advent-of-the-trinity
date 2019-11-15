@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improved Port
+title: Active Player
 description: While bug hunting and code polishing, I freed up space for a few more lines of code. Managed to bring in a feature I felt was lacking.
 category: articles
 comments: true
