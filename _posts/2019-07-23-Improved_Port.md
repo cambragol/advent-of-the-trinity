@@ -30,12 +30,11 @@ Tweaking/Improving the raycasting was no small chore. And it is not done yet. I 
 Here are some gifs comparing the two versions of the algorithm I have come up with, with the original dos and Apple II versions. Neither is a perfect replica of the Apple 2 algorithm, but they are much closer than dos. The funny thing was, I barely modified the dos algorithm. Only the tiniest tweak, almost like fixing a typo, was enough to make the algorithms effects align very closely with the Apple IIs. Odd.
 
 <p><img src="https://media.moddb.com/images/members/1/76/75301/profile/ray_cast_ver_1.gif" alt="ray cast ver 1" title="Ray Cast Version One" width="638" height="398" />Ray Cast Version One</p>
-<p></p>
+
 <p><img src="https://media.moddb.com/images/members/1/76/75301/profile/ray_cast_ver_2.gif" alt="ray cast ver 2" title="Ray Cast Version Two" width="638" height="398" />Ray Cast Version Two</p>
-<p></p>
+
 <p><img src="https://media.moddb.com/images/members/1/76/75301/profile/ray_cast_ver_apple.gif" alt="ray cast ver apple" title="Ray Cast Apple II Version" width="638" height="441" />Ray Cast Apple II Version</p>
-<p></p>
+
 <p><img src="https://media.moddb.com/images/members/1/76/75301/profile/ray_cast_ver_original.gif" alt="ray cast ver original" title="Ray Cast Original Dos Version" width="638" height="398" />Ray Cast Original Dos Version</p>
-<p></p>
-</center>
+
 I definitely like both my new algorithms, but which is better...Hmmm...Kinda leaning toward version 2...
