@@ -5,7 +5,7 @@ description: Just a small update. Lot's of stuff happening, mostly around polish
 category: articles
 comments: true
 tags: [Ultima IV, Ultima 4, add-on, conversations]
-date: 2019-07-23
+date: 2019-09-15
 image: 
         feature: book_4.jpg
 ---

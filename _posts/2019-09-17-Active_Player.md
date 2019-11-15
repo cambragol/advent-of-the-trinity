@@ -5,7 +5,7 @@ description: While bug hunting and code polishing, I freed up space for a few mo
 category: articles
 comments: true
 tags: [Ultima IV, Ultima 4, add-on, Ultima V, Ultima 5, active player]
-date: 2019-07-23
+date: 2019-09-17
 image: 
         feature: book_4.jpg
 ---
