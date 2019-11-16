@@ -5,7 +5,19 @@
           <div class="js-comments">
             {% if site.data.comments[page.slug] %}
               <h3 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h3>
-              {% assign comments = site.data.comments[page.slug] | sort %}
+            {% assign comments = site.data.comments[page.slug] | sort | where_exp: "comment", "comment[1].replying_to == blank" %}
+              {% for comment in comments %}
+                {% assign avatar      = comment[1].avatar %}
+                {% assign email       = comment[1].email %}
+                {% assign name        = comment[1].name %}
+                {% assign url         = comment[1].url %}
+                {% assign date        = comment[1].date %}
+                {% assign message     = comment[1].message %}
+                {% include comment.html avatar=avatar email=email name=name url=url date=date message=message %}
+              {% endfor %}
+
+            
+             <!-- {% assign comments = site.data.comments[page.slug] | sort %}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
@@ -14,7 +26,7 @@
                 {% assign date = comment[1].date %}
                 {% assign message = comment[1].message %}
                 {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-              {% endfor %}
+              {% endfor %}-->
             {% endif %}
           </div>
           <!-- End static comments -->
