@@ -28,6 +28,7 @@ mockup:
   - [x] New Shops and Merchants
   - [ ] Dozens of new Characters
   - [x] New Dungeons (Crypts)
+  - [x] Ultima V style Active Player
   - [x] New, powerful Artifacts
   - [ ] ~~New Shrines (Oracles)~~
   - [x] 2nd levels for all Towns
