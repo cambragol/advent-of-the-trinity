@@ -5,18 +5,10 @@
           <div class="js-comments">
             {% if site.data.comments[page.slug] %}
               <h3 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h3>
-            {% assign comments = site.data.comments[page.slug] | sort | where_exp: "comment", "comment[1].replying_to == blank" %}
-              {% for comment in comments %}
-                {% assign email       = comment[1].email %}
-                {% assign name        = comment[1].name %}
-                {% assign url         = comment[1].url %}
-                {% assign date        = comment[1].date %}
-                {% assign message     = comment[1].message %}
-                {% include comment.html email=email name=name url=url date=date message=message %}
-              {% endfor %}
+
 
             
-             <!-- {% assign comments = site.data.comments[page.slug] | sort %}
+            {% assign comments = site.data.comments[page.slug] | sort %}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
@@ -25,7 +17,7 @@
                 {% assign date = comment[1].date %}
                 {% assign message = comment[1].message %}
                 {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-              {% endfor %}-->
+              {% endfor %}
             {% endif %}
           </div>
           <!-- End static comments -->
@@ -73,9 +65,6 @@ function pauseGame() {
               </div>
               <div class="form-group hidden" style="display: none;">
                 <input type="hidden" name="options[slug]" value="{{ page.slug }}">
-                
-                <!-- Added for nested comments -->
-                <input type="hidden" id="comment-parent" name="fields[replying_to]" value="">
                 
                 <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
                 <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
