@@ -19,4 +19,4 @@ Active player only works in combat, unlike in Ultima V, where it could be used t
 Currently it is pretty much feature complete, and has also had a bit of bug testing. So far it seems perfect.
 
 Here is a gif, showing it in action:
-<p><img src="https://media.moddb.com/images/members/1/76/75301/profile/active_player.gif" alt="Using active player in a dungeon room" title="Active Player" width="638" height="398" /></p>
+<p><img class="ScrollRev" data-tilt  src="https://media.moddb.com/images/members/1/76/75301/profile/active_player.gif" alt="Using active player in a dungeon room" title="Active Player" width="638" height="398" /></p>

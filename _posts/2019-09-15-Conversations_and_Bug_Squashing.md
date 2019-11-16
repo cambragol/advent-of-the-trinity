@@ -18,4 +18,4 @@ I have also added in a few more possibilities in conversations, though I won't e
 
 This gif gives a small sample of the effects in conversation with a very generic guard:
 
-<img src="https://media.moddb.com/images/members/1/76/75301/profile/conversations.gif" alt="conversations" title="Conversation with a guard" width="638" height="398" />
+<img class="ScrollRev" data-tilt src="https://media.moddb.com/images/members/1/76/75301/profile/conversations.gif" alt="conversations" title="Conversation with a guard" width="638" height="398" />
