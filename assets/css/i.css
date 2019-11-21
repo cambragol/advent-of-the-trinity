@@ -1500,6 +1500,9 @@ footer .social ul li:last-child {
   }
   .header_title {
   visibility: visible;
+  opacity:1;
+}{
+  visibility: visible;
   }
   .hero_title {
     visibility: hidden;
