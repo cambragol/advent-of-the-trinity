@@ -50,7 +50,7 @@ mockup:
   * James Van Artsdalen for the conversion to C for Dos
   * Lord British for the greatness that is Ultima IV
 
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
   <article>
     <h2>
       <a href="{{ post.url }}">
