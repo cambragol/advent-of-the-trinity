@@ -33,22 +33,6 @@
         
         {{ content }}
             
-            
-<h1>Latest Post</h1>
-{% for post in site.posts limit:1 %}
-  <li>
-    <a href="{{ post.url }}">
-    <h3>{{ post.title }}</h3>
-    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
-    <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
-    </a>
-  </li>{% endfor %}
-<h1>Recent Posts</h1>
-{% for post in site.posts offset:1 limit:2 %}
-... Show the next two posts ...
-{% endfor %}
-            
-        
 
       <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
