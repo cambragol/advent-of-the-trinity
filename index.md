@@ -49,3 +49,15 @@ mockup:
   * All credit goes to ergonomy-joe for making this possible, thanks to his u4-decompiled.
   * James Van Artsdalen for the conversion to C for Dos
   * Lord British for the greatness that is Ultima IV
+
+  {% for post in site.posts %}
+  <article>
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    {{ post.content }}
+  </article>
+{% endfor %}
