@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /index.html
-title: About the Mod
 tags: [about, ultima iv, mod, dos, addon]
 image:
   feature: map_1.jpg
