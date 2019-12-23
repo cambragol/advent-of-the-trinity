@@ -1,7 +1,8 @@
 ---
 layout: home
-title: "Recent Posts"
-tags: [Jekyll, theme, responsive, blog, template]
+permalink: /articles/index.html
+title: "Articles"
+tags: [blog, graphic design]
 image:
-  feature: typewriter.jpg
+  feature: book_3.jpg
 ---
