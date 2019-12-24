@@ -1,5 +1,5 @@
 ---
-layout: index_page
+layout: post-index
 permalink: /index.html
 tags: [about, ultima iv, mod, dos, addon]
 image:
