@@ -22,7 +22,8 @@ image:
       </a>
     </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    {{ post.excerpt }}
+    {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}">...Read More...</>
+
 {% endfor %}
 
 </article>
