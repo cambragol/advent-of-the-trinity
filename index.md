@@ -26,12 +26,12 @@ image:
     
     <p class="post__meta post-meta">{{ post.date | fullDate }}{% include partials/post-meta-comment-count.html, post:post %}</p>
     
-      {% for post in posts %}
-    {% include post-small.html post=post %}
-    {% endfor %}
-    
 
 {% endfor %}
+
+      {% for post in posts limit:3 %}
+    {% include post-small.html post=post %}
+    {% endfor %}
 
 </article>
 
