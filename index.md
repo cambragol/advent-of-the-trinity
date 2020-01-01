@@ -27,7 +27,7 @@ image:
 
 {% endfor %}
 
-      {% for post in posts limit:3 %}
+      {% for post in site.posts limit:3 %}
     {% include post-small.html post=post %}
     {% endfor %}
 
