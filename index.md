@@ -23,6 +23,11 @@ image:
     </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
+    {% if post.data.comments %}
+  <svg class="post__meta-icon"><use xlink:href="#icon-bubble"></use></svg>
+  {{ post.data.comments | size }}
+{% endif %}
+
 
 {% endfor %}
 
