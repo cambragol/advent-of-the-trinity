@@ -5,6 +5,7 @@ url: "https://cambragol.github.io/advent-of-the-trinity"
 baseurl: ""
 home: https://cambragol.github.io/advent-of-the-trinity
 repository: "cambragol/advent-of-the-trinity"
+excerpt_separator: <!--more-->
 
 # Owner/author information
 owner:
