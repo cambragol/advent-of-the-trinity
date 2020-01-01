@@ -35,10 +35,10 @@ opengraph:
 links:
   - title: About
     url: /about
-  - title: Articles
-    url: /articles
   - title: Demo
     url: /demo
+  - title: Articles
+    url: /articles
   - title: Screenshots
     url: /screenshots
 
