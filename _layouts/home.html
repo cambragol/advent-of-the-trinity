@@ -22,7 +22,7 @@
                 {% for category in site.categories %}
                 {% for post in category[1] %}
                    <li>
-                       {{ post.data.comments[page.slug] | size }}
+                       {{ post.data.comments.page.slug | size }}
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                         <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
                         <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>
