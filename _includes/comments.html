@@ -4,11 +4,10 @@
           <!-- Start static comments -->
           <div class="js-comments">
             {% if site.data.comments[page.slug] %}
-              <h3 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}
-
-  {{ post.data.comments[page.slug] | size }}</h3>
+              <h3 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h3>
             
             {% assign comments = site.data.comments[page.slug] | sort %}
+            {{ post.data.comments[page.slug] | size }}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
