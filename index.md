@@ -24,8 +24,6 @@ image:
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
     
-    <p class="post__meta post-meta">{{ post.date | fullDate }}{% include partials/post-meta-comment-count.html, post:post %}</p>
-    
 
 {% endfor %}
 
