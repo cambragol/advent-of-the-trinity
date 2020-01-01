@@ -16,11 +16,11 @@ image:
         </header>
 
   {% for post in site.posts limit:3 %}
-    <h1>
-      <a href="{{ site.url }}{{ post.url }}">
+    <h2>
+      <!--<a href="{{ site.url }}{{ post.url }}">-->
         {{ post.title }}
-      </a>
-    </h1>
+     <!-- </a>-->
+    </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
 
