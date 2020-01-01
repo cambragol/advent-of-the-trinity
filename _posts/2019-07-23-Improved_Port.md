@@ -14,6 +14,8 @@ Take a look at this screenshot:
 
 <p><img class="ScrollRev" data-tilt src="https://media.moddb.com/images/members/1/76/75301/profile/spot_the_differences.png" alt="spot the differences" title="Spot the Differences" width="640" height="400" />How many differences can you spot between it and vanilla Ultima IV for dos?</p>
 
+<!--more-->
+
 10 points if you can spot 10!
 OKay, some are old, or have been shown in previous screenshots. Howver, several are new, and represent some work done recently.
 <ul>
