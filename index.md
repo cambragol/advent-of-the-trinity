@@ -1,5 +1,9 @@
 ---
 layout: index_page
+pagination:
+  data: collections.homepage
+  size: 10
+  alias: posts
 permalink: /index.html
 tags: [about, ultima iv, mod, dos, addon]
 image:
