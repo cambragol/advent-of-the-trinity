@@ -1,9 +1,5 @@
 ---
 layout: index_page
-pagination:
-  data: collections.homepage
-  size: 10
-  alias: posts
 permalink: /index.html
 tags: [about, ultima iv, mod, dos, addon]
 image:
@@ -28,7 +24,7 @@ image:
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
     {{ post.data.comments[page.slug] | size }}
-          {% include post-small.html post=post %}
+          {% include post-small.html  %}
     
 
 {% endfor %}
