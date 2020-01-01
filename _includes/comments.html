@@ -6,7 +6,7 @@
             {% if site.data.comments[page.slug] %}
               <h3 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}
 
-  {{ post.data.comments[page.slug] | size }}</h3>
+  {{ post.data.comments | size }}</h3>
             
             {% assign comments = site.data.comments[page.slug] | sort %}
 
