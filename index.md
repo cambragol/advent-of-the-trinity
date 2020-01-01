@@ -23,8 +23,8 @@ image:
     </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
-    {{ post.data.comments[page.slug] | size }}    
-
+            {{ site.data.comments[page.slug] | size }}
+            
 {% endfor %}
 
 </article>
