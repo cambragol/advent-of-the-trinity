@@ -8,7 +8,7 @@
               {% if post.data.comments %}
   {{ post.data.comments | size }}{% endif %}
           
-          <h3 class="tile__header">{{ post.data.comments | size }} Comments</h3>
+          <h3 class="tile__header">{{ post.data.comments | size }} Commmments</h3>
           {% assign comments = site.data.comments[page.slug] | sort %}
           {% for comment in comments %}
             {% assign avatar = comment[1].avatar %}
