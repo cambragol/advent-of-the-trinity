@@ -15,7 +15,7 @@ image:
           </hgroup>
         </header>
 
-  {% for post in site.posts limit:3 %}
+  {% for post in posts limit:3 %}
     <h2>
       <!--<a href="{{ site.url }}{{ post.url }}">-->
         {{ post.title }}
@@ -23,7 +23,7 @@ image:
     </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
-    {{ post.data.comments | size }}
+    {{ post.data.comments[page.slug] | size }}
     
 
 {% endfor %}
