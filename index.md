@@ -24,6 +24,8 @@ image:
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
 
+<a href="{{ page.url }}#{{ comment._id}}">{{ comment.date | date: "%b %-d, %Y, %H:%M" }}</a>
+
 {% endfor %}
 
 </article>
