@@ -12,6 +12,8 @@ image:
 
 I have been very busy with the mod the past few weeks. Feels like not too much progress made, however, massive amounts of work have been done. Many, many small bugs/issues have been found and fixed. The mod became complex, so a lot of bugs have shown up. I'm doing my best to catch them all, which also means a lot of testing to find them.
 
+<!--more-->
+
 I made a quick addition yesterday, which I like, though it might rattle purists. Maybe. I added random and karma/NPC/PC personality dependent responses into conversations. At least for the 'generic' responses of each NPC. Each NPC has a personality value, which determines how friendly, or unfriendly they are. This will alter their dialogue. Additionally, there is a randomness to responses, which will play across all NPC's. I am also working in variation in the responses derived from the players overall karma. Ultimately having NPC's notice that the player is an Avatar, or give friendlier responses to partial Avatar would be ideal. Though I doubt I have the code space for this high a refinement.
 
 I have also added in a few more possibilities in conversations, though I won't elaborate here. Sufficed to say they are in and working nicely, enough to add some additional flavor to the game and conversations in general.
