@@ -1,0 +1,4 @@
+	      <li>
+              <span class="recent-title"><a href="{{ include.url }}" title="{{ include.name }}">{{ include.message | strip_html | strip_newlines | truncate: 30 }} </a></span>
+              <span class="date">{{ include.date | date: "%b %d, %Y" }}</span>
+        </li>
