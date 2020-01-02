@@ -11,8 +11,7 @@
         {% endfor %}-->
 	      
 	      
-	      {% assign comments = site.data.comments[post.slug] | sort %}
-{% for post in site.posts %}
+	      {% assign comments = site.data.comments | sort %}
               {% for comment in comments | limit:3 %}
                 {% assign email = comment[1].email %}
                 {% assign name = comment[1].name %}
@@ -21,7 +20,6 @@
                 {% assign message = comment[1].message %}
 	        {% include latest_comment.html index=forloop.index email=email name=name url=url date=date message=message %}	      
               {% endfor %}
-	                    {% endfor %}
 
 	</ol>
 
