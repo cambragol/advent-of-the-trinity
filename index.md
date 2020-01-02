@@ -1,5 +1,9 @@
 ---
 layout: index_page
+pagination:
+  data: collections.homepage
+  size: 10
+  alias: posts
 permalink: /index.html
 tags: [about, ultima iv, mod, dos, addon]
 image:
@@ -26,38 +30,9 @@ image:
     {% assign filename = post.data | slice: 10, 45 %}
     {% assign link = post.url %}
     
-    {% include post-meta-comment-count.html %}
+    {% include post-meta-comment-count.html, post:post %}
     
-            {{ page.data.comments | append: filename | size }}
-            {{ site.data.comments | append: filename | size }}
-            {{ post.data.comments | append: filename | size }}
-                        {{ "https://github.com/cambragol/advent-of-the-trinity/_data/comments/" | append: filename }}
-
-
-            <p>{{ page.data.comments[page_slug] | size }}<p/>
-            <p>{{ site.data.comments[page_slug] | size }}<p/>
-            <p>{{ post.data.comments[page_slug] | size }}<p/>
-            
-            
-            <p>{{ page.data.comments | size }}<p/>
-            <p>{{ site.data.comments | size }}<p/>
-            <p>{{ post.data.comments | size }}<p/>
-            
-            <p>{{ page.posts.comments | size }}<p/>
-            <p>{{ site.posts.comments | size }}<p/>
-            <p>{{ post.posts.comments | size }}<p/>
-            
-            <p>{{ page.posts.comments[page_slug] | size }}<p/>
-            <p>{{ site.posts.comments[page_slug] | size }}<p/>
-            <p>{{ post.posts.comments[page_slug] | size }}<p/>
-            
-            <p>{{ page.data.comments | size }}<p/>
-            <p>{{ site.data.comments | size }}<p/>
-            <p>{{ post.data.comments | size }}<p/>
-            
-            <p>{{ page.data.comments[page_slug] | size }}<p/>
-            <p>{{ site.data.comments[page_slug] | size }}<p/>
-            <p>{{ post.data.comments[page_slug] | size }}<p/>
+      
 
             
 {% endfor %}
