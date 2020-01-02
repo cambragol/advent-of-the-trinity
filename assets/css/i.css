@@ -356,6 +356,11 @@ blockquote, blockquote p {
   margin-bottom: 33px;
 }
 
+.read_more {
+  font-size: 22px;
+  line-height: 33px;
+}
+
 canvas {
       width: 963px;
       /*height: 674px;*/
