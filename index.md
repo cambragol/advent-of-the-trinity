@@ -38,6 +38,10 @@ image:
             <p>{{ page.data.comments | size }}<p/>
             <p>{{ site.data.comments | size }}<p/>
             <p>{{ post.data.comments | size }}<p/>
+            
+            <p>{{ page.posts.comments | size }}<p/>
+            <p>{{ site.posts.comments | size }}<p/>
+            <p>{{ post.posts.comments | size }}<p/>
 
             
 {% endfor %}
