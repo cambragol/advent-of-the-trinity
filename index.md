@@ -25,6 +25,8 @@ image:
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
     {% assign filename = post.data | slice: 10, 45 %}
     {% assign link = post.url %}
+    
+    <svg class="post__meta-icon"><use xlink:href="#icon-bubble"></use></svg>
     {{ site.data.comments[post.slug] | size }}
                 
     
