@@ -26,6 +26,8 @@ image:
     {% assign filename = post.url | slice: 10, 45 %}
             {{ page.data.comments. | append: filename | size }}
             <p>{{ page.data.comments[page_slug] | size }}<p/>
+            <p>{{ site.data.comments[page_slug] | size }}<p/>
+            <p>{{ post.data.comments[page_slug] | size }}<p/>
 
             
 {% endfor %}
