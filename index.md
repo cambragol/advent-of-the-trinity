@@ -27,7 +27,7 @@ image:
             {{ page.data.comments | append: filename | size }}
             {{ site.data.comments | append: filename | size }}
             {{ post.data.comments | append: filename | size }}
-                        {{ "https://github.com/cambragol/advent-of-the-trinity/_data/comments/" | append: filename | size }}
+                        {{ "https://github.com/cambragol/advent-of-the-trinity/_data/comments/" | append: filename }}
 
 
             <p>{{ page.data.comments[page_slug] | size }}<p/>
