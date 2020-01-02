@@ -327,6 +327,14 @@ small {
   font-size: 16px;
 }
 
+.post__meta-icon {
+ position:relative;
+ margin-left:10px;
+ width:16px;
+ height:16px;
+ vertical-align:middle
+}
+
 .hilite {
   display: inline-block;
   padding: 0 0.3em;
