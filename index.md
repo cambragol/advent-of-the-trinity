@@ -23,11 +23,11 @@ image:
     </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
-    {% assign filename = post.url | slice: 11, 45 %}
+    {% assign filename = post.url | slice: 10, 45 %}
             {{ page.data.comments | append: filename | size }}
             {{ site.data.comments | append: filename | size }}
             {{ post.data.comments | append: filename | size }}
-                        {{ post.data.comments | append: filename }}
+                        {{ "https://github.com/cambragol/advent-of-the-trinity/_data/comments/" | append: filename | size }}
 
 
             <p>{{ page.data.comments[page_slug] | size }}<p/>
