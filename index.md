@@ -1,9 +1,5 @@
 ---
 layout: index_page
-pagination:
-  data: collections.homepage
-  size: 10
-  alias: posts
 permalink: /index.html
 tags: [about, ultima iv, mod, dos, addon]
 image:
@@ -19,7 +15,7 @@ image:
           </hgroup>
         </header>
 
-  {% for post in posts limit:3 %}
+  {% for post in site.posts limit:3 %}
     <h2>
       <!--<a href="{{ site.url }}{{ post.url }}">-->
         {{ post.title }}
@@ -30,7 +26,7 @@ image:
     {% assign filename = post.data | slice: 10, 45 %}
     {% assign link = post.url %}
     
-    {% include post-meta-comment-count.html, post:post %}
+    {% include post-meta-comment-count.html, page:post %}
     
       
 
