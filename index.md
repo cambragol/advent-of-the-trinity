@@ -18,7 +18,8 @@ image:
   {% for post in site.posts limit:3 %}
     <h2>
       <!--<a href="{{ site.url }}{{ post.url }}">-->
-        {{ post.title }}
+  {{ post.title }}<small>{{ site.data.comments[post.slug] | size }}</small>
+
      <!-- </a>-->
     </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
