@@ -25,9 +25,8 @@ image:
     {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
     {% assign filename = post.data | slice: 10, 45 %}
     {% assign link = post.url %}
-    {{ site.data.comments[page.slug] | size }}
+    {{ site.data.comments[post.slug] | size }}
                 
-    {% include post-meta-comment-count.html %}
     
       
 
