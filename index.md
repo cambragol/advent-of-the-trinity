@@ -26,7 +26,7 @@ image:
     {% assign filename = post.data | slice: 10, 45 %}
     {% assign link = post.url %}
     
-    {% include post-meta-comment-count.html, post:post %}
+    {% include post-meta-comment-count.html %}
     
             {{ page.data.comments | append: filename | size }}
             {{ site.data.comments | append: filename | size }}
