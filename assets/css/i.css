@@ -356,9 +356,8 @@ blockquote, blockquote p {
   margin-bottom: 33px;
 }
 
-.read_more {
-  font-size: 22px;
-  line-height: 33px;
+a.read_more {
+  color:black;
 }
 
 canvas {
