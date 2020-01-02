@@ -11,7 +11,7 @@
         {% endfor %}-->
 	      
 	      
-	      {% for comment in site.data.comments[post.slug] | limit:3 %} <!-- for1 -->
+	      {% for comment in site.data.comments | limit:3 %} <!-- for1 -->
             <li>
               <span class="recent-title"><a href="{{ comment.url }}{{ post.url }}" title="{{ comment.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{ comment.date | date: "%b %d, %Y" }}</span>
