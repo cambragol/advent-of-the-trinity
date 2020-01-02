@@ -18,22 +18,13 @@ image:
   {% for post in site.posts limit:3 %}
     <h2>
       <!--<a href="{{ site.url }}{{ post.url }}">-->
-  {{ post.title }}<small>{{ site.data.comments[post.slug] | size }}</small>
-
+  {{ post.title }}
      <!-- </a>-->
     </h2>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
-    {% assign filename = post.data | slice: 10, 45 %}
-    {% assign link = post.url %}
-    
-    <svg class="post__meta-icon"><use xlink:href="#icon-bubble"></use></svg>
-    {{ site.data.comments[post.slug] | size }}
-                
-    
-      
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time><small> Comments: {{ site.data.comments[post.slug] | size }}</small>
 
-            
+    {{ post.excerpt }}<a href="{{ site.url }}{{ post.url }}"><p>...Read More...</p></a>
+        
 {% endfor %}
 
 </article>
