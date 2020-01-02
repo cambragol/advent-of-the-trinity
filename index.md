@@ -46,6 +46,14 @@ image:
             <p>{{ page.posts.comments[page_slug] | size }}<p/>
             <p>{{ site.posts.comments[page_slug] | size }}<p/>
             <p>{{ post.posts.comments[page_slug] | size }}<p/>
+            
+            <p>{{ page.data.comments | size }}<p/>
+            <p>{{ site.data.comments | size }}<p/>
+            <p>{{ post.data.comments | size }}<p/>
+            
+            <p>{{ page.data.comments[page_slug] | size }}<p/>
+            <p>{{ site.data.comments[page_slug] | size }}<p/>
+            <p>{{ post.data.comments[page_slug] | size }}<p/>
 
             
 {% endfor %}
