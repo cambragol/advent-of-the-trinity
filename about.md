@@ -21,6 +21,7 @@ mockup:
   - [x] Camping at sea bug fixed
   - [x] Status-Trick fixed
   - [x] Passage of the Moons-Trick fixed
+  - [x] Energy Spell Dundeon Drilling-Trick fixed
   - [x] Other Small fixes
   
 ### New Features
@@ -28,7 +29,6 @@ mockup:
   - [x] New Shops and Merchants
   - [ ] Dozens of new Characters
   - [x] New Dungeons (Crypts)
-  - [x] Ultima V style Active Player
   - [x] New, powerful Artifacts
   - [ ] ~~New Shrines (Oracles)~~
   - [x] 2nd levels for all Towns
@@ -36,8 +36,13 @@ mockup:
   - [ ] New magic system
   - [x] New tiles/sprites
   - [x] New mounts
+  - [x] Ultima V style Active Player
   - [x] Ultima V style reagent mixing
+  - [x] Ultima V style secret doors
+  - [x] Diagonal attacks/search etc.
   - [x] Variable Battle maps
+  - [x] Virtue based NPC reactions
+  - [ ] Expanded NPC conversations
   - [x] Terrain based Camp maps
   - [ ] Random Encounters
   - [x] Many other small additions
