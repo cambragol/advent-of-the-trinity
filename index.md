@@ -1,6 +1,7 @@
 ---
 layout: index_page
 permalink: /index.html
+title: Development Blog
 description: This project aims to modify the original Ultima IV to add additional content, via quests, locations and features.
 tags: [about, ultima iv, mod, dos, addon]
 image:
@@ -17,9 +18,9 @@ image:
         </header>
 
   {% for post in site.posts limit:3 %}
-    <h1>
+    <h2>
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
+    </h2>
     <p class="date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>  <a class="comment-count" href="{{ site.url }}{{ post.url }}#static-comments"><svg class="comment-icon"><use xlink:href="#icon-bubble"></use></svg> {{ site.data.comments[post.slug] | size }}</a></p>
     
     {{ post.excerpt }}<p><a class="read_more" href="{{ site.url }}{{ post.url }}">...Read More...</a></p>
