@@ -25,7 +25,7 @@ image:
     
     {{ post.excerpt }}<p><a class="read_more" href="{{ site.url }}{{ post.url }}">...Read More...</a></p>
         
-{% endfor %}
+  {% endfor %}
 
 </article>
 
