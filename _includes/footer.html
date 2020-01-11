@@ -3,11 +3,11 @@
     <aside class="wrap">
       <ol class="prev-posts">
         <p class="list-title">Recent Posts</p>
-        {% for post in site.posts | limit:3 %} <!-- for1 -->
+        <!--{% for post in site.posts | limit:3 %} <!-- for1 -->
             <li>
 		    
 		    
-		{% assign comments = site.data.comments | sort %}
+		{% assign comments = site.data.comments[post.slug] | sort %}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
@@ -21,7 +21,7 @@
               <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
-        {% endfor %}
+       <!-- {% endfor %}-->
 	     
 
 	</ol>
