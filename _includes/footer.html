@@ -17,7 +17,7 @@
                 {% assign message = comment[1].message %}
               {% endfor %}
 		    
-	      <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ comment[1].message | strip_html | strip_newlines | truncate: 30 }} </a></span>
+	      <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ message | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
