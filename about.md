@@ -38,7 +38,6 @@ mockup:
   - [x] New mounts
   - [x] Ultima V style Active Player
   - [x] Ultima V style reagent mixing
-  - [x] Ultima V style secret doors
   - [x] Diagonal attacks/search etc.
   - [x] Variable Battle maps
   - [x] Virtue based NPC reactions
