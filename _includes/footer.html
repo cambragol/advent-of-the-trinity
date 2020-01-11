@@ -6,8 +6,7 @@
         <!--{% for post in site.posts | limit:3 %} <!-- for1 -->
             <li>
 		    
-		    
-		{% assign comments = site.data.comments[post.slug] | sort %}
+		{% assign comments = site.data.comments | sort %}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
