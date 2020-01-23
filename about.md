@@ -38,7 +38,7 @@ mockup:
   - [x] New mounts
   - [x] Ultima V style Active Player
   - [x] Ultima V style reagent mixing
-  - [x] Diagonal attacks/search etc.
+  - [x] Diagonal attacks
   - [x] Variable Battle maps
   - [x] Virtue based NPC reactions
   - [ ] Expanded NPC conversations
