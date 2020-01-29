@@ -20,12 +20,12 @@ These screenshots show some of the content added with this 'mod'. Currently only
 	<figcaption>Okay, that definitely looks like a secret passage.</figcaption>
 	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/dragon.gif" />
 	<figcaption>Houston, we have dragons, I repeat, we have dragons.</figcaption>
-	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/river_village.jpg" />
+	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/river_village.png" />
 	<figcaption>A village situated beside a river along the western coast of Britannia</figcaption>
-	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/valley_village.jpg" />
+	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/valley_village.png" />
 	<figcaption>A village in a valley of the Serpent's Spine mountains</figcaption>
- 	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/2nd_floor.jpg" />
-	<figcaption>A view from the second floor in Trinsic</figcaption>
+ 	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/jhelom.png" />
+	<figcaption>A view from the second floor in Jhelom</figcaption>
  	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/crypt.jpg" />
 	<figcaption>Entering a crypt</figcaption>
 </figure>
