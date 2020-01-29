@@ -7,7 +7,7 @@ comments: true
 tags: [Ultima IV, Ultima 4, add-on, Alpha Demo, demo, testing]
 date: 2020-01-29
 image: 
-        feature: book_2.jpg
+        feature: ray_cast_ver_apple.gif
 ---
 
 Well, I have finally put together a small Alpha Demo of the progress I have so far. Mostly this demo is about putting the new code through the runner, and has nothing to do with the additional quests, plots, dialogues etc. It is all about the added features. And not even all of those are being included. However, enough of the code has been rewritten (huuuuge swaths) to warrant testing new features, and old, to see whether or not I have introduced some new game breaking bug.
