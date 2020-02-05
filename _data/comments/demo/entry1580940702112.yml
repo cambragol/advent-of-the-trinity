@@ -1,0 +1,10 @@
+_id: 7ceba950-4864-11ea-90d2-d1dca239f4fb
+message: >-
+  Found a bug myself. The mix of monsters that appears in encounters is a little
+  mixed up. Gremlins appearing with trolls for example. I dug into that and
+  found the issue. Fixed it in the current build.
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: ''
+hidden: ''
+date: 1580940702
