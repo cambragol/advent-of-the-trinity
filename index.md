@@ -2,7 +2,7 @@
 layout: index_page
 permalink: /index.html
 title: Development Blog
-description: This project aims to modify the original Ultima IV to add additional content, via quests, locations and features.
+description: This project aims to modify the original Dos Ultima IV to add additional content, via quests, locations and features.
 tags: [about, ultima iv, mod, dos, addon]
 image:
   feature: map_1.jpg
