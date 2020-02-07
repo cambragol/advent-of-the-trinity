@@ -1,0 +1,12 @@
+_id: 4163f4d0-49a6-11ea-ad91-9d69ef6644e2
+message: >-
+  Found another bug. Mounting Smith in Paws will make your horse take on
+  different personalities in different towns. This is an unexpected result of
+  the new horse/mount code (which prevents mounts from disappearing when going
+  up ladders, something that happened in default Ultima IV). This is not an easy
+  fix.
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: ''
+hidden: ''
+date: 1581078900
