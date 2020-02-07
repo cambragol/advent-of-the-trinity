@@ -18,6 +18,8 @@ These screenshots show some of the content added with this 'mod'. Currently only
 	<figcaption>Um...whoa...too difficult?</figcaption>
 	<img class="ScrollRev spoiler load-hidden" data-tilt src="{{ site.url }}/images/empath_view.png" />
 	<figcaption>Okay, that definitely looks like a secret passage.</figcaption>
+	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/castle_roof.png" />
+	<figcaption>Here are, up on a roof, talking with...guard.</figcaption>
 	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/dragon.gif" />
 	<figcaption>Houston, we have dragons, I repeat, we have dragons.</figcaption>
 	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/river_village.png" />
