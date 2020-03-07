@@ -104,7 +104,7 @@
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js"
+        wdosboxUrl: "https://js-dos.com/6.22/current/dosbox.js"
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima2.zip", "/ultima3").then(() => {
         main(["-c", "cd ultima3", "-c", "avatar.exe"]).then((ci) => {
