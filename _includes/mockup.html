@@ -107,7 +107,7 @@
         wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js"
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima2.zip", "/ultima3").then(() => {
-        main(["-c", "cd ultima3", "-c", "avatar.exe"]).then(function(ci) => {
+        main(["-c", "cd ultima3", "-c", "avatar.exe"]).then((ci) => {
                 
                 DosController.Qwerty(ci.getParentDiv(), ci.getKeyEventConsumer(), {
                     uppercase: true,
@@ -119,6 +119,7 @@
                     `,
                 });
                 DosController.Move(ci.getParentDiv(), ci.getKeyEventConsumer());
+            window.ci = ci;
         });
       });
     });
