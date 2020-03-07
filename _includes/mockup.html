@@ -101,7 +101,8 @@
 
   <script>
     Dos(document.getElementById("jsdos"), { 
-        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-emterp.js" 
+        wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox-emterp.wasm.js"
+        <!--wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-emterp.js" -->
     }).ready((fs, main) => {
       fs.extract("{{ site.url }}/assets/zip/ultima2.zip", "/ultima3").then(() => {
         main(["-c", "cd ultima3", "-c", "avatar.exe"]).then((ci) => {
