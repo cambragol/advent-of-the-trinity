@@ -109,16 +109,7 @@
       fs.extract("{{ site.url }}/assets/zip/ultima2.zip", "/ultima3").then(() => {
         main(["-c", "cd ultima3", "-c", "avatar.exe"]).then((ci) => {
                 
-                DosController.Qwerty(ci.getParentDiv(), ci.getKeyEventConsumer(), {
-                    uppercase: true,
-                    cssText: `
-                        .qwerty-key {
-                            bottom: 0;
-                            left: 0;
-                        }
-                    `,
-                });
-                DosController.Move(ci.getParentDiv(), ci.getKeyEventConsumer());
+                
             window.ci = ci;
         });
       });
