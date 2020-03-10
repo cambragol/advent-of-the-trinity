@@ -14,4 +14,4 @@ I have removed the Alpha Demo for the time being. No one was really trying it or
 
 <!--more-->
 
-Thanks to anyone and everyone who tried it out, and especially those who let me know of buts/issues etc.!
+Thanks to anyone and everyone who tried it out, and especially those who let me know of bugs/issues etc.!
