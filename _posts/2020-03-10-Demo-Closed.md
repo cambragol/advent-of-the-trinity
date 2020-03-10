@@ -5,7 +5,7 @@ description: The Alpha Demo is gone.
 category: articles
 comments: true
 tags: [Ultima IV, Ultima 4, add-on, Alpha Demo, demo, testing, finished, gone, closed]
-date: 2020-01-29
+date: 2020-03-10
 image: 
         feature: soft-trees.jpg
 ---
