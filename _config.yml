@@ -35,8 +35,6 @@ opengraph:
 links:
   - title: About
     url: /about
-  - title: Demo
-    url: /demo
   - title: Articles
     url: /articles
   - title: Screenshots
