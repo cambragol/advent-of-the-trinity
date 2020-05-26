@@ -12,6 +12,8 @@ image:
 
 Lots of time to spare recently. Discovered some young in-house Beta testers (aged 6, 9 and 11). They have spotted a few small, finicky bugs, nothing big, and every one they have spotted has been squashed and makes the game more solid. Yay!
 
+<!--more-->
+
 The Beta testers have also insisted on some slightly new directions for some of the final quest parameters. I had shelved the idea previously, but have now brought it back and am moving forward with it. It being a new region...the Underdeep!
 
 <figure>
