@@ -21,7 +21,7 @@ mockup:
   - [x] Camping at sea bug fixed
   - [x] Status-Trick fixed
   - [x] Passage of the Moons-Trick fixed
-  - [x] Energy Spell Dundeon Drilling-Trick fixed
+  - [x] Energy Spell Dungeon Drilling-Trick fixed
   - [x] Buggy Ankh and Lord combat sprites fixed
   - [x] Other Small fixes
   
