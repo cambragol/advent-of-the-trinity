@@ -22,29 +22,32 @@ mockup:
   - [x] Status-Trick fixed
   - [x] Passage of the Moons-Trick fixed
   - [x] Energy Spell Dundeon Drilling-Trick fixed
+  - [x] Buggy Ankh and Lord combat sprites fixed
   - [x] Other Small fixes
   
 ### New Features
   - [x] New Hamlets and Towers
+  - [x] New Dungeons (Crypts)
+  - [x] New World Region (Underdeep)
   - [x] New Shops and Merchants
   - [ ] Dozens of new Characters
-  - [x] New Dungeons (Crypts)
   - [x] New, powerful Artifacts
-  - [ ] ~~New Shrines (Oracles)~~
   - [x] 2nd levels for all Towns
   - [x] Multi-level Castles
-  - [ ] New magic system
+  - [x] New magic system
   - [x] New tiles/sprites
   - [x] New mounts
   - [x] Ultima V style Active Player
   - [x] Ultima V style reagent mixing
+  - [x] Ultima V style directional search
   - [x] Diagonal attacks
+  - [x] New Spawning rules
   - [x] Variable Battle maps
+  - [x] Terrain based Camp maps
   - [x] Virtue based NPC reactions
   - [ ] Expanded NPC conversations
-  - [x] Terrain based Camp maps
   - [ ] Random Encounters
-  - [x] Many other small additions
+  - [x] Many, many more small additions
   
 ### Other Highlights
   - [x] Saved games are compatible with vanilla Ultima IV
