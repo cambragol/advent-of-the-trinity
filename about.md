@@ -30,7 +30,7 @@ mockup:
   - [x] New Dungeons (Crypts)
   - [x] New World Region (Underdeep)
   - [x] New Shops and Merchants
-  - [ ] Dozens of new Characters
+  - [x] Dozens of new Characters
   - [x] New, powerful Artifacts
   - [x] 2nd levels for all Towns
   - [x] Multi-level Castles
