@@ -19,6 +19,7 @@ mockup:
   - [x] Hythloth bug fixed
   - [x] Ship instant repair bug fixed
   - [x] Camping at sea bug fixed
+  - [x] Omni-tavern bug fixed
   - [x] Status-Trick fixed
   - [x] Passage of the Moons-Trick fixed
   - [x] Energy Spell Dungeon Drilling-Trick fixed
