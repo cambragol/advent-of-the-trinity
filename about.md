@@ -29,8 +29,10 @@ mockup:
 ### New Features
   - [x] New Hamlets and Towers
   - [x] New Dungeons (Crypts)
+  - [ ] New Caves and Mines
   - [x] New World Region (Underdeep)
   - [x] New Shops and Merchants
+  - [x] New Quests 
   - [x] Dozens of new Characters
   - [x] New, powerful Artifacts
   - [x] 2nd levels for all Towns
