@@ -22,8 +22,11 @@ Currently doing a final pass on all NPCs to add 'ambient' conversations that are
 </figure>
 
 I started out with a plan to not touch any vanilla or 'default' aspects of the game/quests etc. However, I feel that the current size of the 'mod' necessitates some adjustment of default/vanilla settings.
+
 Many of the towns and castles are now up to 5 levels high and low. With that vertical enhancement in place, its seems to behoove us to place some of the the important vanilla/default items somewhere along that vertical enhancement. It integrates the mod into the vanilla, and the vanilla into the mod, making them a more cohesive whole. 
+
 That is my basic feeling. However, I could be wrong. Maybe fiddling with these default aspects is the wrong route? 
+
 I'm not certain. Because more fooling with these default settings could lead me into changing default values such as mantras, words for the axiom etc. And at this point that seems like too much. But...would make the whole game new again to whoever played it. They would actually have to play it and rediscover everything, once again. That could be fun.
 Couldn't it?
 
