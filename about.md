@@ -29,7 +29,7 @@ mockup:
 ### New Features
   - [x] New Hamlets and Towers
   - [x] New Dungeons (Crypts)
-  - [ ] New Caves and Mines
+  - [x] New Caves and Mines
   - [x] New World Region (Underdeep)
   - [x] New Shops and Merchants
   - [x] New Quests 
