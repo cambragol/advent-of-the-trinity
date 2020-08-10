@@ -24,6 +24,7 @@ mockup:
   - [x] Passage of the Moons-Trick fixed
   - [x] Energy Spell Dungeon Drilling-Trick fixed
   - [x] Buggy Ankh and Lord combat sprites fixed
+  - [x] Shop dialogue bugs/errors
   - [x] Other Small fixes
   
 ### New Features
