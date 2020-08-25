@@ -9,6 +9,11 @@ image:
 
 These screenshots show some of the content added with this 'mod'. Currently only existing tiles have been used to extend content. Care has been taken to emulate the style of the original content whereever possible (I hope).
 
+    <div class="card">
+    	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/title.jpg" alt="Card Back">
+        <img class="ScrollRev load-hidden img-top" data-tilt src="{{ site.url }}/images/title_apple.png" alt="Card Front">
+    </div>
+
 <figure>
 	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/title.jpg" />
 	<figcaption>A new title screen</figcaption>
