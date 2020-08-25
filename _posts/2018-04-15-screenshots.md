@@ -15,8 +15,8 @@ These screenshots show some of the content added with this 'mod'. Currently only
 </figure>
 
 <figure class="card">
-	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/camp_sea.jpg" />
-	<img class="ScrollRev load-hidden img-top" data-tilt src="{{ site.url }}/images/camp_sea_apple.png" />
+	<img src="{{ site.url }}/images/camp_sea.jpg" />
+	<img class="img-top" data-tilt src="{{ site.url }}/images/camp_sea_apple.png" />
 	<figcaption>There we go...camping at sea makes sense now...</figcaption>
 	<img class="ScrollRev load-hidden" data-tilt src="{{ site.url }}/images/dungeon_1.jpg" />
 	<img class="ScrollRev load-hidden img-top" data-tilt src="{{ site.url }}/images/dungeon_1_apple.png" />
