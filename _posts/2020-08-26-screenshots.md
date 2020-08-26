@@ -7,7 +7,7 @@ comments: true
 image:
 ---
 
-I haven't updated these screenshots in around a year, so it was overdue. I have added mouseovers to show the new 'improved' apple II graphics style that I am going with. 
+I haven't updated these screenshots in around a year, so it was overdue. I have added mouseovers to show the new 'improved' apple II graphics style that I am going with. Obviously which Ultima IV you were weened on will influence which graphical style you prefer. However, in this case, less looks better. For the most part.
 
 <!--<figure class="card">
 	<img src="{{ site.url }}/images/title.jpg" alt="Card Back">
