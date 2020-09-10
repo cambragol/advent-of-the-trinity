@@ -33,8 +33,10 @@ mockup:
   - [x] New Caves and Mines
   - [x] New World Region (Underdeep)
   - [x] New Shops and Merchants
-  - [x] New Quests 
-  - [x] Dozens of new Characters
+  - [x] New Major Quests 
+  - [x] New Side Quests 
+  - [x] New Virtue Trackers 
+  - [x] More than a hundred new Characters
   - [x] New, powerful Artifacts
   - [x] 2nd levels for all Towns
   - [x] Multi-level Castles
@@ -49,8 +51,10 @@ mockup:
   - [x] Variable Battle maps
   - [x] Terrain based Camp maps
   - [x] Virtue based NPC reactions
-  - [ ] Expanded NPC conversations
-  - [ ] Random Encounters
+  - [x] Variable NPC personalities
+  - [x] More accurate Port of Apple II original
+  - [x] ~~Expanded NPC conversations~~
+  - [ ] ~~Random Encounters~~
   - [x] Many, many more small additions
   
 ### Other Highlights
