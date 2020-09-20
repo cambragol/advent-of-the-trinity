@@ -76,12 +76,12 @@ This took a good chunk of work. But well worth it I think!
 </figure>
 
 <figure>
-	<img class="ScrollRev" alt="Apple ][ Mode - Creatures" data-tilt src="{{ site.url }}/images/apple2mode7.png" />
+	<img class="ScrollRev" alt="Apple ][ Mode - Creatures" data-tilt src="{{ site.url }}/images/apple2mode8.png" />
 	<figcaption>Apple ][ style monsters! Yes!</figcaption>
 </figure>
 
 <figure>
-	<img class="ScrollRev" alt="Apple ][ Mode - Creatures" data-tilt src="{{ site.url }}/images/apple2mode8.png" />
+	<img class="ScrollRev" alt="Apple ][ Mode - Creatures" data-tilt src="{{ site.url }}/images/apple2mode9.png" />
 	<figcaption>More Apple ][ style monsters! Yes!</figcaption>
 </figure>
 
