@@ -6,7 +6,7 @@ description: The game has been completely converted to an Apple II mode
 category: articles
 comments: true
 tags: [Ultima IV, graphics, Apple II mode, retrograde, 35th anniversary]
-date: 2020-09-16
+date: 2020-09-20
 image: 
         feature: map_2.png
 ---
