@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Announcement - New Graphics
-announcement: true
 description: The game has been completely converted to an Apple II mode
 category: articles
 comments: true
