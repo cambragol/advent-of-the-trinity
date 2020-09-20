@@ -7,7 +7,7 @@ comments: true
 tags: [Ultima IV, graphics, Apple II mode, retrograde, 35th anniversary]
 date: 2020-09-20
 image: 
-        feature: map_2.png
+        feature: apple2mode5.gif
 ---
 
 In honor of the 35th anniverary of the release of Ultima IV for the Apple II, Trinity has been converted to an Apple II graphics mode!
