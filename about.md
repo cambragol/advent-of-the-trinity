@@ -53,8 +53,8 @@ mockup:
   - [x] Virtue based NPC reactions
   - [x] Variable NPC personalities
   - [x] More accurate Port of Apple II original
-  - [x] ~~Expanded NPC conversations~~
-  - [ ] ~~Random Encounters~~
+  - [x] Expanded NPC conversations (reduced scope)
+  - [x] Random Encounters (reduced scope)
   - [x] Many, many more small additions
   
 ### Other Highlights
