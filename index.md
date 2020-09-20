@@ -19,7 +19,7 @@ image:
 
   {% for post in site.posts limit:3 %}
     <h2>
-    {% if page.tagline %}
+    {% if page.announcement %}
       <a class="highlight" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
     {% else %}
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
