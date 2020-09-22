@@ -508,7 +508,7 @@ input {
 }
 
 .bb {
-  border-bottom: 2px solid #8ab9d1;
+  border-bottom: 2px solid #3b3b3b;
 }
 
 .pad-top {
@@ -842,7 +842,7 @@ header.site-header nav ul li a:hover {
 }
 .archive-wrap .post-list li h1 {
   font-size: 32px;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 .archive-wrap .post-list .summary {
   font-size: 18px;
