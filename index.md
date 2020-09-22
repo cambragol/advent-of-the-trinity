@@ -17,7 +17,7 @@ image:
           </hgroup>
         </header>
 
-  {% for post in site.posts limit:25 %}
+  {% for post in site.posts limit:3 %}
     <h2>
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
     </h2>
