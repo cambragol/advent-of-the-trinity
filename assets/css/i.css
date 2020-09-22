@@ -142,7 +142,7 @@ p {
 /* Headings
    ========================================================================== */
 h1, .h1 {
-  font-size: 48px;
+  font-size: 42px;
 }
 
 h2, .h2 {
@@ -238,7 +238,7 @@ float:left;
   }
 
   h1, .h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   h2, .h2 {
@@ -1462,7 +1462,7 @@ footer .social ul li:last-child {
    ========================================================================== */
 @media only screen and (max-width: 800px) {
   h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
    
   canvas {
