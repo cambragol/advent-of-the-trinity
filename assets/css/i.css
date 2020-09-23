@@ -142,23 +142,23 @@ p {
 /* Headings
    ========================================================================== */
 h1, .h1 {
-  font-size: 42px;
-}
-
-h2, .h2 {
   font-size: 36px;
 }
 
-h3, .h3 {
-  font-size: 30px;
+h2, .h2 {
+  font-size: 28px;
 }
 
-h4, .h4, label{
+h3, .h3 {
   font-size: 24px;
 }
 
+h4, .h4, label{
+  font-size: 20px;
+}
+
 h5, .h5 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h6, .h6 {
@@ -170,11 +170,11 @@ h6, .h6 {
 }
 
 blockquote, blockquote p {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .archive input {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .required {
