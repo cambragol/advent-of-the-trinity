@@ -1460,7 +1460,8 @@ footer .social ul li:last-child {
 
 /* Tablet
    ========================================================================== */
-@media only screen and (max-width: 800px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+    /* iPhone 6 Portrait */ {
   h1 {
     font-size: 38px;
   }
