@@ -238,15 +238,15 @@ float:left;
   }
 
   h1, .h1 {
-    font-size: 30px;
+    font-size: 38px;
   }
 
   h2, .h2 {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   h3, .h3 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   h4, .h4 {
@@ -841,7 +841,7 @@ header.site-header nav ul li a:hover {
   transition: all 1s ease-in-out;
 }
 .archive-wrap .post-list li h1 {
-  font-size: 32px;
+  font-size: 26px;
   /*font-style: italic;*/
 }
 .archive-wrap .post-list .summary {
@@ -1462,7 +1462,7 @@ footer .social ul li:last-child {
    ========================================================================== */
 @media only screen and (max-width: 800px) {
   h1 {
-    font-size: 30px;
+    font-size: 38px;
   }
    
   canvas {
