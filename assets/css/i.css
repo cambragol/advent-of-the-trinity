@@ -238,7 +238,7 @@ float:left;
   }
 
   h1, .h1 {
-    font-size: 32px;
+    font-size: 38px;
   }
 
   h2, .h2 {
@@ -1460,8 +1460,7 @@ footer .social ul li:last-child {
 
 /* Tablet
    ========================================================================== */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
-    /* iPhone 6 Portrait */ {
+@media only screen and (max-width: 800px) {
   h1 {
     font-size: 38px;
   }
