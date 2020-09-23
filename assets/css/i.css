@@ -238,15 +238,15 @@ float:left;
   }
 
   h1, .h1 {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   h2, .h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   h3, .h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   h4, .h4 {
@@ -1462,7 +1462,7 @@ footer .social ul li:last-child {
    ========================================================================== */
 @media only screen and (max-width: 800px) {
   h1 {
-    font-size: 38px;
+    font-size: 30px;
   }
    
   canvas {
