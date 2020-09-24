@@ -843,7 +843,23 @@ header.site-header nav ul li a:hover {
 .archive-wrap .post-list li h1 {
   font-size: 26px;
   /*font-style: italic;*/
+  text-shadow: 1.5px 0px 0 #000,
+    -1.5px 0px 0 #000,
+    0px 1.5px 0 #000,
+    0px -1.5px 0 #000;
 }
+.archive-wrap .post-list li h1 a{
+  color:white;
+}
+.archive-wrap .post-list li h1 a:hover{
+  color:white;
+    text-shadow: 1.5px 0px 0 red,
+    -1.5px 0px 0 #000,
+    0px 1.5px 0 #000,
+    0px -1.5px 0 #000;
+}
+
+
 .archive-wrap .post-list .summary {
   font-size: 18px;
   line-height: 1.45em;
