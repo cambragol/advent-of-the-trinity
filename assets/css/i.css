@@ -686,12 +686,7 @@ header.site-header nav ul li a {
   transition: all 0.2s ease;
 }
 header.site-header nav ul li a:hover {
-  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  text-shadow: 2px 0 0 #000;
 }
 
 /* Article Stuff */
