@@ -7,6 +7,9 @@ image:
   feature: book_3.jpg
 ---
 
+          
+          
+
    <article class="archive-wrap">
       <ol class="post-list">
           <lh><h2><span class="bb">{{ page.title }}</span></h2>
@@ -14,12 +17,11 @@ image:
 
   {% for post in site.posts limit:4 %}
   <li>
-    <h2>
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <p class="date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>  <a class="comment-count" href="{{ site.url }}{{ post.url }}#static-comments"><svg class="comment-icon"><use xlink:href="#icon-bubble"></use></svg> {{ site.data.comments[post.slug] | size }}</a></p>
-    
-    {{ post.excerpt }}<p><a class="read_more" href="{{ site.url }}{{ post.url }}">...Read More...</a></p>
+                    <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                        <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+                        <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time><a class="comment-count" href="{{ site.url }}{{ post.url }}#static-comments"><svg class="comment-icon"><use xlink:href="#icon-bubble"></use></svg> {{ site.data.comments[post.slug] | size }}</a></p>
+                        <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+                    </div>
     </li>    
   {% endfor %}
               </ol>
