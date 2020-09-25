@@ -15,7 +15,7 @@ image:
           <lh><h2><span class="bb">{{ page.title }}</span></h2>
             </lh>
 
-  {% for post in site.posts limit:4 %}
+  {% for post in site.posts limit:50 %}
   <li>
                     <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                         <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
