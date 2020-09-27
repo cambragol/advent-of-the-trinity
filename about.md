@@ -5,7 +5,7 @@ title: About the Mod
 description: This project aims to modify the original Dos Ultima IV to add additional content, via quests, locations and features. It will also avoiding altering the original quest content as much as possible, permitting the game to be completed in the original fashion, whilst still making the new content available. A few bug fixes of the original code will also be added.
 tags: [about, ultima iv, mod, dos, addon]
 image:
-  feature: apple2mode10.gif
+  feature: apple2mode1.png
 mockup:
   feature
 ---
