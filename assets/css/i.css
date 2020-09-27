@@ -556,7 +556,7 @@ input {
 
 /* Header */
 header.site-header {
-  padding: 25px 0;
+  padding: 13px 0;
   width: 100%;
   z-index: 5000;
  position:absolute;
@@ -611,8 +611,9 @@ header.site-header a.menu {
   display: none;
 }
 
-header.site-header hgroup h1, header.site-header nav ul {
+header.site-header nav ul {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  padding-top:16px;
 }
 
 header.site-header hgroup {
@@ -1591,6 +1592,7 @@ footer .social ul li:last-child {
     width: 16px;
     height: 16px;
     color: white;
+    top:15px;
   }
   header.site-header a.menu .icons {
     font-size: 32px;
