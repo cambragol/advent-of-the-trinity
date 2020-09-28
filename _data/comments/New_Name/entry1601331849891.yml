@@ -1,0 +1,7 @@
+_id: 5427fd50-01d9-11eb-9b2e-cf5db18ec6b1
+message: "Title.exe was also decompiled, and the CGA driver. The .ult and .tlk files are read by Avatar.exe.\r\n\r\nI edited those, and made new files for Trinity. I used a customized town editor that I built using George Stepan's original version he built for Ultima IV the Shrine of Humility, a remake of Ultima IV using Dark Basic. Mostly though, I used a hex editor for all the .ult, .tlk, .con, and .dng files. It is the quickest and easiest, and in several cases, the only practical way to build and edit the files.\r\n\r\nMonsters, weapons and armor are all handled in the exe. Just takes a little searching. \r\n\r\nIf you really want to get going, try this link. This is the last version of Trinity before I 'closed sourced' it. It includes a build environment (which is quite difficult to setup) that is ready to go. It also includes a whole bunch of editor files which could be of use to you.\r\n\r\n[Old Trinity](https://github.com/VincentTam/ultima-IV-trinity)"
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1601331849
