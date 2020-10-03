@@ -806,7 +806,7 @@ header.site-header nav ul li a:hover {
 }
 .archive-wrap .post-list li a:hover:before {
   content: '...';
-  color: #d9d9d9;
+  color: #white;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   position: absolute;
   margin-left: -70px;
@@ -822,7 +822,7 @@ header.site-header nav ul li a:hover {
 }
 .archive-wrap .post-list li a:before {
   content: '“';
-  color: #d9d9d9;
+  color: white;
   position: absolute;
   margin-left: -70px;
   font-size: 60px;
