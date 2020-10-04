@@ -927,7 +927,7 @@ color: white;
   margin-bottom: 16.5px;
 }
 .post figure figcaption {
-  font-size: 32px;
+  font-size: 22px;
   font-family: "appleultimapixelmedium", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -1674,6 +1674,9 @@ footer .social ul li:last-child {
     display: block;
     margin: 0 auto;
     float: none;
+  }
+  .post figure {
+  margin: 22px 0;
   }
   .hero-text img {
     width:325px;
