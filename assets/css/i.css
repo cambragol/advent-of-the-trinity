@@ -927,7 +927,7 @@ color: white;
   margin-bottom: 16.5px;
 }
 .post figure figcaption {
-  font-size: 32px;
+  font-size: 24px;
   font-family: "appleultimapixelmedium", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -1369,6 +1369,9 @@ footer {
   font-size: 22px;
   color: #f9f9f9;
   position: relative;
+  background-image: url(https://cambragol.github.io/advent-of-the-trinity/images/goldborder.jpg);
+  background-repeat: repeat-x;
+  background-position-y:top;
 }
 footer section {
   display: inline;
