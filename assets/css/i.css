@@ -1369,7 +1369,7 @@ footer {
   font-size: 22px;
   color: #f9f9f9;
   position: relative;
-  background-image: url(https://cambragol.github.io/advent-of-the-trinity/images/goldborder.jpg);
+  background-image: url({{ site.url }}/images/goldborder.jpg);
   background-repeat: repeat-x;
   background-position-y:top;
 }
