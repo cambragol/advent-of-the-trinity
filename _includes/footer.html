@@ -13,7 +13,7 @@
 	      	    	<ol class="prev-posts">
 	{% for post in site.posts %}
 
-              		{% for comment in site.data.comments[page.slug] %}
+              		{% for comment in site.data.comments[page.slug] | limit:3 sort %}
                 		{% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
               		{% endfor %}
   	{% endfor %}
