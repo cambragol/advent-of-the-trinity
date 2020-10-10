@@ -13,7 +13,7 @@
 	    
 	    <ol class="prev-posts">
         <p class="list-title">Recent Posts</p>
-	    {% assign comments = site.data.comments[page.slug] | sort limit:3 %}
+	    {% assign comments = site.data.comments[page.slug] | limit:3 %}
 
               {% for comment in comments %}
                 {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
