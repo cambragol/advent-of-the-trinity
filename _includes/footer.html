@@ -13,6 +13,9 @@
 	      
 	      <ol class="prev-posts">
 	        {% for post in site.posts limit:50 %}
+              {% if site.data.comments[page.slug] %}
+              <h3 class="page__comments-title">{{ site.data.comments[page.slug] | size }} {{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h3>
+            
             {% assign comments = site.data.comments[page.slug] | sort %}
 
               {% for comment in comments %}
