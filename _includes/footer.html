@@ -9,7 +9,7 @@
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
         {% endfor %}	  
-	</ol>
+	<!--</ol>
 	      {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
 	    	<ol class="prev-posts">
 		  <p class="list-title">Recent Posts</p>
@@ -18,10 +18,10 @@
                 			{% include comment_recent.html index=forloop.index email=email name=name url=url date=date message=message %}
 				{% endfor %}
 
-		</ol>
-
+		</ol>-->
+	    </ol>
 		    
-     <!-- <div class="social">
+     <div class="social">
         <ul>
             <li><a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link">Contact Me</span></a></li>
 
@@ -37,7 +37,7 @@
 	    <li><a href="https://www.moddb.com/mods/threat-of-the-trinity" title="View Threat of the Trinity on Mod DB" target="_blank"><img src="https://media.moddb.com/images/global/moddb.png" alt="Threat of the Trinity" /></a></li>
 		
         </ul>
-    </div>-->
+    </div>
     </aside>
     <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme. Augmented with <a href="https://gitlab.com/staticmanlab">Staticmanlab</a></small>
   </footer>
