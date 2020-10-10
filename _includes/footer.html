@@ -8,7 +8,15 @@
               <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
-        {% endfor %}	  
+        {% endfor %}
+	      
+	      
+	      <ol class="prev-posts">
+	        {% for post in site.posts limit:50 %}
+  			{{ site.data.comments[post.slug] | size }}
+  		{% endfor %}
+	      </ol>
+	      
 	<!--</ol>
 	      {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
 	    	<ol class="prev-posts">
