@@ -15,7 +15,7 @@
         <p class="list-title">Recent Posts</p>
 
               {% for comment in comments %}
-                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
+                {% include comment_recent.html index=forloop.index email=email name=name url=url date=date message=message %}
               {% endfor %}
 	</ol>
 
