@@ -21,10 +21,8 @@
 		    
 		    
 		    <p class="list-title">Recent Posts</p>
-            {% assign comments = site.data.comments[page.slug] | sort %}
               {% for comment in comments | limit:3 %}
                 {% include comment_recent.html index=forloop.index email=email name=name url=url date=date message=message %}
-              {% endfor %}
 	{% endfor %}
 
 	</ol>
