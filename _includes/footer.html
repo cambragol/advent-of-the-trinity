@@ -10,25 +10,7 @@
             </li>
         {% endfor %}
 	      
-	      
-	      <ol class="prev-posts">
-	        {% for post in site.posts limit:50 %}
-              {% if site.data.comments[page.slug] %}
-              <h3 class="page__comments-title">{{ site.data.comments[page.slug] | size }} {{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h3>
-            
-            {% assign comments = site.data.comments[page.slug] | sort %}
-
-              {% for comment in comments %}
-                {% assign email = comment[1].email %}
-                {% assign name = comment[1].name %}
-                {% assign url = comment[1].url %}
-                {% assign date = comment[1].date %}
-                {% assign message = comment[1].message %}
-                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-              {% endfor %}
-            {% endif %}
-		    {% endfor %}
-	      </ol>
+	     
 	      
 	<!--</ol>
 	      {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
