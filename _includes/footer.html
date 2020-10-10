@@ -12,9 +12,8 @@
 	      
 	      	    	<ol class="prev-posts">
 	{% for post in site.posts %}
-		{% assign comments = site.data.comments[page.slug] | sort %}
 
-              		{% for comment in comments %}
+              		{% for comment in site.data.comments[page.slug] %}
                 		{% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
               		{% endfor %}
   	{% endfor %}
