@@ -1,10 +1,10 @@
 <article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
   <div class="comment__avatar-wrapper">
-      {% unless include.email == 'griffon_academy@yahoo.ca' %}
+      <!--{% unless include.email == 'griffon_academy@yahoo.ca' %}
         <img class="comment__avatar" src="https://avatars1.githubusercontent.com/u/5019739?s=460&u=fc06d65732c1089330a27696534035c0854f27ed&v=4" alt="{{ include.name }}">
-      {% else %}
+      {% else %}-->
         <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=80" alt="{{ include.name }}">
-      {% endunless %}
+      <!--{% endunless %}-->
   </div>
   <div class="comment__content-wrapper">
     <h4 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
