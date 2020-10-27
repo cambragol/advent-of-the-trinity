@@ -20,14 +20,14 @@ I have never had good luck with 'online' projects, so I venture into this with t
 
 That being said, here are some things to consider before volunteering yourself to be a Beta Tester.
 
-Please don't apply if you have a middling/passing interest in the project and/or Ultima IV.
-Please don't apply if you just want to get early access to the game.
-Please don't apply if you are not prepared to do some actual work as a beta tester.
-Please don't apply if you want to have a pure experience with the game, as beta testing will spoil it.
+* Please don't apply if you have a middling/passing interest in the project and/or Ultima IV.
+* Please don't apply if you just want to get early access to the game.
+* Please don't apply if you are not prepared to do some actual work as a beta tester.
+* Please don't apply if you want to have a pure experience with the game, as beta testing will spoil it.
 
-Please do apply if you love Ultima IV.
-Please do apply if you would really like to help this project get finished.
-Please do apply if you are ready to abide by my conditions
+* Please do apply if you love Ultima IV.
+* Please do apply if you would really like to help this project get finished.
+* Please do apply if you are ready to abide by my conditions
 
 What are the conditions? Well, mostly that you give me feedback on bugs, play/balance, quests/dialogue issues etc. But also that you keep your access to the game strictly confidental and do not redistribute the beta in any way to other people. 
 
