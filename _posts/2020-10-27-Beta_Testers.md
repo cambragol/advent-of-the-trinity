@@ -33,7 +33,7 @@ What are the conditions? Well, mostly that you give me feedback on bugs, play/ba
 
 I would like Threat of the Trinity to be released once, not in multiple iterations (version 1.01, 1.02, 1.11, 1.12 etc.), just like it would be in say, 1986. Once it is out the door, no bug fixes. It is just done. That's it. Finito.
 
-If you are interested then contact me through this site's contact link at the bottom of this page. In your email please incliude your age, profession, and estimated free time possible to donate to the effort, as well as any relevent experience with bug hunting, beta testing, or coding. A good knowledge of the working aspects/gameplay of Ultima IV would be good to mention too.
+If you are interested then contact me through this site's contact link at the bottom of this page. In your email please include your age, profession, and estimated free time possible to donate to the effort, as well as any relevent experience with bug hunting, beta testing, or coding. A good knowledge of the working aspects/gameplay of Ultima IV would be good to mention too.
 
 When or if I have any volunteers, I will contact them through email, and/or announce the failure/success to procure any here.
 
