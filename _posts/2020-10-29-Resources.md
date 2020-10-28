@@ -19,7 +19,7 @@ I have built up a few resources while working on this website, and 'feelies' for
 First up is a template for the Ultima IV AppleII/C64 box. I have converted much of it to vectors, for nice printing. The image for the cover is the best I could currently find, though it has a sticker on it, and took a lot of work to get it presentable. I can't scan my own, as it is my kids, and they havenrendered it, er...well used. Maybe if someone can lend me a higer res scan of a pristine copy, I could incorporate it into this template. This template was made as an intermediary stage in creating a template for the Threat of the Trinity box.
 
 <figure>
-	<img class="ScrollRev" alt="Ultima IV Box" data-tilt src="{{ site.url }}/art/box_base.png"><a url="{{ site.url }}/art/box_base.pdf"></img>
+	<a url="{{ site.url }}/art/box_base.pdf"><img class="ScrollRev" alt="Ultima IV Box" data-tilt src="{{ site.url }}/art/box_base.png"><a url="{{ site.url }}/art/box_base.pdf" /></a>
 	<figcaption>The lid of the C64/Apple II box</figcaption>
 </figure>
 
