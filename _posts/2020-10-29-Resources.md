@@ -23,6 +23,18 @@ First up is a template for the Ultima IV AppleII/C64 box. I have converted much 
 	<figcaption>The lid of the C64/Apple II box</figcaption>
 </figure>
 
+These are two fonts I used for the website. They are taken directly, pixel by pixel from Ultima IV AppleII. They are not complete fonts, of course, but I added a few characters to make them useful for basic stuff.
+
+<figure>
+	<a href="{{ site.url }}/assets/css/ultimapixel-ultimawebfont.ttf"><img class="ScrollRev" alt="UltimaPixel" data-tilt src="{{ site.url }}/images/ultimapixel.png" /></a>
+	<figcaption>UltimaPixel</figcaption>
+</figure>
+
+<figure>
+	<a href="{{ site.url }}/assets/css/appleultimapixel-webfont.ttf"><img class="ScrollRev" alt="AppleUltimaPixel" data-tilt src="{{ site.url }}/images/appleultimapixel.png" /></a>
+	<figcaption>AppleUltimaPixel</figcaption>
+</figure>
+
 
 
 
