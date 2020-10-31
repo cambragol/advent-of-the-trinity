@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beta Testers Needed
-description: I am looking for a several Beta Testers to put the game through its paces
+description: I am looking for several Beta Testers to put the game through its paces
 category: articles
 comments: true
 tags: [Ultima IV, Beta, Testers]
