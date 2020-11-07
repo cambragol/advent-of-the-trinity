@@ -17,6 +17,7 @@ mockup:
   - [x] All chest trap types working
   - [x] No more infinite Mystic Weaps/Armor
   - [x] Hythloth bug fixed
+  - [x] Missing Lord British dialogue fixed
   - [x] Ship instant repair bug fixed
   - [x] Camping at sea bug fixed
   - [x] Omni-tavern bug fixed
