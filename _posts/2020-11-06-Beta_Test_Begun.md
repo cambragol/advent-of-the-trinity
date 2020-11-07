@@ -46,7 +46,7 @@ That is all changed now, with spawning now being determined realistically by the
 
 The result is a MUCH harder start, with a slow reduction over time as the player moves past simple combat, and onto the more important tasks of becoming the Avatar, etc. Further, this also allows the land to have a dynamic change occur to it, as the wild early days slowly evolve into a realm of peace, thanks to the actions and examples of the Avatar.
 
-Being able to 'effect' the land, and see the fruits of ones labor is fun. Also, the early game is where we can tolerate lots of battles. Later, at least in my play throughs, you reach a point where you don't want to be attacked by little groups of two-bit orcs and rogues 6 times while travelling between every town. This new spawing system lets those types of attacks fade away, so the end game can be focused more on the final quest of the avatar. In fact, those mobs will learn to fear you, and may eve flee rather than engage in combat with the reknowned Avatar.
+Being able to 'effect' the land, and see the fruits of ones labor is fun. Also, the early game is where we can tolerate lots of battles. Later, at least in my play throughs, you reach a point where you don't want to be attacked by little groups of two-bit orcs and rogues 6 times while travelling between every town. This new spawing system lets those types of attacks fade away, so the end game can be focused more on the final quest of the avatar. In fact, those mobs will learn to fear you, and may even flee rather than engage in combat with the reknowned Avatar.
 
 <figure>
 	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/flee_skeleton.gif" />
