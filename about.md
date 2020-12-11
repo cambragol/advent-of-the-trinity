@@ -35,6 +35,7 @@ mockup:
   - [x] New Caves and Mines
   - [x] New World Region (Underdeep)
   - [x] New Shops and Merchants
+  - [x] New Shipwrights
   - [x] New Major Quests 
   - [x] New Side Quests 
   - [x] New Virtue Trackers 
