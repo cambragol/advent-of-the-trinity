@@ -44,6 +44,25 @@
 
 }
 </style>
+	
+<style>
+    .hero-text {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+    }
+    .hero-text .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .hero-text:hover .img-top {
+        display: inline;
+    }
+</style>
 
 <!--<link rel="stylesheet" href="{{ site.url }}/assets/css/slider.css" media="all">-->
 
