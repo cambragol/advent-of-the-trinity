@@ -3,7 +3,7 @@ layout: post
 title: Random Encounters
 description: Random Encounters have been added, but do they mess with the default too much?
 category: articles
-comments: true
+comments: false
 tags: [Ultima IV, Ultima 4, add-on, encounters, new, graphics, Fallout]
 date: 2019-07-06
 image: 
