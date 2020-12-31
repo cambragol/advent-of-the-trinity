@@ -16,7 +16,7 @@ The Beta teams is making their way through full play-throughs of the game. And i
 
 <!--more-->
 
-The new balance for spawns and combat got a lot of testing in as well. Definitely harder, lots of death, but now, according to their feedback, it is a decent challenge, and requires a little more tactical thought, and adherence to the advice in the History of Britannia, as well as that provided by Lord British in game. I think the balance is getting good, but certainly leans far to side of 'difficult', when compared with the default game.
+The new balance for spawns and combat got a lot of testing in as well. Definitely harder, lots of death, but now, according to their feedback, it is a decent challenge, and requires a little more tactical thought, and adherence to the advice in the History of Britannia, as well as that provided by Lord British in game. I think the balance is getting good, but it certainly doesn't scale to your level, when compared with the default game.
 
 A few things were added to deal with certain aspects of the balance, and one was the addition of buyable ships, just like in Ultima V. There are working shopwrights in game, and for thousands of gold you can buy a ship. You can also just take one from pirates still, but sometimes there is money burning a hole in your pocket, and pirates needing of some pirating are few and far between.
 
