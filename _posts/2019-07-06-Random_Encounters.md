@@ -10,9 +10,6 @@ image:
         feature: book_4.jpg
 ---
 
-<p><a href="https://api.gh-polls.com/poll/01ETYZSEKQABDN5CXSQ1J411P6/Inns%20need%20a%20rebalance/vote"><img src="https://api.gh-polls.com/poll/01ETYZSEKQABDN5CXSQ1J411P6/Inns%20need%20a%20rebalance" alt=""></a>
-<a href="https://api.gh-polls.com/poll/01ETYZSEKQABDN5CXSQ1J411P6/Inns%20don&#39;t%20need%20a%20rebalance/vote"><img src="https://api.gh-polls.com/poll/01ETYZSEKQABDN5CXSQ1J411P6/Inns%20don&#39;t%20need%20a%20rebalance" alt=""></a></p>
-
 While fooling about with town/dungeon styles for the 'mine' sprite, I thought about using some of the original 'camps' I made when first starting this 'mod' as the base of random encounters.
 
 I managed to get the code working very easily, really low cost, with a potential for lots of fun payoff. The Random Encounters work similar to those in Fallout 1, where they are random and unpredictable, but usually allow some kind of conversation with an NPC. These are not random battle encounters, which would just be frustrating (not being able to avoid them), the likes of which I have seen in many JRPGs.
