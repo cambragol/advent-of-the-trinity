@@ -54,6 +54,7 @@ mockup:
   - [x] Diagonal attacks
   - [x] New Spawning rules
   - [x] Variable Battle maps
+  - [x] Terrain based combat bonuses
   - [x] Terrain based Camp maps
   - [x] Virtue based NPC reactions
   - [x] Variable NPC personalities
