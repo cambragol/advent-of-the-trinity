@@ -28,6 +28,8 @@ mockup:
   - [x] Buggy Ankh and Lord combat sprites fixed
   - [x] Missing Sacrifice gain fixed
   - [x] Attackable chests bug fixed
+  - [x] Phantom Pirate ships bug fixed
+  - [x] Pre-slept Monsters bug fixed
   - [x] Shop dialogue bugs/errors
   - [x] Other Small fixes
   
