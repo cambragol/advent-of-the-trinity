@@ -19,6 +19,10 @@ I have built up a few resources while working on this website, and 'feelies' for
 
 First up is a template for the Ultima IV AppleII/C64 box. I have converted much of it to vectors, for nice printing. The image for the cover is the best I could currently find, though it has a sticker on it, and took a lot of work to get it presentable. I can't scan my own, as it is my kids, and they havenrendered it, er...well used. Maybe if someone can lend me a higer res scan of a pristine copy, I could incorporate it into this template. This template was made as an intermediary stage in creating a template for the Threat of the Trinity box.
 
+UPDATE
+
+I have fixed up my own box scan and added it to the cover layout. This is much higher resolution, and should be suitable for printing for actual boxes. So now you can reproduce the top of the Ultima IV box in close to 'original' form.
+
 <figure>
 	<a href="{{ site.url }}/Art/box_base.pdf"><img class="ScrollRev" alt="Ultima IV Box" data-tilt src="{{ site.url }}/Art/box_base.png" /></a>
 	<figcaption>The lid of the C64/Apple II box</figcaption>
@@ -36,6 +40,11 @@ These are two fonts I used for the website. They are taken directly, pixel by pi
 	<figcaption>AppleUltimaPixel</figcaption>
 </figure>
 
+Here is a touched up map I am working on. I am hoping to eventually clean this up enough so that it could be used to print new maps onto cloth.
+<figure>
+	<a href="{{ site.url }}/Art/Ultima_IV_Map_Hi_Res.png"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Map_Low_Res.png" /></a>
+	<figcaption>Ultima IV Map</figcaption>
+</figure>
 
 
 
