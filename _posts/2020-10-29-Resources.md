@@ -3,6 +3,7 @@ layout: post
 title: Resources
 description: I have created some Ultima IV related resources that may be of interest to others.
 category: articles
+permalink: /resources.html
 comments: true
 tags: [Ultima IV, Resources]
 date: 2020-10-29
