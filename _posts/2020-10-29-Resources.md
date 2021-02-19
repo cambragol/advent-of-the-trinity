@@ -36,6 +36,11 @@ These are two fonts I used for the website. They are taken directly, pixel by pi
 	<figcaption>AppleUltimaPixel</figcaption>
 </figure>
 
+Here is a touched up map I am working on. I am hoping to eventually clean this up enough so that it could be used to print new maps onto cloth.
+<figure>
+	<a href="{{ site.url }}/Art/Ultima_IV_Map_Hi_Res.png"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Map_Low_Res.png" /></a>
+	<figcaption>Ultima IV Map</figcaption>
+</figure>
 
 
 
