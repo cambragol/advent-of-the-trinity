@@ -44,6 +44,7 @@ mockup:
   - [x] New Side Quests 
   - [x] New Virtue Trackers 
   - [x] More than a hundred new Characters
+  - [x] Random Encounters
   - [x] New, powerful Artifacts
   - [x] 2nd levels for all Towns
   - [x] Multi-level Castles
@@ -62,7 +63,6 @@ mockup:
   - [x] Variable NPC personalities
   - [x] More accurate Port of Apple II original
   - [x] Expanded NPC conversations (reduced scope)
-  - [x] Random Encounters (reduced scope)
   - [x] Many, many more small additions
   
 ### Other Highlights
