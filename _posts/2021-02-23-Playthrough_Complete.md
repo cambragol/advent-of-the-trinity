@@ -53,5 +53,5 @@ So, still some work to go through. But the beta testers are a real dedicated bun
 
 One last bit of relatively sad news would be that the possiblity of 'feelies' for a release of this addon has faded away to almost nothing. I reached out to a few artists here and there, and did not receive any positive replies. I don't think I can make a box-cover without Loubet artwork, so, unless I mash together some of his works, there will be no real box with feeelies. Really too bad, as I have done a good chunk of work on getting things ready for such a possibility.
 
-I added a few of these things in the ['resource']()https://cambragol.github.io/advent-of-the-trinity/resources) page as found in the link at the top of the page. Check 'em out!
+I added a few of these things in the ['resource'](https://cambragol.github.io/advent-of-the-trinity/resources) page as found in the link at the top of the page. Check 'em out!
 
