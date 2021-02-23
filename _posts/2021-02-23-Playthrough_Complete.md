@@ -25,11 +25,11 @@ That task is now done. The beta testers all took nearly the same length of time,
 
 The last few stages of the game revealed a number of bugs, that it turns out were default bugs that are present in many versions of the games, but were not reported previously. It looks like our beta testers cast a little more careful gaze over the content of the game, enough to reveal one small, and one substantial bug, one previously reported bug.
 
-The small bug causes creatures that have been slept to carry over their sleep state to an adjacent room on that room's initialization. Not a big deal, but in certain places in the abyss, it pops up. That is fixed now.
+* The small bug causes creatures that have been slept to carry over their sleep state to an adjacent room on that room's initialization. Not a big deal, but in certain places in the abyss, it pops up. That is fixed now.
 
-The larger bug involves several dungeon rooms in the Abyss where a trigger was to reveal a room ful of daemons. However, the daemons never moved, and the player can pass through the rooms unmolested. Obviously not what was intended in the abyss.
+* The larger bug involves several dungeon rooms in the Abyss where a trigger was to reveal a room ful of daemons. However, the daemons never moved, and the player can pass through the rooms unmolested. Obviously not what was intended in the abyss.
 
-The previously reported bug occured in the 'Bay of the Abyss' where the player is attacked by multiple pirate ships. The bug causes the attacking ships to manifest as pirate ships in the combat map, rather than pirates aboard another ship. The 'ships' also cannot move, which means the possibility of a 'soft' lock if the player cannot take them out with ranged weapons/spells. This bug is fixed now.
+* The previously reported bug occured in the 'Bay of the Abyss' where the player is attacked by multiple pirate ships. The bug causes the attacking ships to manifest as pirate ships in the combat map, rather than pirates aboard another ship. The 'ships' also cannot move, which means the possibility of a 'soft' lock if the player cannot take them out with ranged weapons/spells. This bug is fixed now.
 
 <figure>
 	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/pirates_bug.png" />
@@ -53,5 +53,5 @@ So, still some work to go through. But the beta testers are a real dedicated bun
 
 One last bit of relatively sad news would be that the possiblity of 'feelies' for a release of this addon has faded away to almost nothing. I reached out to a few artists here and there, and did not receive any positive replies. I don't think I can make a box-cover without Loubet artwork, so, unless I mash together some of his works, there will be no real box with feeelies. Really too bad, as I have done a good chunk of work on getting things ready for such a possibility.
 
-I added a few of these things in the 'resource' page as found in the link at the top of the page. Check 'em out!
+I added a few of these things in the ['resource']()https://cambragol.github.io/advent-of-the-trinity/resources) page as found in the link at the top of the page. Check 'em out!
 
