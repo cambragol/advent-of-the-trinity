@@ -70,7 +70,8 @@ sass:
 staticman:
 api: "https://staticmantrinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
 #staticman_url: "https://staticmantrinity.herokuapp.com/v2/entry/github/cambragol/advent-of-the-trinity/master/comments"
- 
+path: "_data/comments/{options.slug}"
+
  
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
