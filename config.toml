@@ -1,6 +1,6 @@
 [params.staticman]
   enabled             = false
-  api                 = "https://staticmantrinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"  # No Trailing Slash
+  api                 = "https://staticmantrinity.herokuapp.com/v2/entry/github/cambragol/advent-of-the-trinity/master/comments"  # No Trailing Slash
   gitProvider         = "github"
   username            = "cambragol"
   repo                = "cambragol/advent-of-the-trinity"
