@@ -68,7 +68,8 @@ sass:
     
 # Staticman comments (full configuration in staticman.yml)
 staticman:
-api: "https://staticman3.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
+api: "https://staticmantrinity2.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
+
  
  
 # https://github.com/mojombo/jekyll/wiki/Permalinks
