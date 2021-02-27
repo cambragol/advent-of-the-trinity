@@ -7,6 +7,14 @@ home: https://cambragol.github.io/advent-of-the-trinity
 repository: "cambragol/advent-of-the-trinity"
 excerpt_separator: <!--more-->
 
+
+# Staticman comments (full configuration in staticman.yml)
+staticman:
+api: "https://staticmantrinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
+#staticman_url: "https://staticmantrinity.herokuapp.com/v2/entry/github/cambragol/advent-of-the-trinity/master/comments"
+path: "_data/comments/{options.slug}"
+
+
 # Owner/author information
 owner:
   name:           Cambragol
@@ -65,12 +73,7 @@ kramdown:
 
 sass:
     style: :compressed
-    
-# Staticman comments (full configuration in staticman.yml)
-staticman:
-api: "https://staticmantrinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
-#staticman_url: "https://staticmantrinity.herokuapp.com/v2/entry/github/cambragol/advent-of-the-trinity/master/comments"
-path: "_data/comments/{options.slug}"
+   
 
  
 # https://github.com/mojombo/jekyll/wiki/Permalinks
