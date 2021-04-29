@@ -32,6 +32,7 @@ mockup:
   - [x] Pre-slept Monsters bug fixed
   - [x] Shop dialogue bugs/errors
   - [x] Inn Encounter bug fixed
+  - [x] Talking Chest bug fixed
   - [x] Other Small fixes
   
   
