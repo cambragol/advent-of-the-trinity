@@ -32,6 +32,7 @@ mockup:
   - [x] Pre-slept Monsters bug fixed
   - [x] Shop dialogue bugs/errors
   - [x] Other Small fixes
+  - [x] Inn Encounter bug fixed
   
 ### New Features
   - [x] New Hamlets and Towers
