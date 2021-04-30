@@ -41,6 +41,7 @@ mockup:
   - [x] New Hamlets and Towers
   - [x] New Dungeons (Crypts)
   - [x] New Caves and Mines
+  - [x] New Huts and Wilderness Inns
   - [x] New World Region (Underdeep)
   - [x] New Shops and Merchants
   - [x] New Shipwrights
