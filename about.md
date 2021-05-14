@@ -35,6 +35,7 @@ mockup:
   - [x] Shop dialogue bugs/errors
   - [x] Inn Encounter bug fixed
   - [x] Talking Chest bug fixed
+  - [x] All known dialogue bugs fixed
   - [x] Other Small fixes
   
   
