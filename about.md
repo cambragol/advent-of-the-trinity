@@ -29,6 +29,7 @@ mockup:
   - [x] Missing Sacrifice gain fixed
   - [x] Attackable chests bug fixed
   - [x] Money Overflow bug fixed
+  - [x] Disappearing Horse bug fixed
   - [x] Phantom Pirate ships bug fixed
   - [x] Pre-slept Monsters bug fixed
   - [x] Shop dialogue bugs/errors
@@ -46,9 +47,10 @@ mockup:
   - [x] New Shops and Merchants
   - [x] New Shipwrights
   - [x] New Major Quests 
+  - [x] New Minor Quests
   - [x] New Side Quests 
   - [x] New Virtue Trackers 
-  - [x] More than a hundred new Characters
+  - [x] More than one hundred new Characters
   - [x] Random Encounters
   - [x] New, powerful Artifacts
   - [x] 2nd levels for all Towns
@@ -59,6 +61,7 @@ mockup:
   - [x] Ultima V style Active Player
   - [x] Ultima V style reagent mixing
   - [x] Ultima V style directional search
+  - [x] Town Saving
   - [x] Diagonal attacks
   - [x] New Spawning rules
   - [x] Variable Battle maps
