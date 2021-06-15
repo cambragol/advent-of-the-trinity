@@ -51,16 +51,16 @@ Some new resources:
 Apple II/C64 Disk Labels:
 
 <figure>
-	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_AB.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_AB.pdf" /></a>
-	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_CD.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_CD.pdf" /></a>
+	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_AB.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_AB.png" /></a>
+	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_CD.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_Apple_CD.png" /></a>
 	<figcaption>Ultima IV Apple II/C64 Disk Labels</figcaption>
 </figure>
 
 DOS Disk Labels:
 
 <figure>
-	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_A.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_A.pdf" /></a>
-	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_B.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_B.pdf" /></a>
-	<figcaption>Ultima IV Apple II/C64 Disk Labels</figcaption>
+	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_A.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_A.png" /></a>
+	<a href="{{ site.url }}/Art/Ultima_IV_Disk_Label_B.pdf"><img class="ScrollRev" alt="Ultima IV Map" data-tilt src="{{ site.url }}/Art/Ultima_IV_Disk_Label_B.png" /></a>
+	<figcaption>Ultima IV DOS Disk Labels</figcaption>
 </figure>
 
