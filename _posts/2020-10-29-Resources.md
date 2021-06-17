@@ -6,7 +6,7 @@ category: articles
 permalink: /resources
 comments: true
 tags: [Ultima IV, Resources]
-date: 2021-06-18
+date: 2020-10-28
 image: 
         feature: book_2.jpg
 ---
