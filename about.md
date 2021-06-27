@@ -36,6 +36,7 @@ mockup:
   - [x] Inn Encounter bug fixed
   - [x] Talking Chest bug fixed
   - [x] Yes/No Escape bug fixed
+  - [x] Edge of World bugs fixed
   - [x] All known dialogue bugs fixed
   - [x] Other Small fixes
   
