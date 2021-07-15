@@ -64,3 +64,16 @@ DOS Disk Labels:
 	<figcaption>Ultima IV DOS Disk Labels</figcaption>
 </figure>
 
+Ultima IV Mini-mods and Patches:
+
+<a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix" title="Download Hythloth Fix - Mod DB" target="_blank"><img style="width: 260px" src="https://button.moddb.com/download/medium/140849.png" alt="Hythloth Fix" /></a>
+
+<a href="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11" title="Download Ultima IV: Dragon 1.1 - Mod DB" target="_blank"><img src="https://button.moddb.com/download/medium/201644.png" alt="Ultima IV: Dragon 1.1" /></a>
+
+<a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo" title="Download Ultima IV Solo Patch - Mod DB" target="_blank"><img src="https://button.moddb.com/download/medium/144796.png" alt="Ultima IV Solo Patch" /></a>
+
+Direct local links for above files:
+
+[Hyloth Patch](https://github.com/cambragol/ultima-IV-trinity/blob/master/assets/HYTHLOTH.DNG?raw=true)
+
+[Dragon Mod](https://github.com/cambragol/advent-of-the-trinity/raw/master/Dragon_1.1.zip)
