@@ -66,12 +66,11 @@ DOS Disk Labels:
 
 Ultima IV Mini-mods and Patches:
 
-<iframe width="560" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix/widget" frameborder="0"></iframe><br><a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix">Download Hythloth Fix - Mod DB</a>
+<iframe width="680" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix/widget" frameborder="0"></iframe><br>
 
-<iframe width="560" height="180" src="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11/widget" frameborder="0"></iframe><br><a href="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11">Download Ultima IV: Dragon 1.1 - Mod DB</a>
+<iframe width="680" height="180" src="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11/widget" frameborder="0"></iframe><br>
 
-<iframe width="560" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo/widget" frameborder="0"></iframe><br><a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo">Download Ultima IV Solo Patch - Mod DB</a>
-
+<iframe width="680" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo/widget" frameborder="0"></iframe><br>
 
 Direct local links for above files:
 
