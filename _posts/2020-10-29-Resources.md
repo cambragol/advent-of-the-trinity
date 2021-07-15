@@ -66,11 +66,13 @@ DOS Disk Labels:
 
 Ultima IV Mini-mods and Patches:
 
-*	<a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix" title="Download Hythloth Fix - Mod DB" target="_blank"><img style="width: 260px" src="https://button.moddb.com/download/medium/140849.png" alt="Hythloth Fix" /></a>
-
-*	<a href="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11" title="Download Ultima IV: Dragon 1.1 - Mod DB" target="_blank"><img style="width: 260px" src="https://button.moddb.com/download/medium/201644.png" alt="Ultima IV: Dragon 1.1" /></a>
-
-*	<a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo" title="Download Ultima IV Solo Patch - Mod DB" target="_blank"><img style="width: 260px" src="https://button.moddb.com/download/medium/144796.png" alt="Ultima IV Solo Patch" /></a>
+<table>
+    <tr>
+        <td><a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix" title="Download Hythloth Fix - Mod DB" target="_blank"><img style="width: 260px" src="https://button.moddb.com/download/medium/140849.png" alt="Hythloth Fix" /></a></td>
+	<td><a href="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11" title="Download Ultima IV: Dragon 1.1 - Mod DB" target="_blank"><img style="width: 260px" src="https://button.moddb.com/download/medium/201644.png" alt="Ultima IV: Dragon 1.1" /></a></td>
+	<td><a href="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo" title="Download Ultima IV Solo Patch - Mod DB" target="_blank"><img style="width: 260px" src="https://button.moddb.com/download/medium/144796.png" alt="Ultima IV Solo Patch" /></a></td>
+    </tr>
+</table>
 
 Direct local links for above files:
 
