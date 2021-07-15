@@ -74,6 +74,6 @@ Ultima IV Mini-mods and Patches:
 
 Direct local links for above files:
 
-[Hyloth Patch](https://github.com/cambragol/ultima-IV-trinity/blob/master/assets/HYTHLOTH.DNG?raw=true)
+[Hythloth Patch](https://github.com/cambragol/ultima-IV-trinity/blob/master/assets/HYTHLOTH.DNG?raw=true)
 
 [Dragon Mod](https://github.com/cambragol/advent-of-the-trinity/raw/master/Dragon_1.1.zip)
