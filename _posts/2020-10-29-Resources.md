@@ -66,11 +66,11 @@ DOS Disk Labels:
 
 Ultima IV Mini-mods and Patches:
 
-<iframe width="50%" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix/widget" frameborder="0"></iframe><br>
+<iframe width="100%" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/hythloth-fix/widget" frameborder="0"></iframe><br>
 
-<iframe width="50%" height="180" src="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11/widget" frameborder="0"></iframe><br>
+<iframe width="100%" height="180" src="https://www.moddb.com/mods/ultima-iv-dragon/downloads/dragon-11/widget" frameborder="0"></iframe><br>
 
-<iframe width="50%" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo/widget" frameborder="0"></iframe><br>
+<iframe width="100%" height="180" src="https://www.moddb.com/games/ultima-iv-quest-of-the-avatar/downloads/ultima-iv-solo/widget" frameborder="0"></iframe><br>
 
 Direct local links for above files:
 
