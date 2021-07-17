@@ -943,6 +943,12 @@ color: white;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
+
+.post img.inline {
+  width: 49.5%;
+  display: inline;
+}
+
 .post ul {
   display: block;
   margin-bottom: 33px;
