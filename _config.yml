@@ -10,8 +10,8 @@ excerpt_separator: <!--more-->
 
 # Staticman comments (full configuration in staticman.yml)
 staticman:
-api: "https://staticmantrinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
-#staticman_url: "https://staticmantrinity.herokuapp.com/v2/entry/github/cambragol/advent-of-the-trinity/master/comments"
+api: "https://staticman-trinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
+#staticman_url: "https://staticman-trinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
 path: "_data/comments/{options.slug}"
 
 
@@ -31,7 +31,7 @@ tools:
   software:       "Xcode?"
   
 comments:
-  # provider               : "staticman_v2"
+  # provider               : "staticman_v3"
   path                   : "_data/comments/{options.slug}"
 
 # Open Graph customization
