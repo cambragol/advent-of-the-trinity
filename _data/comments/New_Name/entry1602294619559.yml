@@ -1,0 +1,14 @@
+_id: f39c7310-0a9a-11eb-b90c-efc1887d71a2
+message: >-
+  Looking at your reagent mixing codes, I found a bug in my own that is now
+  fixed. So thanks! (Reagents weren't being restored correctly when mixing with
+  insufficient quantities of one reagent). Unfortunately I had to lose my
+  slightly more verbose approach, which differentiated between 'none left' and
+  'not enough'. Just ran out of code space again. literally can fit one more
+  line to fix any more encountered bugs. So I made need to go through this code
+  again and see if I can't streamline it further.
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1602294619

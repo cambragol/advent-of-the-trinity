@@ -1,0 +1,40 @@
+{% if page.image.feature %}
+
+{% include head_hero.html %}
+
+<section class="article index">
+
+      <div class="hero-text"> 
+    <!--<img src="{{ site.url }}/Art/Ultima_Trinity_New_Logo_4.svg" class="hero_title" onerror="this.src='{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.png'" alt="{{ site.title }}" />-->
+               <!-- <img src="{{ site.url }}/Art/Ultima_Trinity_Flame_Title_no_Animated.png" class="hero_title visible" onerror="this.src='{{ site.url }}/Art/Ultima_Trinity_Flame_Title_no_Animated.png'" alt="{{ site.title }}" />-->
+                <img src="{{ site.url }}/images/Ultima_Trinity_Flame_Title_Animated_Trinity.png" class="hero_title hidden img-top" onerror="this.src='{{ site.url }}/images/Ultima_Trinity_Flame_Title_Animated_Trinity.png'" alt="{{ site.title }}" />
+    <!--<img src="{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.svg" class="hero_title" onerror="this.src='{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.png'" alt="{{ site.title }}" />-->
+    <!--<img src="{{ site.url }}/images/animated_title_small.png" class="hero_title" onerror="this.src='{{ site.url }}/images/animated_title.png'" alt="{{ site.title }}" />-->
+
+    </div>
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})">
+
+  </div>
+{% else %}
+
+{% include head-dark.html %}
+
+<section class="article pad-top">
+
+{% endif %}
+  
+
+        
+        {{ content }}
+            
+            
+     
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    </section>
+</div>
+
+{% include footer.html %}

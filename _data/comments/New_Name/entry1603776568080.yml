@@ -1,0 +1,7 @@
+_id: 61b6c580-1815-11eb-ab47-8123a63d745e
+message: "I might have something for you on the 64k limit. But I'm having problems testing it as I don't have enough code. (I've been trying to add a bunch of copy/pasted text but am having problems recreating it still.)\r\n\r\nTL;DR is add some \"far\" keywords to a few functions you don't mind being a bit slower.\r\nExample; https://github.com/ergonomy-joe/u4-decompiled/blob/c2c2108fa3bb346bcd1d8c207c526f33a4c8f5ef/SRC-TITLE/FILE.C#L28\r\nThat should move it up to use some extended memory space.\r\n\r\nYou can read more about it here https://stackoverflow.com/questions/3575592/what-are-near-far-and-huge-pointers\r\nOr here which is where I first read about it https://winworldpc.com/product/microsoft-c-c/40\r\nDownload manuals. Open ms-c-4.0-uguide-1986.pdf and go to page 179.\r\n\r\nIf none of that works maybe read section 3.13  on page 92. It talks more about it."
+name: Fenyx4
+email: f17f101956de5dc76f12ddfe3c180cab
+url: ''
+hidden: ''
+date: 1603776568

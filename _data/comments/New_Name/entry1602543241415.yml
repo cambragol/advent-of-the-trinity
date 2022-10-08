@@ -1,0 +1,7 @@
+_id: d1a7c170-0cdd-11eb-b361-cf8c1b909a91
+message: "Re: Beta Testing\r\nWell, I seem to be spending all my spare time on Ultima 4 or Ultima 4 related stuff... So wouldn't mind adding another thing to the list. So if you do need a beta tester I would be honored to help out. :)\r\n\r\nRe: Active player\r\nI'm planning on tracking down the code that checks for there only being one person in the group and then adding to that logic. Not sure what to do about combat. Maybe add in an auto-pass?\r\n\r\nRe: Mixing\r\nThanks! Glad our solutions match.\r\nYay bug fixing! Glad I kinda helped.\r\n\r\nMan it is crazy that you are riding right on the edge of that limit. It is memory related, right? I am a spoiled modern programmer who hasn't had to worry about how much code is in a program. How do you troubleshoot the problem? Maybe I could help out.\r\nMaybe you've already done this but perhaps I could offload LB's text to a file https://github.com/ergonomy-joe/u4-decompiled/blob/c2c2108fa3bb346bcd1d8c207c526f33a4c8f5ef/SRC/U4_LB.C\r\nWould have been annoying to have loading from diskette when talking to LB back in the day but on modern hardware/DOSBox it wouldn't even be noticed.\r\nNo 100% sure it would actually help as I don't fully understand the limitation yet."
+name: Fenyx4
+email: f17f101956de5dc76f12ddfe3c180cab
+url: ''
+hidden: ''
+date: 1602543241

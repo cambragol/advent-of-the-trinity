@@ -1,0 +1,11 @@
+_id: 04e4b150-0a50-11eb-8656-69486484de26
+message: >-
+  I'll also take a look at my 'active player' code. I can't recall my exact
+  implementation. However, there were lots of finicky, potential bugs/pitfalls.
+  I took two stabs at it, and the second time it came out very nice. I tried to
+  make it work as close to the Ultima V style as possible.
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1602262436

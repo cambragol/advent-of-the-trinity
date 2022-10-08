@@ -1,0 +1,7 @@
+_id: e9fe73b0-d8ec-11ea-b770-a1221f80155e
+message: "Yeah, Random Encounters do sound awesome but the effort to reward ratio sounds way off. I'd rather other stuff get more polish and get the game sooner.\r\n\r\nI haven't started on randomizing towns yet. Trying to stay focused on making a randomized world map feature complete. But I have thought about it!\r\nI definitely need to randomize the rune locations (and items found in towns). Having predefined prose is a good idea. Maybe I could look at the town maps and select a group of predefined locations for each rune and then have predefined prose for each?\r\nHow many predefined locations for each rune/item would be sufficient to keep players from memorizing the locations and trying them out directly instead of talking to NPCs? 8 feels appropriate but I dunno if I'll be able to find that many! :)\r\n\r\nHrm, yeah, there's probably dozens of places that have hard coded assumptions around the map being the size it is. Heck. It is 256x256. So coordinates are 2 bytes. Doubling it would mean all the coordinates need to be stored in 4 bytes which would change A LOT \r\n nitty gritty code.\r\n\r\nU4 is the Ultima that turned me into an Ultima fan. So nice to have someone to talk to about it. :)"
+name: Fenyx4
+email: 392481c7665ce4bf1fd26bea55944764
+url: ''
+hidden: ''
+date: 1596832264

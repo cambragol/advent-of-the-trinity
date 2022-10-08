@@ -1,0 +1,7 @@
+_id: ac738e20-09ef-11eb-98e4-f3be147f213a
+message: "P.S. I just read through the full new feature list (I feel silly I hadn't clicked the \"About\" yet)\r\nand you have some really nice quality of life fixes.\r\nI'd planned to add active player as an option to my project and already added Ultima V style mixing. But now I'm thinking I should add diagonal attacking too... Hrm...\r\n\r\nI'm really curious if we implemented Ultima V style of mixing the same way I did.\r\nhttps://github.com/Fenyx4/U4DosRandomizer/blob/master/u4_decompile/SRC/U4_MIX.C#L69\r\n\r\nAnd would love any input you have on how you have active player working. I need to figure out a clean enough way to get it working that I can easily turn on and off with a flag in the randomizer.\r\nhttps://github.com/Fenyx4/U4DosRandomizer/issues/29"
+name: Fenyx4
+email: f17f101956de5dc76f12ddfe3c180cab
+url: ''
+hidden: ''
+date: 1602221056

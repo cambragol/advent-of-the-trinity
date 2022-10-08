@@ -1,0 +1,150 @@
+{% if page.image.feature %}
+
+{% include head-landing.html %}
+
+<style>
+.featured-image{
+	  object-fit: cover;
+}
+</style>
+
+<section class="article">
+
+      <div class="hero-text" style="top: 400px;"> 
+	      
+	      
+	   <hgroup>
+            <h1 class="page_title">Who Wants Feelies?</h1>
+            <p class="intro">Box, Booklet, Map, Cards, Trinket, Disks.</p>
+          </hgroup>
+	    <strong>Want a box full of feelies for Threat of the Trinity? Enter your email to join the list of people who do.</strong>
+            <!-- Begin Mailchimp Signup Form -->
+<!--<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">-->
+<div id="mc_embed_signup">
+<form action="https://github.us5.list-manage.com/subscribe/post?u=fa60f13af1dd2d99c43a9a6d0&amp;id=c3a37e248e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fa60f13af1dd2d99c43a9a6d0_c3a37e248e" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--primary btn--super-large"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+	      
+	      	<svg class="arrows">
+		<path class="a1" d="M0 0 L30 32 L60 0"></path>
+		<path class="a2" d="M0 20 L30 52 L60 20"></path>
+		<path class="a3" d="M0 40 L30 72 L60 40"></path>
+		</svg>
+            
+    <!--<img src="{{ site.url }}/Art/Ultima_Trinity_New_Logo_4.svg" class="hero_title" onerror="this.src='{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.png'" alt="{{ site.title }}" />-->
+    <!-- <img src="{{ site.url }}/Art/Ultima_Trinity_Flame_Title_no_Animated.png" class="hero_title visible" onerror="this.src='{{ site.url }}/Art/Ultima_Trinity_Flame_Title_no_Animated.png'" alt="{{ site.title }}" />-->
+                <!--<img src="{{ site.url }}/Art/Ultima_Trinity_Flame_Title_Animated.png" class="hero_title hidden img-top" onerror="this.src='{{ site.url }}/Art/Ultima_Trinity_Flame_Title_Animated.png'" alt="{{ site.title }}" />-->
+    <!--<img src="{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.svg" class="hero_title" onerror="this.src='{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.png'" alt="{{ site.title }}" />-->
+    <!--<img src="{{ site.url }}/images/animated_title_small.png" class="hero_title" onerror="this.src='{{ site.url }}/images/animated_title.png'" alt="{{ site.title }}" />-->
+
+    </div>
+      
+  <div class="overlay big"></div>
+  <video autoplay="" muted="" loop="" class="featured-image big">
+  <source src="https://cambragol.github.io/advent-of-the-trinity/images/active_player.mp4" type="video/mp4">
+  </video>
+{% else %}
+
+{% include head-dark.html %}
+
+<section class="article pad-top">
+
+{% endif %}
+  
+      <article class="wrap post wide">
+                        
+        <header class="post-header">
+          <hgroup>
+            <h1 class="page_title">{{ page.title }}</h1>
+            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+          </hgroup>
+        </header>
+
+        
+        {{ content }}
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+            
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.canonical }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      </article>
+	
+	<div class="faq post wide fullwide">
+	
+	<header class="post-header">
+          <hgroup>
+            <h1 class="page_title">Frequently Asked Questions</h1>
+            <p class="intro"></p>
+          </hgroup>
+        </header>
+	
+	<details>
+		<summary>Will you need the original Ultima IV to play this?</summary>
+  <p>Yes. Threat of the Trinity is an addon for the DOS version of Ultima IV Quest of the Avatar. A full installation of the original game will be required to play.</p>
+</details>
+	
+<details>
+  <summary>Are you making a profit on this?</summary>
+  <p>No. I am making no profit whatsoever, and have contributed all my free time to this project. If feelies are produced I will only be using contributors money to have boxes, booklets etc. printed and shipped, and will keep nothing for myself.</p>
+</details>
+
+<details>
+  <summary>Will save games from Ultima IV be compatible?</summary>
+  <p>Yes. Save games from the original Ultima IV will be fully compatible with Threat of the Trinity. Saves made in Threat of the Trinity will also be compatible with the original DOS Ultima IV.</p>
+</details>
+
+<details>
+  <summary>Can this be played on MacOS? Or Windows?</summary>
+  <p>Yes. It will be installable and playable anywhere you can run DosBox, or most DOS emulators.</p>
+</details>
+
+<details>
+  <summary>Will Threat of the Trinity change the Quest of the Avatar?</summary>
+  <p>No. The quests in Threat of the Trinity will not change the main quest, except to refresh some locations. The quests of Threat of the Trinity will compliment and augment Quest of the Avatar, but are not required to be completed to finish the game.</p>
+</details>
+
+<details>
+  <summary>When will this be done?</summary>
+  <p>It will be done when it is done.</p>
+</details>
+
+	</div>
+	
+	
+	<div class="post signup">
+	<strong>Intertested in feelies for Threat of the Trinity? Enter your email to join the list of people who are.</strong>
+            <!-- Begin Mailchimp Signup Form -->
+</style>
+<div id="mc_embed_signup">
+<form action="https://github.us5.list-manage.com/subscribe/post?u=fa60f13af1dd2d99c43a9a6d0&amp;id=c3a37e248e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fa60f13af1dd2d99c43a9a6d0_c3a37e248e" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--primary btn--super-large"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+	</div>
+	
+    </section>
+</div>
+
+{% include footer.html %}

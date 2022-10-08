@@ -1,0 +1,7 @@
+_id: 63986940-c84a-11eb-a4f4-0b27797edf98
+message: "Hi Timeless,\r\n\r\nLet's see...Spell recipes were not altered at all, so spellbook versus NPC reveal recipes should still work. Not touched, but not tested. I'll check it out to be sure.\r\n\r\nAs for multiple copes of the spell automatically using the more efficient formula...hmm..I didn't program it that way. I'll check nonetheless, again to be sure.\r\n\r\nMy hope for no post release bug fixes is a hope of course. It is also a good reason why the bug fixing is taking so long. So far though, we have found and plugged more bugs than I never new existed, mostly in the original game. A few in Trinity for certain, but not many recently, and no crashes or game breakers. It's looking good!"
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1623150739

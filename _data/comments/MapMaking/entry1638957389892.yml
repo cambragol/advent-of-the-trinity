@@ -1,0 +1,7 @@
+_id: 1db4a580-580d-11ec-aa08-472b00e643fb
+message: "Sure!\r\n\r\nWe discovered a very rare case where a 'hit' mark, denoting a miss by an NPC, would appear in a random location on the combat map. \r\n\r\nIt was very rare though, only showing up a handful of times for me, and beta-testers alike. So, very tricky to narrow down and test. I tried to first tweak things to increase the chance of it happening, but nothing seemed to achieve that. Then I went though the code, tracking any and all code that could place a dot on the screen. I found a huuuuge error in one of my functions, which had only two variables being called, rather than the three the function was expecting. I strongly suspect that was the culprit, and we are now testing to see if I was correct. So far I have tested about 60-70  battles and have not seen the bug again. Just waiting for the Beta-testers to report in.\r\n\r\nThe function in question is part of a slight tweak to how combat/hits are calculated. Now the 'level' of the attacker is factored in, so lower level creatures have less of a chance to hit the player, and higher level creatures a greater chance. In OG Ultima IV, the creature attacking has no impact on the 'hit' calculation. A small tweak, but brings a little more realism, and makes combat with tougher creatures...tougher."
+name: Cambragol
+email: griffon_academy@yahoo.ca
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1638957389

@@ -1,0 +1,115 @@
+<section class="cd-product">
+    <div class="cd-product-intro post">
+        <h1>Alpha Demo v2</h1>
+        <p> 
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+
+            This is a tech demo only, and contains no actual mod content. Take it for a spin, note any game-breaking bugs with a comment below.
+            <!--An Addon for Ultima IV for Dos-->
+        </p>
+        <div class="cd-triggers">
+            <!--<a href="#0" class="cd-btn">Download</a>-->
+            <a href="#cd-product-tour" id="cd-start" class="cd-btn">Start Demo</a>
+        </div>
+    </div>
+    <!-- cd-product-intro -->
+
+    <div id="cd-product-tour" class="cd-product-mockup swiper-slide">
+            <canvas id="jsdos" width="640" height="320" style="width: 963px; height: 601.883px; background-color: #c7c7c7;"></canvas>
+            <button class="fullscreen" onclick="ci.fullscreen()">
+                <svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%"><g class="ytp-fullscreen-button-corner-0"><use class="ytp-svg-shadow" xlink:href="#ytp-id-25"></use><path class="ytp-svg-fill" d="m 10,16 2,0 0,-4 4,0 0,-2 L 10,10 l 0,6 0,0 z" id="ytp-id-25"></path></g><g class="ytp-fullscreen-button-corner-1"><use class="ytp-svg-shadow" xlink:href="#ytp-id-26"></use><path class="ytp-svg-fill" d="m 20,10 0,2 4,0 0,4 2,0 L 26,10 l -6,0 0,0 z" id="ytp-id-26"></path></g><g class="ytp-fullscreen-button-corner-2"><use class="ytp-svg-shadow" xlink:href="#ytp-id-27"></use><path class="ytp-svg-fill" d="m 24,24 -4,0 0,2 L 26,26 l 0,-6 -2,0 0,4 0,0 z" id="ytp-id-27"></path></g><g class="ytp-fullscreen-button-corner-3"><use class="ytp-svg-shadow" xlink:href="#ytp-id-28"></use><path class="ytp-svg-fill" d="M 12,20 10,20 10,26 l 6,0 0,-2 -4,0 0,-4 0,0 z" id="ytp-id-28"></path></g></svg>
+            </button>
+        <!--<img src="images/mockup_ani.gif" alt="Preview image" />-->
+        <!-- mockup image -->
+
+        <!-- points of interest -->
+      <!-- <ul class="cd-points-container">
+            <li class="cd-single-point">
+                <a class="cd-img-replace" href="#0">More info</a>
+                <div class="cd-more-info cd-left">
+                    <h2>New Towns</h2>
+                    <p>
+                        Many new villages to discover, situated in regions near and far. New townsfolk to speak with, quests to uncover and shops to peruse. </p>
+                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                </div>
+            </li>
+            <li class="cd-single-point">
+                <a class="cd-img-replace" href="#0">More info</a>
+                <div class="cd-more-info cd-left">
+                    <h2>Equipment</h2>
+                    <p>
+                        Lots of new items and equipment. In fact, whole categories of items to be found and collected! Collect 'em all!</p>
+                    </p>
+                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                </div>
+            </li>
+            <li class="cd-single-point">
+                <a class="cd-img-replace" href="#0">More info</a>
+                <div class="cd-more-info cd-right">
+                    <h2>Moonphases</h2>
+                    <p>
+                        The moons of Trammel and Felucca were having their phases saved in the original game. Now they are being restored as well!
+                    </p>
+                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                </div>
+            </li>
+            <li class="cd-single-point">
+                <a class="cd-img-replace" href="#0">More info</a>
+                <div class="cd-more-info cd-right">
+                        <h2><s>New Oracles</s></h2>
+                    <p>
+                        <s>Oracles have mysteriously appeared in the lands. What is their secret, why have they appeared, and what is their connection to the virtues?</s> </p>
+                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                </div>
+            </li>
+            <li class="cd-single-point">
+                <a class="cd-img-replace" href="#0">More info</a>
+                <div class="cd-more-info cd-left">
+                    <h2>Dungeons</h2>
+                    <p>
+                        New and deviously dangerous dungeons to explore. Can you find your way through them, or even out? Your avatar will be pushed to his limit.</p>
+                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                </div>
+            </li>
+            <li class="cd-single-point">
+                <a class="cd-img-replace" href="#0">More info</a>
+                <div class="cd-more-info cd-right">
+                    <h2>Mounts</h2>
+                    <p>
+                        Horses are not the only mount you can outfit your party with. Seek out hints to lead you to a mount which will help the Avatar cleanse the lands of evil.</p>
+                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                </div>
+            </li>
+        </ul>-->
+        <!-- points of interest end -->
+
+        <div class="cd-3d-right-side"></div>
+        <div class="cd-3d-bottom-side"></div>
+
+    </div>
+
+    <!-- .cd-product-mockup -->
+    <a href="#0" class="cd-close-product-tour cd-img-replace"></a>
+
+</section>
+<!-- .cd-product -->
+<!--wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-emterp.js"
+            window.ci = ci;
+-->
+
+  <script>
+    Dos(document.getElementById("jsdos"), { 
+        wdosboxUrl: "{{ site.url }}/assets/js/6.22/current/wdosbox-emterp.js"
+    }).ready((fs, main) => {
+      fs.extract("{{ site.url }}/assets/zip/ultima2.zip", "/ultima3").then(() => {
+        main(["-c", "cd ultima3", "-c", "avatar.exe"]).then((ci) => {
+            window.ci = ci;     
+        });
+      });
+    });
+  </script>

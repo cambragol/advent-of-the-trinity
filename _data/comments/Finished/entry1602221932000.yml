@@ -1,0 +1,7 @@
+_id: b6719f00-09f1-11eb-98e4-f3be147f213a
+message: "Better late than never! I am still a little bemused that I managed to finish it. There was a lot to it, and the final 'content' push was hard, with a lot of tedious, methodical passes to weed out bugs, etc. working almost entirely in hex editors.\r\n\r\nFloppies would be cool, but with the new features and content, I don't think it cold fit on a floppy anymore. I gutted all the disk related code, making it pretty near impossible to fit everything onto any kind of floppy. There was a HD format for 3.5 inch floppies, but it seems really rare, and not realistic as a release option.\r\n\r\nBut never say never! \r\n\r\nI also once thought to make a 'Big Box Edtion, the art for which I have already started on, however, without an authentic Denis Loubet cover, it just wouldn't look right.\r\n\r\nAnd yes, yay to the 35th anniversary! (did you see I posted on the exact day of release, 35 years later? Freakish coincidence.)"
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1602221931

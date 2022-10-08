@@ -1,0 +1,13 @@
+_id: ce615c30-c82e-11eb-a8c6-f33c001b2fec
+message: >-
+  You've probably already got this covered, but since you've mentioned not
+  wanting to do any bugfixes after release I'm a little paranoid, I just wanted
+  to check that the updated UI will still allow for non-optimal mixtures (where
+  the spellbook gives one recipe, but some NPC reveals a more economical way),
+  and that mixing multiple copies of a spell won't automatically use the more
+  efficient formulation.
+name: Timeless
+email: 13684ffa155176d09e2b8fc58fefa40b
+url: ''
+hidden: ''
+date: 1623138892

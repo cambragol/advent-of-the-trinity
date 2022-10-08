@@ -1,0 +1,5 @@
+<article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+  <div class="comment__content-wrapper">
+    <div itemprop="text">{{ include.message | markdownify }}</div>
+  </div>
+</article>

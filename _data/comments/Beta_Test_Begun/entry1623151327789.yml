@@ -1,0 +1,7 @@
+_id: c287bc70-c84b-11eb-a4f4-0b27797edf98
+message: "Okay, I went and checked the code, and checked in game as well. \r\n\r\nBoth your concerns are covered. You use exactly the number of reagents that you put in to any spell. It takes them off as you mix, in increments according to the number of spells you are mixing. \r\n\r\nIf you plug in the number for the 'spellbook' formula, it takes off that many. If you plug in the number for the optimal formula, it takes off that many. So no change from default at all, except the convenience of mixing multiple spells at a time.\r\n\r\nLooking at this code now, you might want to take a look back into default Ultima IV and see how things are 'really' being mixed. It is a bit of a deception. Clue: There is only one formula."
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1623151327

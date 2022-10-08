@@ -1,0 +1,7 @@
+_id: 6a05d9e0-f4ad-11eb-8fc0-073c1283540a
+message: "I wrote code to add in the Inn function from Ultima V. You could leave party members at any inn, then pick them up at a later date. I also added code to kick a party member, at which point they would return to their home. Later, if you talked to them again, they would respond accurately and ask if you wished to them to set forth with you.\r\n\r\nHowever, I did not include this code, as it was of no use unless you could add in new/different party members from Ultima IV base. That would have required some extra coding, and could have messed up the save game compatibility with default (which is still 100%).\r\n\r\nSo unfortunately, that code is on the cutting room floor."
+name: Cambragol
+email: c7aa9bacdc0634670cd27b1cb549a71a
+url: 'https://cambragol.github.io/advent-of-the-trinity/'
+hidden: ''
+date: 1628031121

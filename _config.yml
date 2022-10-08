@@ -1,0 +1,86 @@
+title:            Ultima IV - Threat of the Trinity
+tagline:          The first expansion for the original DOS Ultima IV.
+description:      Threat of the Trinity for Ultima IV
+url: "https://cambragol.github.io/advent-of-the-trinity"
+baseurl: ""
+home: https://cambragol.github.io/advent-of-the-trinity
+repository: "cambragol/advent-of-the-trinity"
+excerpt_separator: <!--more-->
+
+
+# Staticman comments (full configuration in staticman.yml)
+staticman:
+api: "https://staticmantrinity.herokuapp.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
+#staticman_url: "https://staticmantrinity.herokuapp.com/v2/entry/github/cambragol/advent-of-the-trinity/master/comments"
+path: "_data/comments/{options.slug}"
+
+
+# Owner/author information
+owner:
+  name:           Cambragol
+  avatar:         https://avatars1.githubusercontent.com/u/5019739?s=460&v=4
+  bio:            "Modding not Coding"
+  email:          griffon_academy@yahoo.ca
+  github:         cambragol
+  disqus:         https-cambragol-github-io-advent-of-the-trinity
+  location:       "Somewhere, Somewhere"
+  # Plug in your disqus shortname!
+
+tools:
+  standards:      "Photoshop, Text editors, Hex Fiend"
+  software:       "Xcode?"
+  
+comments:
+  # provider               : "staticman_v2"
+  path                   : "_data/comments/{options.slug}"
+
+# Open Graph customization
+opengraph:
+  locale:           en_US
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  #- title: Blog
+  #  url: /blog
+  - title: Screenshots
+    url: /screenshots
+  - title: Resources
+    url: /resources
+
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+highlighter: rouge
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+sass:
+    style: :compressed
+   
+
+ 
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+
+theme: jekyll-theme-slate
