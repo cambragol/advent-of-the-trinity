@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 # Staticman comments (full configuration in staticman.yml)
 staticman:
-api: "https://trinity-comments-p1pn.onrender.com/v3/entry/github/cambragol/advent-of-the-trinity/master/comments"
+api: "https://trinity-comments-p1pn.onrender.com/v1/entry/github/cambragol/advent-of-the-trinity/master/comments"
 # staticman_url: "https://trinity-comments-p1pn.onrender.com/v2/entry/github/cambragol/advent-of-the-trinity/master/comments"
 path: "_data/comments/{options.slug}"
 
