@@ -31,7 +31,7 @@ tools:
   software:       "Xcode?"
   
 comments:
-  provider               : "staticman_v2"
+  provider               : "staticman_v3"
   path                   : "_data/comments/{options.slug}"
 
 # Open Graph customization
