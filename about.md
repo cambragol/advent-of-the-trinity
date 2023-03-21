@@ -25,7 +25,7 @@ mockup:
             </span>
         </div>
         <figure class="featureText">
-					<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/major_quests.jpeg" />
+					<img class="ScrollRev" data-tilt src="{{ site.url }}/images/major_quests.jpeg" />
 		
             <figcaption>
                 New Major Quests
