@@ -171,7 +171,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Bug Fixes and Improvements
             </figcaption>
             <p>
-                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Ultima IV experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see below.</a>
+                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Ultima IV experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see below.
             </p>
         </figure>
     </div>
