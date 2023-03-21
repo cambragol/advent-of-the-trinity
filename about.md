@@ -25,7 +25,7 @@ mockup:
             </span>
         </div>
         <figure class="featureText">
-					<img class="ScrollRev" data-tilt src="{{ site.url }}/images/major_quests.jpeg" />
+					<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/major_quests.jpeg" />
 		
             <figcaption>
                 New Major Quests
@@ -171,7 +171,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Bug Fixes and Improvements
             </figcaption>
             <p>
-                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Ultima IV experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see the about page <a href="https://cambragol.github.io/advent-of-the-trinity/about">here</a>
+                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Ultima IV experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see below.</a>
             </p>
         </figure>
     </div>
