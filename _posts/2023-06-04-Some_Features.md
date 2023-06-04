@@ -15,24 +15,37 @@ A playthrough is also happening, and that has been turning up a few more tiny 'b
 
 <!--more-->
 
-Several months later I have found some inspiration, and am working on the art for the journal again. It is leaning less towards art, and a little more towards typography. A little. I am not solid on it yet, but I am carrying forward. We will see how that goes.
+I have a fresh playthrough happening right now, and it has been generating some good feedback. Overall things seem good, balance is good, etc.
 
-The rest of the project is done. Nothing has been going on codewise or bughunting wise, as it is done. It is all (nearly) frozen. I did build an install program which can be run from a floppy (3.5"), and I did add travelling NPCs to towns (which was already in the code), and variations on 'Inn' encounters (which was already in the code as well), to take into account inns which are in the wilderness etc.
+However they have been complaining about a few things. These are complaints that are not actually related to Threat of the Trinity, but are rather complaints aimed toward the original game.
 
-Other than those above things not much else has been happening elsewhere.
+First up was Dungeons. They hated that upon exiting and reentering a room, monsters were restored. Treasure being restored was nice, but the monsters being restored caused a good amount of frustration. Now the rooms can be cleared, though, leaving the dungeon and returning later will make the rooms reinhabited with baddies. Playtesters liked this. How about you?
 
-I will continue on with the Quest Journal. Samples or Screenshots? Not at this time. I will say it leans a little towards the cover of the 'Spell Book' and the 'History of Britannia's' cover borders. So simple. I felt in the end that page after page of lavishly illustrated borders for a glorified notebook, just didn't sit right.
+Next was chests. They've played Ultima V, and loved the weapon/armor/item drops in that game. I had code already created to do this, so with a slight tweak it was applied to chests too. It's rare, but certainly can create some supplementary income. Good or bad?
 
-I will add a screenshot of a new 'Inn' encounter though. Just to add some color to this post.
-<video autoplay="" muted="" loop="" class="ScrollRev">
-  <source src="https://cambragol.github.io/advent-of-the-trinity/images/cleared_rooms.mp4" type="video/mp4">
-</video>
+Rogues. Stealing money right out of your pocket, in the middle of a sword duel. Kill them and the money has mysteriously vanished forever. A hated feature for the playtesters. It is out for now. How's that?
+
+Balrons and Reapers. OHhhhh the endless sleep spells. Hated by the playtesters. I have tweaked this now. They still cast sleep incessantly, however, now they do it strategically. They will stop casting sleep if the whole party is slept, and will instead focus on killing the sleeping PCs at that point.
+
+Disappearing Ships and Horses. This really irked the playtesters. So I have changed the way chests are spawned, so that new chests only replace previously spawned chests, and not horses, ships, balloons etc. This will work fine, until the player fills up the world with spare modes of transportatio, and, well, at that point they will start to disappear again. Shrug.
+
+Inns. What is the use of the 1, 2 or 3 bedroom choice in Minoc? Well, now it matters. Rooms will vary how much they heal the party depending on their size, location, and the number of members (living) of your party. Resting with 7 friends in the Sleep Shop will not be very restful.
+
+Useless spells. 'Energy' came under particular scrutiny here. It appeared to the playtesters to be totally useless. I had to concur, so I have added a bit of a boost to the spell, and individual field's effects. The spell area is larger now, and the effects are differentiated correctly. Default game had no difference between fire and poison effects/damage (except fire not effecting several types of creatures) and sleep wore off very quickly for most creatures. Now fire damages more than poison (though less than before) and creatures can be poisoned and will suffer poison effects each turn. Sleep is a tad more effective. I think these tweaks make Energy a viable spell again. No?
 
 <figure>
-	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/inn_encounter.png" />
-	<figcaption>An Encounter in an Inn</figcaption>
+    <video muted="" loop="" data-tilt class="ScrollRev">
+        <source src="{{ site.url }}/images/cleared_rooms.mp4" type="video/mp4">
+    </video>
+	<figcaption>Clearable Rooms and other stuff</figcaption>
+
 </figure>
 
-PS - I forgot to mention that I turned off commenting a few weeks back, as the spam was getting to be too much. I am going to turn it back on now, but it may only be for a short time, as my comment provider is dropping their free bracket, and implimenting a new comment system is no easy task.
+<figure>
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/Quest Journal Mockup_1.png" />
+	<figcaption>The Quest Journal Mockedup</figcaption>
+</figure>
+
+
 
 
