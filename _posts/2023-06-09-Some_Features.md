@@ -38,14 +38,14 @@ Aside from these changes, around 30-40 very small, mostly aesthetic bugs were fo
 The video below depicts some of the changes mentioned above, in particualry 'clearable' rooms and 'Ultima V' chests.
 
 <figure>
-    <video muted="" loop="" data-tilt class="ScrollRev">
+    <video controls muted="" loop="" data-tilt class="ScrollRev">
         <source src="{{ site.url }}/images/cleared_rooms.mp4" type="video/mp4">
     </video>
 	<figcaption>Clearable Rooms and other stuff</figcaption>
 </figure>
 
 <figure>
-    <video muted="" loop="" data-tilt class="ScrollRev">
+    <video controls muted="" loop="" data-tilt class="ScrollRev">
         <source src="{{ site.url }}/images/energy_spell.mp4" type="video/mp4">
     </video>
 	<figcaption>Energy Spell Strategy</figcaption>
