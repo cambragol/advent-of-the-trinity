@@ -55,16 +55,16 @@ That all being said, the vast majority of work over the past year, which has bee
 
 I thought it would take a year...and it did! It is quite detailed, as far as 'graphics' go, with each page having a style/element/look that syncs up with the whole. Though that being said, it is not really 'illustrated'. There is a lot of room for taking notes, probably more than anyone would ever need. I think it is generic enough to work with Ultima IV, V and perhaps even VI or another similar game. Of course though, it is specifically geared towards Trinity and/or Quest of the Avatar.
 
-I don't want to give too much away, but some kind of a taste of what it has to offer is warranted. So, here is glimpse of what it might look like in a finished/printed form:
+I don't want to give too much away, but some kind of a taste of what it has to offer is warranted. So, here is mockup of what it might look like in a finished/printed form:
 
 <figure>
 	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/New_Book_Mockup.jpg" />
-	<figcaption>The Quest Journal Mockedup</figcaption>
+	<figcaption>The Quest Journal</figcaption>
 </figure>
 
 <figure>
 	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/New_Book_Mockup_2.jpg" />
-	<figcaption>The Quest Journal Mockedup</figcaption>
+	<figcaption>The Quest Journal</figcaption>
 </figure>
 
 
