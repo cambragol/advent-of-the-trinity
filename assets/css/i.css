@@ -997,7 +997,7 @@ color: white;
   font-size: 44px;
   font-weight: normal;
 }
-.post img {
+.post img, .post video {
   width: 100%;
   height: auto;
   display: block;
