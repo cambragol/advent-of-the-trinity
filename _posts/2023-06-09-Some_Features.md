@@ -7,7 +7,7 @@ comments: true
 tags: [Ultima IV, Ultima 4, playthrough, quest journal, features]
 date: 2023-06-09
 image: 
-        feature: new_map_header_2.jpg
+        feature: journal_header.jpg
 ---
 
 Whew. Gasp. So much work done. The Quest Journal took a loooooooong time. It perhaps did not help that it went through 3 completely different art directions, with one being scrapped 1/2 way through. However, in the end, the final version satisfies me, and I think will be aesthetically pleasing to others. In General.
