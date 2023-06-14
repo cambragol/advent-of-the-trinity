@@ -420,8 +420,11 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   - [x] Ultima V style Active Player
   - [x] Ultima V style reagent mixing
   - [x] Ultima V style directional search
+  - [x] Ultima V style Clearable Dungeon rooms
+  - [x] Ultima V style 'Chest Drops'
   - [x] Town Saving
   - [x] Diagonal attacks
+  - [x] Fixed/Improved 'default' Spells
   - [x] New Spawning rules
   - [x] Variable Battle maps
   - [x] Terrain based combat bonuses
@@ -448,6 +451,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   - [x] Passage of the Moons-Trick fixed
   - [x] Energy Spell Dungeon Drilling-Trick fixed
   - [x] Missing Mana in Inns bug fixed
+  - [x] Broken 'Open' spell fixed
   - [x] Buggy Ankh and Lord combat sprites fixed
   - [x] Missing Sacrifice gain fixed
   - [x] Attackable chests bug fixed
