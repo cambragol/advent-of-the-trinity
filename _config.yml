@@ -6,6 +6,11 @@ baseurl: ""
 home: https://cambragol.github.io/advent-of-the-trinity
 repository: "cambragol/advent-of-the-trinity"
 excerpt_separator: <!--more-->
+plugins:
+  - jekyll-feed
+title: Threat of the Trinity Development Blog
+description: Threat of the Trinity aims to produce a complete addon 'module' for the original DOS version of Ultima IV, as close to how it might have appeared in a store in 1986.
+author: Cambragol
 
 
 # Staticman comments (full configuration in staticman.yml)
