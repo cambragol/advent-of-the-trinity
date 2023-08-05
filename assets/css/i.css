@@ -1056,11 +1056,13 @@ color: white;
 .post ol li:last-child {
   margin-bottom: 0;
 }
+.share_para {
+    text-align: center;
+    margin-top: 80px;
+}
 .post .share, .share {
   text-align: center;
-  display: block;
   margin: 0 auto;
-  margin-top: 80px;
   width: 76px;
   font-size: 16px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
