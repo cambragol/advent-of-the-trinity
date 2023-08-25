@@ -2,8 +2,8 @@
 layout: index_page
 permalink: /index.html
 title: Development Blog
-description: This project aims to modify the original DOS Ultima IV to add additional content, via quests, locations, and features.
-tags: [about, ultima iv, mod, dos, addon]
+description: This project aims to modify the original DOS Quest of the Avatar to add additional content, via quests, locations, and features.
+tags: [about, Quest of the Avatar, mod, dos, addon]
 image:
   feature: map_1.jpg
 ---
