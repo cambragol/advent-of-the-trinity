@@ -271,7 +271,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Cloth Map
             </figcaption>
             <p>
-The cloth map was ubiquitous in the Ultima series, and Quest of the Avatar was no exception. So Threat of the Trinity should include one too. A new map for the addon, which will expand ever so slightly on the original, add some missing features, and take its place in the pantheon.
+The cloth map was ubiquitous in the 80s RPG series, and Quest of the Avatar was no exception. So Threat of the Trinity should include one too. A new map for the addon, which will expand ever so slightly on the original, add some missing features, and take its place in the pantheon.
           </p>
 		
 
