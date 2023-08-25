@@ -7,7 +7,7 @@ comments: true
 tags: [Ultima IV, Ultima 4, playthrough, balance, graphics engine]
 date: 2023-08-18
 image: 
-        feature: text_3.jpg
+        feature: book_5.jpg
 ---
 
 Balance testing is a real slog. Nothing creative to be done. Just playthrough again and again. Things are looking good though, and gameplay seems 'better' than I remember it in vanilla. Magic still needs some work though, as a path using spellcasting rather than weapons seems expensive. In the meantime I took a break and attempted to make a new graphics engine.
