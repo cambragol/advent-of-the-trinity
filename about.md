@@ -2,9 +2,9 @@
 layout: page
 permalink: /about.html
 title: About the Project
-description: Threat of the Trinity aims to produce a complete addon 'module' for the original DOS version of Ultima IV, as close to how it might have appeared in a store in 1986. It will add additional content, via quests, locations, and features. It will also avoid altering the original quest content as much as possible, aside from some simple 'refreshment', permitting the game to be completed in the original fashion, whilst still making the new content available. A extensive bug fixes of the original code will also be included. The orignal DOS version of Ultima IV will be required to play Threat of the Trinity.
+description: Threat of the Trinity aims to produce a complete addon 'module' for the original DOS version of Quest of the Avatar, as close to how it might have appeared in a store in 1986. It will add additional content, via quests, locations, and features. It will also avoid altering the original quest content as much as possible, aside from some simple 'refreshment', permitting the game to be completed in the original fashion, whilst still making the new content available. A extensive bug fixes of the original code will also be included. The orignal DOS version of Quest of the Avatar will be required to play Threat of the Trinity.
 
-tags: [about, ultima iv, mod, dos, addon]
+tags: [about, Quest of the Avatar, mod, dos, addon]
 image:
   feature: apple2mode1.png
 mockup:
@@ -171,7 +171,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Bug Fixes and Improvements
             </figcaption>
             <p>
-                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Ultima IV experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see below.
+                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Quest of the Avatar experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see below.
             </p>
         </figure>
     </div>
@@ -195,7 +195,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Multi-story Towns
             </figcaption>
             <p>
-                Nearly every castle, town, village, hamlet, tower, hut and inn now has multiple stories above and below ground. Explore Brittannia in more than two dimensions. The third dimension is here, and will bring a new...depth, to your Ultima IV experience.
+                Nearly every castle, town, village, hamlet, tower, hut and inn now has multiple stories above and below ground. Explore Brittannia in more than two dimensions. The third dimension is here, and will bring a new...depth, to your Quest of the Avatar experience.
             </p>
         </figure>
     </div>
@@ -216,10 +216,10 @@ The Threat of the Trinity presents new major quests, the completion of which is 
 	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/mix_reagents.jpeg" />
 		
             <figcaption>
-                Ultima V Style Features
+                Warriors of Destiny Style Features
             </figcaption>
             <p>
-                Some of the best features of Ultima V, included with Threat of the Trinity now! Mix multiple batches of reagents, use Active Player to more easily explore complex dungeon rooms, and attack and search in any direction around the player.
+                Some of the best features of Warriors of Destiny, included with Threat of the Trinity now! Mix multiple batches of reagents, use Active Player to more easily explore complex dungeon rooms, and attack and search in any direction around the player.
             </p>
         </figure>
     </div>
@@ -250,7 +250,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
             </figcaption>
 
             <p>
-                An old school 'Big Box' scaled to the exact same size as the Apple II and C64 versions of Ultima IV and Ultima V. Beautiful artwork in a new but familiar pattern set the tone for the addon. It will fit perfectly in the shelf between both of its brethren.
+                An old school 'Big Box' scaled to the exact same size as the Apple II and C64 versions of Quest of the Avatar and Warriors of Destiny. Beautiful artwork in a new but familiar pattern set the tone for the addon. It will fit perfectly in the shelf between both of its brethren.
             </p>
 
         </figure>
@@ -271,7 +271,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Cloth Map
             </figcaption>
             <p>
-The cloth map was ubiquitous in the Ultima series, and Ultima IV was no exception. So Threat of the Trinity should include one too. A new map for the addon, which will expand ever so slightly on the original, add some missing features, and take its place in the pantheon.
+The cloth map was ubiquitous in the Ultima series, and Quest of the Avatar was no exception. So Threat of the Trinity should include one too. A new map for the addon, which will expand ever so slightly on the original, add some missing features, and take its place in the pantheon.
           </p>
 		
 
@@ -338,7 +338,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
                 Player Reference Card
             </figcaption>
             <p>
-                Like the Reference Card of Ultima IV and Ultima V, Threat of the Trinity's will be filled with the basic info you need to get going with the game. Heed its advice, and your party will surely prevail against the Threat, and in the Quest.
+                Like the Reference Card of Quest of the Avatar and Warriors of Destiny, Threat of the Trinity's will be filled with the basic info you need to get going with the game. Heed its advice, and your party will surely prevail against the Threat, and in the Quest.
           </p>
 
         </figure>
@@ -417,11 +417,11 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   - [x] New magic system
   - [x] New tiles/sprites
   - [x] New mounts
-  - [x] Ultima V style Active Player
-  - [x] Ultima V style reagent mixing
-  - [x] Ultima V style directional search
-  - [x] Ultima V style Clearable Dungeon rooms
-  - [x] Ultima V style 'Chest Drops'
+  - [x] Warriors of Destiny style Active Player
+  - [x] Warriors of Destiny style reagent mixing
+  - [x] Warriors of Destiny style directional search
+  - [x] Warriors of Destiny style Clearable Dungeon rooms
+  - [x] Warriors of Destiny style 'Chest Drops'
   - [x] Town Saving
   - [x] Diagonal attacks
   - [x] Fixed/Improved 'default' Spells
@@ -468,10 +468,10 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   - [x] Other Small fixes
   
 ### Other Highlights
-  - [x] Saved games are compatible with vanilla Ultima IV
+  - [x] Saved games are compatible with vanilla Quest of the Avatar
   
 ## Credits and Thanks
   * All credit goes to ergonomy-joe for making this possible, thanks to his u4-decompiled.
   * James Van Artsdalen for the conversion to C for Dos
   * George Stepan for the town and world editors
-  * Lord British for the greatness that is Ultima IV
+  * Lord British for the greatness that is Quest of the Avatar
