@@ -51,7 +51,7 @@ Some new resources:
 Apple II icons and graphics (for use with XU4 or other remakes)
 
 <figure>
-	<a href="{{ site.url }}/Art/appleIImode.jpg"><img class="ScrollRev inline" alt="Quest of the Avatar Map" data-tilt src="{{ site.url }}/Art/appleII.zip" /></a>
+	<a href="{{ site.url }}/Art/appleII.zip"><img class="ScrollRev inline" alt="Quest of the Avatar Apple II Graphics" data-tilt src="{{ site.url }}/Art/appleIImode.jpg" /></a>
 	<figcaption>Quest of the Avatar Apple II Graphics</figcaption>
 </figure>
 
