@@ -48,6 +48,13 @@ Here is a touched up map I am working on. I am hoping to eventually clean this u
 
 Some new resources:
 
+Apple II icons and graphics (for use with XU4 or other remakes)
+
+<figure>
+	<a href="{{ site.url }}/Art/appleIImode.jpg"><img class="ScrollRev inline" alt="Quest of the Avatar Map" data-tilt src="{{ site.url }}/Art/appleII.zip" /></a>
+	<figcaption>Quest of the Avatar Apple II Graphics</figcaption>
+</figure>
+
 Apple II/C64 Disk Labels:
 
 <figure>
