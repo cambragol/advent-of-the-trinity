@@ -6,7 +6,7 @@ category: articles
 permalink: /resources
 comments: true
 tags: [Quest of the Avatar, Resources]
-date: 2020-10-28
+date: 2023-09-02
 image: 
         feature: book_2.jpg
 ---
@@ -51,7 +51,7 @@ Some new resources:
 Apple II icons and graphics (for use with XU4 or other remakes)
 
 <figure>
-	<a href="{{ site.url }}/Art/appleII.zip"><img class="ScrollRev inline" alt="Quest of the Avatar Apple II Graphics" data-tilt src="{{ site.url }}/Art/appleIImode.jpg" /></a>
+	<a href="{{ site.url }}/Art/appleII.zip"><img class="ScrollRev" alt="Quest of the Avatar Apple II Graphics" data-tilt src="{{ site.url }}/Art/appleIImode.jpg" /></a>
 	<figcaption>Quest of the Avatar Apple II Graphics</figcaption>
 </figure>
 
