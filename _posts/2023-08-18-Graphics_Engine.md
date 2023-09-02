@@ -39,6 +39,10 @@ Whelp, back to 'work'.
 
 I managed to get the new graphics 'engine' working. It is ready for actual graphics to be made and plugged in. However, the engine is a little ... slow. It takes a millisecond to draw all he images it will need. Depending on the CPU speed dosbox is being run at, the engine ranges from unusable to perfectly snappy. However the point at which it runs 'snappily' is a little higher than I usually play the game at, and far above what it was originally run at. I guess I will take a stab at improving its performance...
 
+### update 2
+
+I tweaked the engine, and now have blistering speed. Maybe even faster than the 3D engine. However, in doing so I upped the required number of tiles needed to build the graphics. The number of tiles has pushed past 255, which is more than can be held by the graphics driver. I now need to find ways to reduce the number of tiles used, or increase the number I can use, otherwise I will have to shelve this little side project.
+
 
 
 
