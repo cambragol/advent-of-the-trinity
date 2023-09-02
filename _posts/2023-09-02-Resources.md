@@ -2,7 +2,7 @@
 layout: post
 title: Resources
 description: I have created some Quest of the Avatar related resources that may be of interest to others.
-category: articles
+category: resources
 permalink: /resources
 comments: true
 tags: [Quest of the Avatar, Resources]
