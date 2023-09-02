@@ -5,7 +5,7 @@ description: Balance testing and Playthrough is dry, so I distracted myself with
 category: articles
 comments: true
 tags: [Ultima IV, Ultima 4, playthrough, balance, graphics engine]
-date: 2023-08-18
+date: 2023-09-02
 image: 
         feature: book_5.jpg
 ---
