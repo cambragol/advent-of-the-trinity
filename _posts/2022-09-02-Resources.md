@@ -5,7 +5,7 @@ description: I have created some Quest of the Avatar related resources that may 
 permalink: /resources
 comments: true
 tags: [Quest of the Avatar, Resources]
-date: 2023-09-02
+date: 2022-09-02
 image: 
         feature: book_2.jpg
 ---
