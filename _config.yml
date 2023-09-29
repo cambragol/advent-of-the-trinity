@@ -1,6 +1,6 @@
-title:            Ultima IV - Threat of the Trinity
-tagline:          The first expansion for the original DOS Ultima IV.
-description:      Threat of the Trinity for Ultima IV
+title:            Threat of the Trinity
+tagline:          The first expansion for the original DOS Quest of the Avatar.
+description:      Threat of the Trinity for Quest of the Avatar
 url: "https://cambragol.github.io/advent-of-the-trinity"
 baseurl: ""
 home: https://cambragol.github.io/advent-of-the-trinity
@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 plugins:
   - jekyll-feed
 title: Threat of the Trinity Development Blog
-description: Threat of the Trinity aims to produce a complete addon 'module' for the original DOS version of Ultima IV, as close to how it might have appeared in a store in 1986.
+description: Threat of the Trinity aims to produce a complete addon 'module' for the original DOS version of Quest of the Avatar, as close to how it might have appeared in a store in 1986.
 author: Cambragol
 
 
@@ -25,7 +25,7 @@ owner:
   name:           Cambragol
   avatar:         https://avatars1.githubusercontent.com/u/5019739?s=460&v=4
   bio:            "Modding not Coding"
-  email:          griffon_academy@yahoo.ca
+  email:          mail@ccpit-disputes.com.cn
   github:         cambragol
   disqus:         https-cambragol-github-io-advent-of-the-trinity
   location:       "Somewhere, Somewhere"
