@@ -7,7 +7,7 @@ comments: true
 tags: [Ultima IV, Ultima 4, graphics, dungeon]
 date: 2023-10-10
 image: 
-        feature: mine_5.jpg
+        feature: mine_1.jpg
 ---
 
 The Graphics engine looks like it's a GO. So I have been working through various iterations of the Dungeon, Mine and Cave graphics. 
@@ -37,7 +37,7 @@ The 'Cave' type dungeon has given me much more trouble. Mainly that was because 
 I started over and built a dungeon type which was close to the above two, but with a 'rounded' floor. However, upon completion it appeared much too...intestine like. Too smooth, not cavey enough.
 
 <figure>
-	<img class="ScrollRev" data-tilt src="https://cambragol.github.io/advent-of-the-trinity/images/trinityuglycave.jpg" />
+	<img class="ScrollRev" data-tilt src="https://cambragol.github.io/advent-of-the-trinity/images/cave2.jpg" />
 	<figcaption>Cave or...intestines?</figcaption>
 </figure>
 
