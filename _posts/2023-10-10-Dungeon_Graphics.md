@@ -30,7 +30,7 @@ The 'Cave' type dungeon has given me much more trouble. Mainly that was because 
 </figure>
 
 <figure>
-	<img class="ScrollRev" data-tilt src="https://cambragol.github.io/advent-of-the-trinity/images/appleIIcave.jpg" />
+	<img class="ScrollRev" data-tilt src="https://cambragol.github.io/advent-of-the-trinity/images/appleIIcave.png" />
 	<figcaption>This, equals blah.</figcaption>
 </figure>
 
