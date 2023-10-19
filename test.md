@@ -402,10 +402,10 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
             </p>
         </figure>
     </div>
-    
 
-    
-{% for comment in site.data.comments | limit:3 %}
+     {% if site.data.comments | limit:3 %} 
+
+
                
             <li>    
               <span class="recent-title">
