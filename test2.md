@@ -85,9 +85,3 @@ In any case, we shall see.
 
 Current step: Finish the book, prepare all items for physical production.
 
-        {% for data in site.data | limit:3 %} <!-- for1 -->
-            <li>    
-              <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
-              <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
-            </li>
-        {% endfor %}
