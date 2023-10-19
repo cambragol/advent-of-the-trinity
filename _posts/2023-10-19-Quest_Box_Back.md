@@ -62,7 +62,7 @@ Or adding a border to the text:
 
 I am not sure what will work best. The original text has a border which may have been slightly transparent, but simulating that would mean removing the original blurry text border on all the words, otherwise if I apply a transparent border, the flaws of the orginal will show through and throw off any hope of cleaned up perfection.
 
-In any case it is done. Just have to decide with font style to go with. I will be adding the final files to my 'resources' section in the next few days.
+In any case it is done. Just have to decide which font style to go with. I will be adding the final files to my 'resources' section in the next few days.
 
 
 
