@@ -406,7 +406,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
     
 
-                {% if site.data.comments | limit:3%}
+                {% if site.data.comments | limit:3 %}
 
        <!-- {% for comment in site.data.comments[post_slug] | limit:3 %} --><!-- for1 -->
             <li>    
