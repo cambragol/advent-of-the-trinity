@@ -404,7 +404,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     </div>
 
 
-            {% assign comments = site.data.comments[page.slug] | sort %}
+            {% assign comments = site.data.comments | sort %}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
