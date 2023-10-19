@@ -417,7 +417,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
                 {% include comment.html index=forloop.index email=email name=name url=url date=date message=message avatar_test=avatar_test %}
               {% endfor %}
-            {% endif %}
 
     
 {% for comment in site.data.comments | limit:3 %}
