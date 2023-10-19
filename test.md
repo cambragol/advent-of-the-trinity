@@ -406,15 +406,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
             {% assign comments = site.data.comments | sort %}
 
-
-    
-{% for comment in site.data.comments | limit:3 %}
-
-
-            {% assign comments2 = site.data.comments.comment | sort %}
-
-
-              {% for comment in comments2 %}
+              {% for comment in comments %}
                 {% assign email = comment[1].email %}
                 {% assign name = comment[1].name %}
                 {% assign url = comment[1].url %}
@@ -424,6 +416,14 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
                 {% include comment.html index=forloop.index email=email name=name url=url date=date message=message avatar_test=avatar_test %}
               {% endfor %}
+
+    
+{% for comment in site.data.comments | limit:3 %}
+
+
+
+
+
 
                
             <li>    
