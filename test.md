@@ -405,10 +405,8 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     
 
     
-{% for comment in site.data.comments %}
-               <!-- {% if site.data.comments | limit:3 %} -->
-
-       <!-- {% for comment in site.data.comments[post_slug] | limit:3 %} --><!-- for1 -->
+{% for comment in site.data.comments | limit:3 %}
+               
             <li>    
               <span class="recent-title">
 	      <h4 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
