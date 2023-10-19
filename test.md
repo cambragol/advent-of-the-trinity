@@ -409,8 +409,29 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     
         {% for data in site.data | limit:3 %} <!-- for1 -->
             <li>    
-              <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
-              <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
+              <span class="recent-title">
+	      <h4 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+      {% unless include.url == blank %}
+        <span itemprop="name"><a rel="external nofollow" itemprop="url" href="{{ include.url }}">{{ include.name }}</a></span>
+      {% else %}
+        <span itemprop="name">{{ include.name }}</span>
+      {% endunless %}
+    </h4>
+
+       
+       </span>
+              <span class="date">
+	      
+       <p class="comment__date">
+      {% if include.date %}
+        {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
+        <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+        {% if include.index %}</a>{% endif %}
+      {% endif %}
+    </p>
+
+       
+       </span>
             </li>
         {% endfor %}
     
