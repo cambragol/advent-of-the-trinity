@@ -16,7 +16,7 @@ image:
             <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
           </hgroup>
         </header>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:5 %}
     <h2>
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
     </h2>
