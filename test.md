@@ -407,7 +407,12 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     
 
     
-
+        {% for data in site.data | limit:3 %} <!-- for1 -->
+            <li>    
+              <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
+              <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
+            </li>
+        {% endfor %}
     
 
   
