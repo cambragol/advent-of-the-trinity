@@ -410,7 +410,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   {% for comments in site.data.comments %}
 {% assign comment = comments[1] %}
 
-  {% for comet in comment | sort: "date" %}
+  {% for comet in comment | sort: "name" %}
 
                 {% assign name = comet[1].name %}
                 {% assign date = comet[1].date %}
