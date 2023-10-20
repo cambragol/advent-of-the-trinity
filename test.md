@@ -403,22 +403,19 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
         </figure>
     </div>
 
-    {% assign recentposts = "" | split: ',' %}
+{% assign recentposts = "" | split: ',' %}
 
 
-  {% for comments in site.data.comments %}
+{% for comments in site.data.comments %}
 
 	{% assign comment = comments[1] %}
 
-  {% for comet in comment | sort: "date" %}
+  		{% for comet in comment %}
 
+ 			 {% assign recentposts = recentposts | push: comet %}
+     			{% assign recentposts = recentposts | sort: "date" %}
 
-
-
-
-  {% assign recentposts = recentposts | push: comet %}
-
-  {% endfor %}
+  		{% endfor %}
 
 {% endfor %}
 
