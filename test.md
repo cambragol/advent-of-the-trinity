@@ -424,9 +424,9 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
   {% for comet in comment %}
 
-                {% assign name = coment[1].name %}
-                {% assign date = coment[1].date %}
-                {% assign message = coment[1].message %}
+                {% assign name = comet[1].name %}
+                {% assign date = comet[1].date %}
+                {% assign message = comet[1].message %}
 
     <li>{{ comet.name }}, {{ comet.date }}, {{ comet.message }}</li>
 
