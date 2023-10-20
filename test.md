@@ -404,6 +404,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     </div>
 
 {% assign recentposts = "" | split: ',' %}
+{% assign sorted = "" | split: ',' %}
 
 
 {% for comments in site.data.comments %}
