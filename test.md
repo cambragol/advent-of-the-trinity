@@ -424,8 +424,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 {% endfor %}
 
-{% recentposts | sort:"date" | join: ", " %}
-
 {% for comet in recentposts %}
 
 		{% assign name = comet[1].name %}
