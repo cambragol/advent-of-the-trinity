@@ -404,7 +404,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     </div>
 
 {% assign recentposts = "" | split: ',' %}
-{% assign sorted = "" | split: ',' %}
 
 
 {% for comments in site.data.comments %}
@@ -414,13 +413,12 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   		{% for comet in comment %}
 
  			 {% assign recentposts = recentposts | push: comet %}
-     			{% assign sorted = recentposts | sort: "date" %}
 
   		{% endfor %}
 
 {% endfor %}
 
-{% for comet in sorted %}
+{% for comet in recentposts %}
 
 		{% assign name = comet[1].name %}
                 {% assign date = comet[1].date %}
