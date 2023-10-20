@@ -407,7 +407,11 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   {% for subcategory in entry.subcategories %}
     {% for item in subcategory.items %}
 
-        	<li>{{ item.name }}, {{ item.date | date: "%B %d, %Y at %I:%M %p" }}, {{ item.message }}</li>  
+		{% assign name = item[1].name %}
+                {% assign date = item[1].date %}
+                {% assign message = item[1].message %}
+		
+        	<li>{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</li>  
 	 
 	 {% endfor %}
   {% endfor %}
