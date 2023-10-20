@@ -418,7 +418,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 
 
-  {% assign recentposts = recentposts | push: comet | date_sort %}
+  {% assign recentposts = recentposts | push: comet | sort: "date" %}
 
   {% endfor %}
 
