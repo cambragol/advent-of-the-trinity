@@ -404,7 +404,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     </div>
 
 
-            {% assign comments = site.data.comments | sort %}
+            {% assign comments = site.data.comments[*] | sort %}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
@@ -413,45 +413,10 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
                 {% assign date = comment[1].date %}
                 {% assign message = comment[1].message %}
                 {% assign avatar_test = comment[1].avatar_test %}
-
+                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message avatar_test=avatar_test %}
 
               {% endfor %}
 
-    
-{% for comment in site.data.comments limit:40 %}
-
-
-                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message avatar_test=avatar_test %}
-
-
-
-               
-            <li>    
-              <span class="recent-title">
-	      <h4 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-      {% unless include.url == blank %}
-        <span itemprop="name"><a rel="external nofollow" itemprop="url" href="{{ include.url }}">{{ include.name }}</a></span>
-      {% else %}
-        <span itemprop="name">{{ include.name }}</span>
-      {% endunless %}
-    </h4>
-
-       
-       </span>
-              <span class="date">
-	      
-       <p class="comment__date">
-      {% if include.date %}
-        {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
-        <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
-        {% if include.index %}</a>{% endif %}
-      {% endif %}
-    </p>
-
-       
-       </span>
-            </li>
-        {% endfor %}
     
 
   
