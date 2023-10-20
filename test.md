@@ -403,15 +403,17 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
         </figure>
     </div>
 
-{% assign recentposts = "" | split: ',' %}
 
 
 {% for entry in site.data.entries %}
   {% for subcategory in entry.subcategories %}
     {% for item in subcategory.items | sort: "date" %}
 
-      {% assign recentposts = recentposts | push: item %}
+		{% assign name = item[1].name %}
+                {% assign date = item[1].date %}
+                {% assign message = item[1].message %}
 
+        	<li>{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</li>
     
 	
 	 
@@ -419,15 +421,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   {% endfor %}
 {% endfor %}
     
-    {% for item in recentposts | sort: "date" %}
-
-		{% assign name = item[1].name %}
-                {% assign date = item[1].date %}
-                {% assign message = item[1].message %}
-
-        	<li>{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</li>
-
-{% endfor %}
 
 
 </div>
