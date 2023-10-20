@@ -428,7 +428,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
                 {% assign date = comet[1].date %}
                 {% assign message = comet[1].message %}
 
-    <li>{{ comet.name }}, {{ comet.date }}, {{ comet.message }}</li>
+    <li>{{ name }}, {{ date }}, {{ message }}</li>
 
   {% endfor %}
 
