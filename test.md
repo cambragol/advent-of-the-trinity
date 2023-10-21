@@ -418,7 +418,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 {% endfor %}
 
-{% assign recentposts2 = recentposts | shuffle %}
+{% assign recentposts2 = recentposts | shufflehh %}
 
 
 {% for comet in recentposts2 %}
