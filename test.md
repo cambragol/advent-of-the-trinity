@@ -436,7 +436,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
                 {% assign date = comet[1].date %}
                 {% assign message = comet[1].message %}
 
-  {% if datetest | plus: 10 > now %}
+  {% if datetest > now %}
         	<li>{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</li>
   {% endif %}
   
