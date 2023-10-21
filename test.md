@@ -404,8 +404,8 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
     </div>
 
 {% for entry in site.data.entries %}
-  {% for subcategory in entry.subcategories %}
-    {% for item in subcategory.items %}
+  {% for subcategory in entry %}
+    {% for item in entry[1] %}
 
 		{% assign name = item[1].name %}
                 {% assign date = item[1].date %}
