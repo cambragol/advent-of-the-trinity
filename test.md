@@ -412,7 +412,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
   		{% for comet in comment %}
 
- 			 {% assign recentposts = recentposts | push: comet %}
+ 			 {% assign recentposts = recentposts | push: comet | sort: 'date' | reverse %}
 
   		{% endfor %}
 
