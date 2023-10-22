@@ -424,7 +424,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 {% endfor %}
 
 
-{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
+{% capture now %}{{'now' | date: "%s" | minus : 604800 | date: "%b %d, %Y %I:%M %p -0500" | url_encode | replace:"+","%20"}}{% endcapture %}
   
 
 {% for comet in recentposts %}
