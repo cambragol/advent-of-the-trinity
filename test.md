@@ -426,17 +426,23 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 {% capture now %}{{'now' | date: "%s" | minus : 6048000 }}{% endcapture %}
 
+{% assign count = 0 %}
+
 
 {% for comet in recentposts %}
 
-		{% assign name = comet[1].name %}
                 {% assign date = comet[1].date %}
+		    {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
+
+		{% assign name = comet[1].name %}
                 {% assign message = comet[1].message %}
 
-    {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
 
   {% if datetest > now | limit: 3 %}
+  	{% assign count = count | plus: 1 %}
+   		{% if count < 4 %}
         	<li>{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</li>
+	 	{% endif %}
   {% endif %}
   
 {% endfor %}
