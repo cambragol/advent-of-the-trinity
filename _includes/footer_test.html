@@ -44,7 +44,7 @@
 
 
 
-		{% for comet[1] in recentposts | sort: 'date' | limit:3 %}
+		{% for comet in recentposts | sort: 'date' | limit:3 %}
 
 		{% assign name = comet[1].name %}
                 {% assign message = comet[1].message %}
