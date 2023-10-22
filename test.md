@@ -1,5 +1,5 @@
 ---
-layout: landingpage2
+layout: landingpage2_test
 permalink: /test.html
 title: Tell Me More About...
 description:
