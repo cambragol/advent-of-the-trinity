@@ -59,7 +59,7 @@
 
             <li>    
               <span class="recent-title"><a href="{{ url }}#static-comments" title="{{ name }}">{{ message | strip_html | strip_newlines | truncate: 30 }} </a></span>
-              <span class="date">{{ date | date: "%B %d, %Y at %I:%M %p" }}</span>
+              <span class="date">{{ date | date: "%b %d, %Y" }}</span>
             </li>
         
 	 	{% endif %}
