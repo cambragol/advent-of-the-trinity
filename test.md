@@ -413,7 +413,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 
 
-  		{% for comet in comment %}
+  		{% for comet in comment | sort: date %}
                 {% assign date = comet[1].date %}
 
 		<li>{{ date }}</li>
@@ -426,7 +426,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 {% endfor %}
 
-{% for comet in recentposts | sort: date %}
+{% for comet in recentposts %}
 
 	
                 {% assign date = comet[1].date %}
