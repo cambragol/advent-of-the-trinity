@@ -414,8 +414,9 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 
   		{% for comet in comment %}
+                {% assign date = comet[1].date %}
 
-		<li>{{ comet.date }}</li>
+		<li>{{ date }}</li>
 
    
  			 {% assign recentposts = recentposts | push: comet %}
