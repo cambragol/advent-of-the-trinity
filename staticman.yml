@@ -21,7 +21,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "{@timestamp}entry"
+  filename: "{@date:YYYY-MM-DD}-{fields.title}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
@@ -35,7 +35,7 @@ comments:
     date:
       type: date
       options:
-        format: "iso8601"
+        format: "timestamp-seconds"
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
