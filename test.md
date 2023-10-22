@@ -417,6 +417,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 
 			{% assign comet.url = comment.url %}
+   			<li>{{ comet.url }}</li>
    
  			 {% assign recentposts = recentposts | push: comet %}
 
