@@ -42,7 +42,7 @@
 {% assign count = 0 %}
 
 
-{% for comet in recentposts %}
+{% for comet in recentposts | sort:"date" | limit:3 %}
 
                 {% assign date = comet[1].date %}
 		    {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
@@ -52,9 +52,7 @@
                 {% assign url = comet[1].url %}
 
 
-  {% if datetest > now %}
-  	{% assign count = count | plus: 1 %}
-   		{% if count < 4 %}
+
 
 
             <li>    
@@ -62,8 +60,7 @@
               <span class="date">{{ date | date: "%b %d, %Y" }}</span>
             </li>
         
-	 	{% endif %}
-  {% endif %}
+
   
 {% endfor %}
              
