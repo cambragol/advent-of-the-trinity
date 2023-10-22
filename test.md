@@ -416,8 +416,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   		{% for comet in comment %}
 
 
-			{% assign comet.url = comment.url %}
-   			<li>{{ comment.url }}</li>
    
  			 {% assign recentposts = recentposts | push: comet %}
 
@@ -426,7 +424,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 {% endfor %}
 
 
-{% capture now %}{{'now' | date: "%s" | minus : 60480000 }}{% endcapture %}
+{% capture now %}{{'now' | date: "%s" | minus : 6048000 }}{% endcapture %}
 
 {% assign count = 0 %}
 
