@@ -435,7 +435,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
     {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
 
-  {% if datetest > now %}
+  {% if datetest > now | limit: 3 %}
         	<li>{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</li>
   {% endif %}
   
