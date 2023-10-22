@@ -421,19 +421,9 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
    
  			 {% assign recentposts = recentposts | push: comet %}
 
-  		{% endfor %}
+     				{% for comet in recentposts | sort: date %}
 
-{% endfor %}
-
-
-{% capture now %}{{'now' | date: "%s" | minus : 6048000 }}{% endcapture %}
-
-{% assign count = 0 %}
-
-
-{% for comet in recentposts | sort:"date" %}
-
-                {% assign date = comet[1].date %}
+		{% assign date = comet[1].date %}
 		    {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
 
 		{% assign name = comet[1].name %}
@@ -444,10 +434,13 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 		
         	<li><a href="{{ url }}#static-comments">{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</a></li>
 
-  
+  		{% endfor %}
+
+  		{% endfor %}
+
 {% endfor %}
 
-    
+
 
 
 </div>
