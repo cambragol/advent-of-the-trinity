@@ -442,7 +442,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
   {% if datetest > now %}
   	{% assign count = count | plus: 1 %}
    		{% if count < 4 %}
-        	<li><a href="{{ url }}#comment{{ include.index }}">{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</a></li>
+        	<li><a href="{{ url }}#static-comments">{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</a></li>
 	 	{% endif %}
   {% endif %}
   
