@@ -425,7 +425,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 
 {% capture now %}{{'now' | date: "%s" | minus : 6048000 }}{% endcapture %}
-<li>now:{{ now }}</li>
 
 
 {% for comet in recentposts %}
@@ -435,7 +434,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
                 {% assign message = comet[1].message %}
 
     {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
-<li>datetest:{{ datetest  }}</li>
 
   {% if datetest > now %}
         	<li>{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</li>
