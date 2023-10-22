@@ -429,7 +429,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 
 {% for comet in recentposts %}
 
-  {% capture datetest %}{{comet.date | date: '%s' | plus: 0 %}}{% endcapture %}
+  {% capture datetest %}{{comet[1].date | date: '%s' | plus: 0 }}{% endcapture %}
 
 
 		{% assign name = comet[1].name %}
