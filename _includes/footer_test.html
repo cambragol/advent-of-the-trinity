@@ -42,10 +42,11 @@
 {% assign count = 0 %}
 
 
-{% for comet in recentposts | sort:"date" | limit:3 %}
-
+{% for comet in recentposts %}
                 {% assign date = comet[1].date %}
 		    {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
+
+		{% for comet in recentposts | sort:date | limit:3 %}
 
 		{% assign name = comet[1].name %}
                 {% assign message = comet[1].message %}
@@ -59,7 +60,8 @@
               <span class="recent-title"><a href="{{ url }}#static-comments" title="{{ name }}">{{ message | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{ date | date: "%b %d, %Y" }}</span>
             </li>
-        
+        {% endfor %}
+
 
   
 {% endfor %}
