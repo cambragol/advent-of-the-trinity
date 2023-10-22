@@ -42,23 +42,30 @@
 {% assign count = 0 %}
 
 
+{% for comet in recentposts %}
 
-
-		{% for comet in recentposts | sort: 'date' | limit:3 %}
+                {% assign date = comet[1].date %}
+		    {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
 
 		{% assign name = comet[1].name %}
                 {% assign message = comet[1].message %}
                 {% assign url = comet[1].url %}
 
 
-
+  {% if datetest > now %}
+  	{% assign count = count | plus: 1 %}
+   		{% if count < 4 %}
 
 
             <li>    
               <span class="recent-title"><a href="{{ url }}#static-comments" title="{{ name }}">{{ message | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{ date | date: "%b %d, %Y" }}</span>
             </li>
-        {% endfor %}
+        
+	 	{% endif %}
+  {% endif %}
+  
+{% endfor %}
 
 
   
