@@ -46,7 +46,7 @@
                 {% assign date = comet[1].date %}
 		    {% capture datetest %}{{date | date: '%s' }}{% endcapture %}
 
-		{% for comet in recentposts | sort:date | limit:3 %}
+		{% for comet in recentposts | sort: 'date' | limit:3 %}
 
 		{% assign name = comet[1].name %}
                 {% assign message = comet[1].message %}
