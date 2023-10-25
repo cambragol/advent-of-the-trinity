@@ -5,7 +5,7 @@ description: I have created some Quest of the Avatar related resources that may 
 permalink: /resources
 comments: true
 tags: [Quest of the Avatar, Resources]
-date: 2022-09-02
+date: 2023-10-25
 image: 
         feature: book_2.jpg
 ---
@@ -14,17 +14,22 @@ I have created some Quest of the Avatar related resources that may be of interes
 
 <!--more-->
 
+***UPDATE
+
+I have added the Quest of the Avatar box bottom to the resource section.
+
 I have built up a few resources while working on this website, and 'feelies' for the mod. I don't think I will be able to ever provide feelies for Threat of the Trinity, or at least actual, real, feelies, via a kickstarter or something. However, I am making my own box, discs, and potentially map and books, so maybe I can at least distribute some of those files here, for those that are interested.
 
 First up is a template for the Quest of the Avatar AppleII/C64 box. I have converted much of it to vectors, for nice printing. The image for the cover is the best I could currently find, though it has a sticker on it, and took a lot of work to get it presentable. Maybe if someone can lend me a higer res scan of a pristine copy, I could incorporate it into this template. This template was made as an intermediary stage in creating a template for the Threat of the Trinity box.
 
-UPDATE
-
-I have fixed up my own box scan and added it to the cover layout. This is much higher resolution, and should be suitable for printing for actual boxes. So now you can reproduce the top of the Quest of the Avatar box in close to 'original' form.
-
 <figure>
 	<a href="{{ site.url }}/Art/box_base.pdf"><img class="ScrollRev" alt="Quest of the Avatar Box" data-tilt src="{{ site.url }}/Art/box_base.png" /></a>
 	<figcaption>The lid of the C64/Apple II box</figcaption>
+</figure>
+
+<figure>
+	<a href="{{ site.url }}/images/box_base_bottom.pdf"><img class="ScrollRev" alt="Quest of the Avatar Box Bottom" data-tilt src="{{ site.url }}/images/Ultima_IV_Box_Bottom.jpg" /></a>
+	<figcaption>The bottom of the C64/Apple II box</figcaption>
 </figure>
 
 These are two fonts I used for the website. They are taken directly, pixel by pixel from Quest of the Avatar AppleII. They are not complete fonts, of course, but I added a few characters to make them useful for basic stuff.
