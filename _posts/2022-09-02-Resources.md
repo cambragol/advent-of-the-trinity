@@ -28,7 +28,7 @@ First up is a template for the Quest of the Avatar AppleII/C64 box. I have conve
 </figure>
 
 <figure>
-	<a href="{{ site.url }}/images/box_base_bottom.pdf"><img class="ScrollRev" alt="Quest of the Avatar Box Bottom" data-tilt src="{{ site.url }}/images/Ultima_IV_Box_Bottom.jpg" /></a>
+	<a href="{{ site.url }}/images/box_base_bottom.pdf"><img class="ScrollRev" alt="Quest of the Avatar Box Bottom" data-tilt src="{{ site.url }}/images/box_base_bottom.jpg" /></a>
 	<figcaption>The bottom of the C64/Apple II box</figcaption>
 </figure>
 
