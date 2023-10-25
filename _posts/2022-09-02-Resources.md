@@ -14,9 +14,9 @@ I have created some Quest of the Avatar related resources that may be of interes
 
 <!--more-->
 
-***UPDATE
+*** UPDATE October 25th, 2023
 
-I have added the Quest of the Avatar box bottom to the resource section.
+*I have added the Quest of the Avatar box bottom to the resource section.*
 
 I have built up a few resources while working on this website, and 'feelies' for the mod. I don't think I will be able to ever provide feelies for Threat of the Trinity, or at least actual, real, feelies, via a kickstarter or something. However, I am making my own box, discs, and potentially map and books, so maybe I can at least distribute some of those files here, for those that are interested.
 
