@@ -14,7 +14,7 @@ I have created some Quest of the Avatar related resources that may be of interes
 
 <!--more-->
 
-*** UPDATE October 25th, 2023
+### UPDATE October 25th, 2023
 
 *I have added the Quest of the Avatar box bottom to the resource section.*
 
