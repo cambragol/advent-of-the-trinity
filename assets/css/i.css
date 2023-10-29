@@ -989,6 +989,7 @@ color: white;
 .bottom {
   position: absolute;
   top: -33px;
+  transform: translateZ(15px);
 }
 .post figure figcaption {
   font-size: 24px;
