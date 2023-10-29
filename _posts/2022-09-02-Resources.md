@@ -5,7 +5,7 @@ description: I have created some Quest of the Avatar related resources that may 
 permalink: /resources
 comments: true
 tags: [Quest of the Avatar, Resources]
-date: 2023-10-25
+date: 2023-10-30
 image: 
         feature: book_2.jpg
 ---
@@ -14,7 +14,9 @@ I have created some Quest of the Avatar related resources that may be of interes
 
 <!--more-->
 
-### UPDATE October 25th, 2023
+### UPDATE October 30th, 2023
+
+*I have added the an improved and updated version of Quest of the Avatar box top to the resource section.*
 
 *I have added the Quest of the Avatar box bottom to the resource section.*
 
