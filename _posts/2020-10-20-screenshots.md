@@ -9,7 +9,7 @@ image:
 
 These screenshots show the current and essentially final version of the game. 
 
-<figure class="frame" data-tilt style="transform-style: preserve-3d">
+<figure class="frame" data-tilt data-tilt-scale="1.1" style="transform-style: preserve-3d">
 	<img class="ScrollRev top" src="{{ site.url }}/images/major_quests_bot.png" />
 	<img class="ScrollRev bottom" style="transform: translateZ(30px)" src="{{ site.url }}/images/screenshot_frame.png" />
 
