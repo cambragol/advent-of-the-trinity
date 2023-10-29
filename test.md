@@ -403,45 +403,6 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
         </figure>
     </div>
 
-{% assign recentposts = "" | split: ',' %}
-
-
-{% for comments in site.data.comments %}
-
-
-	{% assign comment = comments[1] %}
-
-
-
-  		{% for comet in comment | sort: date %}
-                {% assign date = comet[1].date %}
-  		{% for comet in comment | sort: date %}
-
-		<li>{{ date }}</li>
-  		{% endfor %}
-
-   
- 			 {% assign recentposts = recentposts | push: comet %}
-
-
-  		{% endfor %}
-
-{% endfor %}
-
-{% for comet in recentposts | sort: date %}
-
-	
-                {% assign date = comet[1].date %}
-		{% assign name = comet[1].name %}
-                {% assign message = comet[1].message %}
-                {% assign url = comet[1].url %}
-
-
-		
-        	<li><a href="{{ url }}#static-comments">{{ name }}, {{ date | date: "%B %d, %Y at %I:%M %p" }}, {{ message }}</a></li>
-
-  		{% endfor %}
-
 
 </div>
 
