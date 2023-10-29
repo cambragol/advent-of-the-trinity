@@ -9,9 +9,9 @@ image:
 
 These screenshots show the current and essentially final version of the game. 
 
-<figure>
-	<img class="ScrollRev" data-tilt-perspective="300" data-tilt-speed="400" data-tilt-max="25" src="{{ site.url }}/images/major_quests.png" />
-	<figcaption>New Major Quests</figcaption>
+<figure data-tilt transform-style: preserve-3d>
+	<img class="ScrollRev" src="{{ site.url }}/images/major_quests.png" />
+	<figcaption transform: translateZ(20px)>New Major Quests</figcaption>
 </figure>
 <figure>
 	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_land.png" />
