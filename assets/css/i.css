@@ -981,13 +981,13 @@ color: white;
 }
 .post figure {
   margin: 33px 0;
-  position:relative;
+  position: relative;
 }
 .post figure img {
   margin-bottom: 16.5px;
 }
 .bottom {
-  position:absolute;
+  position: absolute;
   top: -33px;
 }
 .post figure figcaption {
