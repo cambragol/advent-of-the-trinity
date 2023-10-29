@@ -1,3 +1,6 @@
+var VanillaTilt = (function () {
+'use strict';
+
 /**
  * Created by Sergiu Șandor (micku7zu) on 1/27/2017.
  * Original idea: https://github.com/gijsroge/tilt.js
@@ -5,7 +8,7 @@
  * Version 1.8.1
  */
 
-export default class VanillaTilt {
+class VanillaTilt {
   constructor(element, settings = {}) {
     if (!(element instanceof Node)) {
       throw ("Can't initialize VanillaTilt because " + element + " is not a Node.");
@@ -492,3 +495,7 @@ if (typeof document !== "undefined") {
    */
   VanillaTilt.init(document.querySelectorAll("[data-tilt]"));
 }
+
+return VanillaTilt;
+
+}());
