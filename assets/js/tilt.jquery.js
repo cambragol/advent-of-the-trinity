@@ -300,6 +300,7 @@
      * Auto load
      */
     $('[data-tilt]').tilt({
+	reset:          true,
 	maxTilt:        20,
 	perspective:    1000
 	});
