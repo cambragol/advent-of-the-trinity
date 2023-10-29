@@ -9,8 +9,10 @@ image:
 
 These screenshots show the current and essentially final version of the game. 
 
-<figure data-tilt style="transform-style: preserve-3d">
-	<img class="ScrollRev" src="{{ site.url }}/images/major_quests.png" />
+<figure class="frame" data-tilt style="transform-style: preserve-3d">
+	<img class="ScrollRev top" src="{{ site.url }}/images/major_quests.png" />
+	<img class="ScrollRev bottom" style="transform: translateZ(20px)" src="{{ site.url }}/images/screenshot_frame.png" />
+
 	<figcaption style="transform: translateZ(20px)">New Major Quests</figcaption>
 </figure>
 <figure>
