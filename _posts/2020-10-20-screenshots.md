@@ -16,8 +16,10 @@ These screenshots show the current and essentially final version of the game.
 
 	<figcaption>New Major Quests</figcaption>
 </figure>
-<figure>
-	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_land.png" />
+<figure class="frame" data-tilt data-tilt-scale="1.1" data-tilt-perspective="1000" style="transform-style: preserve-3d">
+	<img class="ScrollRev top" src="{{ site.url }}/images/new_land_bot.png" />
+	<img class="ScrollRev bottom" style="transform: translateZ(10px)" src="{{ site.url }}/images/new_land_mid.png" />
+	<img class="ScrollRev bottom" src="{{ site.url }}/images/new_land_top.png" />
 	<figcaption>New Lands</figcaption>
 </figure>
 <figure>
