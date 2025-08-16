@@ -15,12 +15,11 @@ mockup:
 
 <hr>-->
 
-<div>		
-<h2>The Features...</h2>
-</div>
+## The Features
 
 <div class="features">
 	
+
 	
 	    <div class="feature">
         <div>
@@ -30,7 +29,7 @@ mockup:
             </span>
         </div>
         <figure class="featureText">
-					<img class="ScrollRev" data-tilt src="{{ site.url }}/images/major_quests.png" />
+					<img class="ScrollRev" data-tilt src="{{ site.url }}/images/major_quests.jpeg" />
 		
             <figcaption>
                 New Major Quests
@@ -54,7 +53,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
             </span>
         </div>
         <figure class="featureText">
-	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_caves.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_caves.jpeg" />
 
 	
 		
@@ -80,7 +79,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
             </span>
         </div>
         <figure class="featureText">
-			<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_huts.png" />
+			<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_huts.jpeg" />
 
 	
             <figcaption>
@@ -103,7 +102,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
         </div>
         <figure class="featureText">
 		
-		<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_lands.png" />
+		<img class="ScrollRev" data-tilt src="{{ site.url }}/images/new_lands.jpeg" />
             <figcaption>
                 New World Region
             </figcaption>
@@ -123,7 +122,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
         </div>
         <figure class="featureText">
 		
-			<img class="ScrollRev" data-tilt src="{{ site.url }}/images/minor_quests.png" />
+			<img class="ScrollRev" data-tilt src="{{ site.url }}/images/minor_quests.jpeg" />
 		
             <figcaption>
                 New Minor and Side Quests
@@ -176,7 +175,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Bug Fixes and Improvements
             </figcaption>
             <p>
-                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Ultima IV experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see the about page <a href="https://cambragol.github.io/advent-of-the-trinity/about">here</a>
+                More than 30 bugs fixed, making the Threat of the Trinity the smoothest Quest of the Avatar experience yet. Many small improvements to combat, realism, and balance hone the game. For a full list of fixes and improvements, see below.
             </p>
         </figure>
     </div>
@@ -194,13 +193,13 @@ The Threat of the Trinity presents new major quests, the completion of which is 
         </div>
         <figure class="featureText">
 		
-		<img class="ScrollRev" data-tilt src="{{ site.url }}/images/castle_roof_apple.png" />
+		<img class="ScrollRev" data-tilt src="{{ site.url }}/images/castle_roof_apple.jpeg" />
 
             <figcaption>
                 Multi-story Towns
             </figcaption>
             <p>
-                Nearly every castle, town, village, hamlet, tower, hut and inn now has multiple stories above and below ground. Explore Brittannia in more than two dimensions. The third dimension is here, and will bring a new...depth, to your Ultima IV experience.
+                Nearly every castle, town, village, hamlet, tower, hut and inn now has multiple stories above and below ground. Explore Brittannia in more than two dimensions. The third dimension is here, and will bring a new...depth, to your Quest of the Avatar experience.
             </p>
         </figure>
     </div>
@@ -218,21 +217,18 @@ The Threat of the Trinity presents new major quests, the completion of which is 
         </div>
         <figure class="featureText">
 		
-	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/mix_reagents.png" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/mix_reagents.jpeg" />
 		
             <figcaption>
-                Ultima V Style Features
+                Warriors of Destiny Style Features
             </figcaption>
             <p>
-                Some of the best features of Ultima V, included with Threat of the Trinity now! Mix multiple batches of reagents, use Active Player to more easily explore complex dungeon rooms, and attack and search in any direction around the player.
+                Some of the best features of Warriors of Destiny, included with Threat of the Trinity now! Mix multiple batches of reagents, use Active Player to more easily explore complex dungeon rooms, and attack and search in any direction around the player.
             </p>
         </figure>
     </div>
-    
-
+	
 </div>
-
-
 
 ### Complete Feature List
   - [x] New Hamlets and Towers
@@ -273,7 +269,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
   - [x] Expanded NPC conversations (reduced scope)
   - [x] Many, many more small additions
 
-### Bug Fixes/Improvements
+## Bug Fixes/Improvements
   - [x] Moonphases restored on save
   - [x] All chest trap types working
   - [x] No more infinite Mystic Weaps/Armor
