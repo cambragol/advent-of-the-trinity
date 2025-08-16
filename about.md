@@ -1,15 +1,19 @@
 ---
-layout: page
-permalink: /about.html
-title: About the Project
-description: Threat of the Trinity aims to produce a complete addon 'module' for the original DOS version of Quest of the Avatar, as close to how it might have appeared in a store in 1986. It will add additional content, via quests, locations, and features. It will also avoid altering the original quest content as much as possible, aside from some simple 'refreshment', permitting the game to be completed in the original fashion, whilst still making the new content available. A extensive bug fixes of the original code will also be included. The orignal DOS version of Quest of the Avatar will be required to play Threat of the Trinity.
-
-tags: [about, Quest of the Avatar, mod, dos, addon]
+layout: video_header2
+permalink: /test4.html
+title: Tell Me More About...
+description:
+tags: [about, ultima iv, mod, dos, addon]
 image:
-  feature: apple2mode1.png
+  feature: Feelies_Mockup.jpg
 mockup:
   feature
 ---
+
+<!--<hr>
+
+
+<hr>-->
 
 ## The Features
 
@@ -265,7 +269,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
   - [x] Expanded NPC conversations (reduced scope)
   - [x] Many, many more small additions
 
-### Bug Fixes/Improvements
+## Bug Fixes/Improvements
   - [x] Moonphases restored on save
   - [x] All chest trap types working
   - [x] No more infinite Mystic Weaps/Armor
@@ -305,3 +309,6 @@ The Threat of the Trinity presents new major quests, the completion of which is 
   * James Van Artsdalen for the conversion to C for Dos
   * George Stepan for the town and world editors
   * Lord British for the greatness that is Quest of the Avatar
+
+
+
