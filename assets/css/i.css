@@ -3260,10 +3260,10 @@ details > p {
 .arrows {
 	width: 60px;
 	height: 72px;
-	/* position: absolute; */
+	position: absolute;
 	left: 50%;
 	margin-top: 125px;
-	/* top: 400px; */
+	top: 80%;
 }
 
 .arrows path {
