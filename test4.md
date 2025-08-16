@@ -234,177 +234,85 @@ The Threat of the Trinity presents new major quests, the completion of which is 
 
 
 
-<div>
-<h2>The Feelies...</h2>
-</div>
+### Complete Feature List
+  - [x] New Hamlets and Towers
+  - [x] New Dungeons (Crypts)
+  - [x] New Caves and Mines
+  - [x] New Huts and Wilderness Inns
+  - [x] New World Region (Underdeep)
+  - [x] New Shops and Merchants
+  - [x] New Shipwrights
+  - [x] New Major Quests 
+  - [x] New Minor Quests
+  - [x] New Side Quests 
+  - [x] New Virtue Trackers 
+  - [x] More than one hundred new Characters
+  - [x] Random Encounters
+  - [x] New, powerful Artifacts
+  - [x] 2nd levels for all Towns
+  - [x] Multi-level Castles
+  - [x] New magic system
+  - [x] New tiles/sprites
+  - [x] New mounts
+  - [x] Warriors of Destiny style Active Player
+  - [x] Warriors of Destiny style reagent mixing
+  - [x] Warriors of Destiny style directional search
+  - [x] Warriors of Destiny style Clearable Dungeon rooms
+  - [x] Warriors of Destiny style 'Chest Drops'
+  - [x] Town Saving
+  - [x] Diagonal attacks
+  - [x] Fixed/Improved 'default' Spells
+  - [x] New Spawning rules
+  - [x] Variable Battle maps
+  - [x] Terrain based combat bonuses
+  - [x] Terrain based Camp maps
+  - [x] Virtue based NPC reactions
+  - [x] Variable NPC personalities
+  - [x] Apple II style LOS/Shadowcasting
+  - [x] More accurate Port of Apple II original
+  - [x] Expanded NPC conversations (reduced scope)
+  - [x] Many, many more small additions
 
-<div class="features">    
-    
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-mobile fa-stack-1x"></i>
-            </span>
-        </div>
-        <figure class="featureText">
-			<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/Box-mockup.png" />
-
-	
-            <figcaption>
-                Apple II Big Box
-            </figcaption>
-
-            <p>
-                An old school 'Big Box' scaled to the exact same size as the Apple II and C64 versions of Ultima IV and Ultima V. Beautiful artwork in a new but familiar pattern set the tone for the addon. It will fit perfectly in the shelf between both of its brethren.
-            </p>
-
-        </figure>
-    </div>
-    
-
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-sync fa-stack-1x"></i>
-            </span>
-        </div>
-        <figure class="featureText">
-					<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/map-mockup.png" />
-		
-            <figcaption>
-                Cloth Map
-            </figcaption>
-            <p>
-The cloth map was ubiquitous in the Ultima series, and Ultima IV was no exception. So Threat of the Trinity should include one too. A new map for the addon, which will expand ever so slightly on the original, add some missing features, and take its place in the pantheon.
-          </p>
-		
-
-        </figure>
-    </div>
-	
-	<!--<div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-sync fa-stack-1x"></i>
-            </span>
-        </div>
-        <figure class="featureText">
-					<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/floppy-mockup.png" />
-		
-            <figcaption>
-                3.5" Floppy Install Disk
-            </figcaption>
-            <p>
-I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5" disks, just like in the days of yore. 5 1/4" would be nice too, but maybe a bit too archaic. Maybe we could even manage to have a usb drive backup, for those who have moved out of the stone-age of computing.
-          </p>
-		
-
-        </figure>
-    </div>-->
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-play-circle fa-stack-1x"></i>
-            </span>
-        </div>
-        <figure class="featureText">
-		
-		<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/Quest_Journal_mockup.png" />
-		
-	
-            <figcaption>
-                Quest Journal
-            </figcaption>
-            <p>
-            Record your adventures in the journal, to keep track of conversations, clues, locations, and dungeons. Pages will be reserved to gather the wisdom of town inhabitants, and make connections between them. Other pages will be ready to record and map your delvings into the darker caves and crypts to be encountered.
-          </p>
-        </figure>
-    </div>
-	
-	
-<div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-magic fa-stack-1x"></i>
-            </span>
-        </div>
-        <figure class="featureText">
-	<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/Player-Reference-Card-mockup.png" />
-
-	
-		
-            <figcaption>
-                Player Reference Card
-            </figcaption>
-            <p>
-                Like the Reference Card of Ultima IV and Ultima V, Threat of the Trinity's will be filled with the basic info you need to get going with the game. Heed its advice, and your party will surely prevail against the Threat, and in the Quest.
-          </p>
-
-        </figure>
-    </div>
-	
-    
-
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-adjust fa-stack-1x"></i>
-            </span>
-        </div>
-        <figure class="featureText">
-		
-				<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/quick-reference-mockup.png" />
-
-		
-            <figcaption>
-                Quick Reference Card
-            </figcaption>
-            <p>
-                Keyboard commands are one glance away. Attack and Defence values of weapons, armor, and terrain are laid out for quick reference. Spells, which may take some time to memorize the reagents for, are organized and detailed for the budding spell-user.
-            </p>
-        </figure>
-    </div>
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-star fa-stack-1x"></i>
-            </span>
-        </div>
-        <figure class="featureText">
-		
-		<img class="ScrollRev" big-data-tilt src="{{ site.url }}/images/skull-mockup.png" />
-
-		
-            <figcaption>
-                Trinket
-            </figcaption>
-            <p>
-                A metal ankh denoted the Quest of the Avatar. An important object from the game, which could be held in your very hand. What will the Threat of the Trinity provide. Perhaps an artifact, such as the Skull of Mondain?
-            </p>
-        </figure>
-    </div>
-   
-
-</div>
+### Bug Fixes/Improvements
+  - [x] Moonphases restored on save
+  - [x] All chest trap types working
+  - [x] No more infinite Mystic Weaps/Armor
+  - [x] Hythloth bug fixed
+  - [x] Destard bug fixed
+  - [x] Skull of Mondain bugs fixed
+  - [x] Missing Lord British dialogue fixed
+  - [x] Ship instant repair bug fixed
+  - [x] Camping at sea bug fixed
+  - [x] Omni-tavern bug fixed
+  - [x] Status-Trick fixed
+  - [x] Passage of the Moons-Trick fixed
+  - [x] Energy Spell Dungeon Drilling-Trick fixed
+  - [x] Missing Mana in Inns bug fixed
+  - [x] Broken 'Open' spell fixed
+  - [x] Buggy Ankh and Lord combat sprites fixed
+  - [x] Missing Sacrifice gain fixed
+  - [x] Attackable chests bug fixed
+  - [x] Money Overflow bug fixed
+  - [x] Disappearing Horse bug fixed
+  - [x] Phantom Pirate ships bug fixed
+  - [x] Pre-slept Monsters bug fixed
+  - [x] Shop dialogue bugs/errors
+  - [x] Inn Encounter bug fixed
+  - [x] Talking Chest bug fixed
+  - [x] Yes/No Escape bug fixed
+  - [x] Edge of World bugs fixed
+  - [x] All known dialogue bugs fixed
+  - [x] Other Small fixes
+  
+### Other Highlights
+  - [x] Saved games are compatible with vanilla Quest of the Avatar
+  
+## Credits and Thanks
+  * All credit goes to ergonomy-joe for making this possible, thanks to his u4-decompiled
+  * Fenyx4 and MrKnitster for beta testing
+  * James Van Artsdalen for the conversion to C for Dos
+  * George Stepan for the town and world editors
+  * Lord British for the greatness that is Quest of the Avatar
 
 
 
