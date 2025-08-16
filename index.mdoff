@@ -1,6 +1,6 @@
 ---
 layout: index_page
-permalink: /index.html
+permalink:
 title: Development Blog
 description: This project aims to modify the original DOS Quest of the Avatar to add additional content, via quests, locations, and features.
 tags: [about, Quest of the Avatar, mod, dos, addon]
