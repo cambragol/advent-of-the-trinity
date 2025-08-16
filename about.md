@@ -229,7 +229,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
 	
 	
 	
-## The Feelies
+<!--## The Feelies
 
 <div class="features">
 
@@ -395,7 +395,7 @@ I hope you have a 3.5" usb floppy drive, because the game will be shipped on 3.5
 	
     
 
-</div>
+</div>-->
 
 ### Complete Feature List
   - [x] New Hamlets and Towers
