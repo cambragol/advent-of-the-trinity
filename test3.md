@@ -1,11 +1,11 @@
 ---
 layout: video_header
 permalink: /test3.html
-title: Tell Me More About...
+title: Digital Download on October 16th
 description:
 tags: [about, ultima iv, mod, dos, addon]
 image:
-  feature: Feelies_Mockup.jpg
+  feature: 2nd_floor_ladder.jpg
 mockup:
   feature
 ---
