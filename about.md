@@ -1,6 +1,6 @@
 ---
 layout: video_header2
-permalink: /test4.html
+permalink: /about.html
 title: Tell Me More About...
 description:
 tags: [about, ultima iv, mod, dos, addon]
