@@ -19,7 +19,7 @@ September 16th, 2025 will be the 40th anniversary of the release of Ultima IV on
 
 ![40 Years of Ultima IV]({{ site.url }}/images/Ultima_IV_Forty_Years.gif)
 
-# Sorry to keep you waiting, complicated business
+## Sorry to keep you waiting, complicated business
 
 I set the 40th anniversay as my outside deadline to find a solutions/resolution to 'feelies'. That date is approaching, so here we are. I did not find a way to make the feelies happen, though I really, really, reeeeally tried. Mostly it came down to 3 factors: 1. Insufficient interest: The cost to produce certain aspects of the feelies (mainly the box and the book) was too high, and additionally required a bare minimum of 250 orders (more depending on the printer(s)). 2. Anonymity: I wanted to maintain my anonymity, and requesting cash from people, while holding to that, was just not going to work. 3: Drama: I've seen way to many crowd sourced ventures devolve into absolute nightmares. Didn't look forward to that. I tried to offset that by finishing EVERTHING first, but still, production/delivery snafus seem common.
 
