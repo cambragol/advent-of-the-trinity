@@ -244,7 +244,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 New Magic System
             </figcaption>
             <p>
-                Join in the esoteric realms of magical discovery. Dig deep into the lore of the land, and the wisdom of sages, and discover the secret of a new form of magic. But beware, as there can be a price to paid for those who delve too deep into matters beyond their ken.
+                Join in the esoteric realms of magical discovery. Dig deep into the lore of the land, the wisdom of sages, and discover the secret of a new form of magic. But beware, as there can be a price to be paid for those who delve too deep into matters beyond their ken.
             </p>
         </figure>
     </div>
@@ -280,7 +280,7 @@ The Threat of the Trinity presents new major quests, the completion of which is 
         </div>
         <figure class="featureText">
 		
-	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/extra_loot.jpeg" />
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/extra_loot.jpg" />
 		
             <figcaption>
                 New Items, Artifacts and Loot
