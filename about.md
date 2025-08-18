@@ -223,10 +223,75 @@ The Threat of the Trinity presents new major quests, the completion of which is 
                 Warriors of Destiny Style Features
             </figcaption>
             <p>
-                Some of the best features of Warriors of Destiny, included with Threat of the Trinity now! Mix multiple batches of reagents, use Active Player to more easily explore complex dungeon rooms, and attack and search in any direction around the player.
+                Some of the best features of Warriors of Destiny, included with Threat of the Trinity now! Mix multiple batches of reagents, use Active Player to more easily explore complex dungeon rooms, and attack and search in any direction around the player. 
             </p>
         </figure>
     </div>
+
+
+     <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-truck fa-stack-1x"></i>
+            </span>
+        </div>
+        <figure class="featureText">
+		
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/word_power.jpg" />
+		
+            <figcaption>
+                New Magic System
+            </figcaption>
+            <p>
+                Join in the esoteric realms of magical discovery. Dig deep into the lore of the land, and the wisdom of sages, and discover the secret of a new form of magic. But beware, as there can be a price to paid for those who delve too deep into matters beyond their ken.
+            </p>
+        </figure>
+    </div>
+
+
+      <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-truck fa-stack-1x"></i>
+            </span>
+        </div>
+        <figure class="featureText">
+		
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/dungeon_spawn.jpg" />
+		
+            <figcaption>
+                A Living Land
+            </figcaption>
+            <p>
+                The land is alive with creatures, both wild and evil. They lurk where you would think they should, and they spawn from the pits of the earth. The good of Britannia suffer under their predations, and only the Avatar can drive them back.
+            </p>
+        </figure>
+    </div>
+
+
+       <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-truck fa-stack-1x"></i>
+            </span>
+        </div>
+        <figure class="featureText">
+		
+	<img class="ScrollRev" data-tilt src="{{ site.url }}/images/extra_loot.jpeg" />
+		
+            <figcaption>
+                New Items, Artifacts and Loot
+            </figcaption>
+            <p>
+                New magic items, weapons, rings and more can be found for those who seek. Use them to aid you in your travels, or in your battles. Seek out powerful enemies for the treasures they will render unto thee.
+            </p>
+        </figure>
+    </div>
+
+ 
 	
 </div>
 
