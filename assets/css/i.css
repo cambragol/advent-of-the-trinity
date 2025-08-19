@@ -3234,7 +3234,8 @@ ul li.cd-single-point {
 }
 
 .overlay.big, .featured-image.big{
-      min-height: 768px;
+      	/*min-height: 768px;*/
+		height: 100vh;
 }
 
 details > summary {
