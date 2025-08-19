@@ -7,7 +7,7 @@ comments: true
 tags: [Quest of the Avatar, Resources]
 date: 2023-10-30
 image: 
-        feature: book_5.jpg
+        feature: new_map_header_3.jpg
 ---
 
 I have created some Quest of the Avatar related resources that may be of interest to others, so maybe I will start gathering them here for others to use, if they are of any use.
