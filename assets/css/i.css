@@ -3265,6 +3265,7 @@ details > p {
 	left: 50%;
 	margin-top: 125px;
 	top: 80%;
+	transform: translate(-50%, 0);
 }
 
 .arrows path {
