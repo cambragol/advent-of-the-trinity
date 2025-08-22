@@ -3,6 +3,7 @@ layout: video_header
 permalink: /index.html
 title: Digital Download on September 16th
 description:
+comments: true
 tags: [about, ultima iv, mod, dos, addon, release date, release]
 image:
   feature: 2nd_floor_ladder.jpg
