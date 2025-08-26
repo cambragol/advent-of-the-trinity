@@ -1608,7 +1608,7 @@ p {
   }
   .hero-text img {
     width:375px;
-    height:125px;
+    /* height:125px; */
   }
 
   .groucho {
@@ -1657,7 +1657,7 @@ p {
   visibility: visible;
   }
   .hero_title {
-    visibility: hidden;
+    /* visibility: hidden; */
   }
   header.site-header {
     min-height: 59px;
@@ -1770,7 +1770,7 @@ p {
   }
   .hero-text img {
     width:325px;
-    height:100px;
+    /* height:100px; */
   }
   .btn--super-large {
     font-size: 1.2em;
