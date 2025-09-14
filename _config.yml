@@ -46,14 +46,14 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Download
+    url: /download
   - title: About
     url: /about
   #- title: Blog
   #  url: /blog
-  - title: Screenshots
-    url: /screenshots
-  - title: Resources
-    url: /resources
+  - title: Feedback
+    url: /feedback
 
 
 
