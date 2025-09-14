@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mockup_home
 title: Project Update
 permalink: /test2.html
 description: So What's Going on Then?
