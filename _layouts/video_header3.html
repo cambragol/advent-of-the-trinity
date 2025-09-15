@@ -1,0 +1,106 @@
+{% if page.image.feature %}
+
+{% include head-landing.html %}
+
+<style>
+.featured-image{
+	  object-fit: cover;
+}
+</style>
+
+<section class="article">
+
+      <div class="hero-text" style="top: 350px;"> 
+	      
+	      
+	   <hgroup>
+            <h1 class="page_title">Digital Download on September 16th</h1>
+            <p class="intro">Celebrate 40 years of Ultima IV by reliving the adventure.</p>
+		   	    <strong>Set forth once more on the Quest of the Avatar. But this time, can you first quell the...</strong>
+
+      </hgroup>
+            
+    <!--<img src="{{ site.url }}/Art/Ultima_Trinity_New_Logo_4.svg" class="hero_title" onerror="this.src='{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.png'" alt="{{ site.title }}" />-->
+    <!-- <img src="{{ site.url }}/Art/Ultima_Trinity_Flame_Title_no_Animated.png" class="hero_title visible" onerror="this.src='{{ site.url }}/Art/Ultima_Trinity_Flame_Title_no_Animated.png'" alt="{{ site.title }}" />-->
+    <img src="{{ site.url }}/images/Ultima_Trinity_Flame_Title_Animated_Trinity.png" class="hero_title img-top" onerror="this.src='{{ site.url }}/images/Ultima_Trinity_Flame_Title_Animated_Trinity.png'" alt="{{ site.title }}" />
+    <!--<img src="{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.svg" class="hero_title" onerror="this.src='{{ site.url }}/Art/Ultima_IV_Advent_Trinity_huge.png'" alt="{{ site.title }}" />-->
+    <!--<img src="{{ site.url }}/images/animated_title_small.png" class="hero_title" onerror="this.src='{{ site.url }}/images/animated_title.png'" alt="{{ site.title }}" />-->
+
+		<svg class="arrows">
+		<path class="a1" d="M0 0 L30 32 L60 0"></path>
+		<path class="a2" d="M0 20 L30 52 L60 20"></path>
+		<path class="a3" d="M0 40 L30 72 L60 40"></path>
+		</svg>
+		  
+    </div>
+
+
+      
+  <div class="overlay big"></div>
+  <video autoplay="" muted="" loop="" class="featured-image big">
+  <source src="https://cambragol.github.io/advent-of-the-trinity/images/ThreatoftheTrinity.mp4" type="video/mp4">
+  </video>
+{% else %}
+
+{% include head-dark.html %}
+
+<section class="article pad-top">
+
+{% endif %}
+  
+      <article class="wrap post wide">
+                        
+        <header class="post-header">
+          <hgroup>
+            <h1 class="page_title">{{ page.title }}</h1>
+            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+          </hgroup>
+        </header>
+
+        
+        {{ content }}
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+            
+
+		<p class="share_para">
+      <a class="share" href="https://cambragol.github.io/advent-of-the-trinity/feed.xml" target="_blank" data-dnt="true">Feed</a>
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Quest Box Back&quot;%20/articles/Quest_Box_Back%20via%20@" data-dnt="true">Share</a>      
+      </p>
+		  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+ {% if page.comments == true %}
+     {% include comments.html %}
+
+        
+             <!-- <aside class="disqus">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = '{{ site.owner.disqus }}'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </aside>-->
+
+  {% endif %}
+
+		  
+      </article>	
+	
+    </section>
+</div>
+
+{% include footer.html %}
