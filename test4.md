@@ -12,8 +12,6 @@ Coming Soon!
 
 <!--more-->
 
-<div class="cd-triggers">
-<a href="https://github.com/cambragol/advent-of-the-trinity/raw/main/assets/zip/ultima2.zip" id="cd-start" class="cd-btn">Download</a>
-</div>
+<a class="cd-triggers" href="https://github.com/cambragol/advent-of-the-trinity/raw/main/assets/zip/ultima2.zip" id="cd-start" class="cd-btn">Download</a>
 
 
