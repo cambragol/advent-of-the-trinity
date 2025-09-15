@@ -1,7 +1,7 @@
 ---
 layout: post-light-feature
 title: Download
-permalink: /download.html
+permalink: /test4.html
 description: Threat of the Trinity Download Page
 comments: false
 tags: [Ultima IV, Ultima 4, release, download, Threat of the Trinity]
