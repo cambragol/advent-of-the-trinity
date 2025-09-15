@@ -1,6 +1,6 @@
 ---
 layout: video_header3
-title: Download
+title:
 permalink: /test5.html
 description:
 comments: false
