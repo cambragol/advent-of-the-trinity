@@ -1,6 +1,5 @@
 ---
 layout: video_header
-permalink: /index.html
 title: Digital Download on September 16th
 description:
 category: articles
