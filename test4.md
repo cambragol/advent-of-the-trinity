@@ -12,7 +12,7 @@ Instructions:
 
 1. Click the 'Download' link below to download 'Threat of the Trinity'.
 2. Unzip/Unpack the downloaded archive into your Ultima IV directory, overwriting all files if prompted (or unzip into an empty directory).
-3. Within your 'DOS' emulator of choice, switch to the Ultima IV (or your empty directory) and type 'ultima', from the command line, to run the game.
+3. Within your 'DOS' emulator of choice, switch to the Ultima IV directory (or the directory you unzipped/unpacked Threat of the Trinity into) and type 'ultima', from the command line, to run the game.
 4. Enjoy!
    
 <!--more-->
