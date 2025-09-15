@@ -5,7 +5,7 @@ title: Digital Download Available Now
 description:
 tags: [about, ultima iv, mod, dos, addon]
 image:
-  feature:
+  feature: 2nd_floor_ladder.jpg
 mockup:
   feature
 ---
