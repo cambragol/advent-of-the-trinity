@@ -3,7 +3,7 @@ layout: video_header2
 permalink: /about.html
 title: Tell Me More About...
 description:
-tags: [about, ultima iv, mod, dos, addon]
+tags: [about, ultima iv, mod, dos, addon, expansion]
 image:
   feature: Feelies_Mockup.jpg
 mockup:
