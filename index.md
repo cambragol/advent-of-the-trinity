@@ -1,6 +1,6 @@
 ---
 layout: video_header3
-permalink: /test3.html
+permalink: /index.html
 title: Digital Download on September 16th
 description:
 tags: [about, ultima iv, mod, dos, addon]
