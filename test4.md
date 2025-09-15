@@ -17,6 +17,6 @@ Instructions:
    
 <!--more-->
 
-<a href="https://github.com/cambragol/advent-of-the-trinity/raw/main/assets/zip/ultima2.zip" id="cd-start" class="cd-btn">Download</a>
+<a href="https://github.com/cambragol/advent-of-the-trinity/blob/main/assets/zip/Threat%20of%20the%20Trinity.zip" id="cd-start" class="cd-btn">Download</a>
 
 
