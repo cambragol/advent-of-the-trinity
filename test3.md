@@ -1,5 +1,5 @@
 ---
-layout: video_header
+layout: video_header3
 permalink: /test3.html
 title: Digital Download on September 16th
 description:
