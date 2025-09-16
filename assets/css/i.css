@@ -751,6 +751,9 @@ header.site-header nav ul li a:hover {
   position: relative;
   margin-bottom: 33px;
 }
+.article.index {
+  margin-bottom: 0px;
+}
 .article .overlay {
   vertical-align: middle;
     /* Sizing */
