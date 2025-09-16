@@ -1,0 +1,8 @@
+_id: 480f0e40-9348-11f0-9f74-1334455504b3
+message: "You can't use the patcher. Even if it appears to work, (which might be possible) the game will be destroyed, as the graphics no longer match 1-1 with Ultima IV. The graphics driver for the game is changed too, so it is not even just a simple matter of changing the graphics images.\r\n\r\nAs for the music, you must either play it yourself in the background, or hope someone adapts the music patch for Trinity. I did try to add the music into the game itself, but it required too much code space, and would have meant cutting dozens of featuress, if not more."
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1758059910
