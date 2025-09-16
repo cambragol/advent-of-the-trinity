@@ -20,6 +20,6 @@ image:
 3. Within your 'DOS' emulator of choice, switch to the Ultima IV directory (or the directory you unzipped/unpacked Threat of the Trinity into) and type 'ultima', from the command line, to run the game.
 4. Enjoy!
 
-<a href="https://github.com/cambragol/advent-of-the-trinity/raw/refs/heads/main/assets/zip/Threat%20of%20the%20Trinity.zip" id="cd-start" class="cd-btn">Download</a>
+<p id="center_button"><a href="https://github.com/cambragol/advent-of-the-trinity/raw/refs/heads/main/assets/zip/Threat%20of%20the%20Trinity.zip" id="cd-start" class="cd-btn">Download</a></p>
 
 
