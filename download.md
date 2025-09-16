@@ -13,7 +13,7 @@ image:
    
 <!--more-->
 
-Instructions:
+### Instructions:
 
 1. Click the 'Download' link below to download 'Threat of the Trinity'.
 2. Unzip/Unpack the downloaded archive into your Ultima IV directory, overwriting all files if prompted (or unzip into an empty directory).
