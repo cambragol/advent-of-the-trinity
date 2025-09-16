@@ -2064,6 +2064,10 @@ cursor: pointer;
  background-color:#62686d;
   color:#fff;
 }
+#center_button {
+	margin: 0;
+    text-align: center;
+}
 @media only screen and (min-width:1170px) {
  .cd-btn:hover {
 
