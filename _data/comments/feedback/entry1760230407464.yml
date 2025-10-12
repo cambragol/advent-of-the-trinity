@@ -1,0 +1,8 @@
+_id: dcee3880-a705-11f0-b52f-5bcf1d182803
+message: "Hi Ailuro Dragon,\r\n\r\nThat is likely another case of a small bug when searching for items, weapons, armor, keys etc. There is one other known location which suffers this bug. The bug returns a random memory location that is out of range, hence the odd result.\r\n\r\nI have a fix for it, and will add it to a 1.01 release. I am just waiting for any other feedback before doing that. \r\n\r\nThanks for letting me know, and sorry about the bug. I hope you are enjoying the game."
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760230407
