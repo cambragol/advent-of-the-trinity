@@ -1,6 +1,8 @@
 _id: f9188680-aa13-11f0-832e-0da6a5f288db
 message: "Hi Goldenflame - this is certainly a bug, as this is the second report about Justice lowering arbitrarily and quietly after becoming an Avatar. 
-"One, as far as I know, there is nothing that lowers Justice that doesn’t also lower another virtue, so I don’t know of a way to lose an eighth just in Justice."
+\r\n\r\n
+'One, as far as I know, there is nothing that lowers Justice that doesn’t also lower another virtue, so I don’t know of a way to lose an eighth just in Justice.'
+
 You are correct here, as there is nothing that lowers Justice on its own. Justice is always lowered along with other virtues. The lowering code is untouched from vanilla. Fenyx and I were looking at a possible bug in the original code, but I still don't think it could be possible for the situation you encountered. \r\n\r\nAbsolutely, please do send any save over and let me know of any other surrounding info, as this seems to be a legitimate bug that needs to be fixed asap.\r\n\r\nExact details of your actions near the event help, as there is a possibility that this is some kind of memory overflow from some other function. There is a slight possibility that it is platform specific (i.e. the dos emulator) but that is less likely now. What dos emulator are you using?"
 name: Cambragol
 email: 0f92fefa51187a6743e585571eec1224
