@@ -1,0 +1,8 @@
+_id: 5da8dfb0-aae0-11f0-ab40-2b14030165d8
+message: "@Goldenflame - I have found and fixed the bug.\r\n\r\nThanks for your help - it was critical. It was a very very tricky bug - hardest one yet to crack, as it was so random, rare, and *almost* irreproducible. But I managed to get a save 2 steps before the loss of a justice eighth. This allowed me to attack it again and again, step by step dissecting what was wrong. The solution also may explain other instances of this issue.\r\n\r\nSo, a fix for this will be in 1.01 - yay!\r\n\r\nIf you have any specific rooms in dewmire that you can point out I will fix those. This was tested pretty thoroughly in the beta, so surprised that there still are any monster/stone/npc overlaps.\r\n\r\nI will check Asher - I doubt he should be docking your humility.\r\n\r\nThe ring issue is strange - another rare thing, but I will check/fix it.\r\n\r\nAlso, I have improved the 'erasing' logic of the original game when it comes to overland chests/horse/boats etc., but if you leave them lying around, they will eventually disappear (which is realistic I think)"
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760654107
