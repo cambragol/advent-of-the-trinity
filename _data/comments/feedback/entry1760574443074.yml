@@ -1,0 +1,8 @@
+_id: e2272220-aa26-11f0-b58e-e350e14b34ca
+message: "I am on Win 10, using a GOG install of U4 which appears to use DOSBox 0.74-2.1. \r\n\r\nI have put a couple hours into it so far but haven't managed to create a reproducible test case. (I worry a little that the act of saving might clear whatever bit causes the bug to trigger, but have no data either way.) I have seen it happen enough times now though that there does seem to be one commonality: it happens sometimes (only sometimes!) if I (U)se the Map immediately following a fight. It's happened several times if I Use the Map as soon as I've come out of the central spider room on L2 or the slime room on L3 of the Spider Cave. I think I've seen it happen after Using the Map following a random hallway fight but I am less certain that I've seen that case. I'll keep watching for it. I am also not sure if I have ever seen it not immediately after a fight- I will also keep watching for that. But this would be consistent with the fact that I did not ever see the bug while using the Map in towns. \r\n\r\nOne thing that I did test, though is: last time I had it happen, I immediately X-ited the dungeon and Gate Traveled back to LBC. Hawkwind told me to seek elevation, which means my actual karma level in Justice is not going down, it is only losing the fact that I have attained partial avatarhood. \r\n\r\nI will continue to test- I've been on your side of this and know how nice a reproducible test case is! And I feel like I'm getting closer to better data."
+name: Goldenflame Dragon
+email: 2281c24bcbf6219ec833a25e908bb0ac
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760574443
