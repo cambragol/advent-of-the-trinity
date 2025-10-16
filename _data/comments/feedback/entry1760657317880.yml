@@ -1,0 +1,8 @@
+_id: d76827a0-aae7-11f0-890b-2f1ebe26f9ad
+message: "@Goldenflame Dragon\r\n\r\nI think the ring/shrine issue was very likely linked to the overall justice bug. The bug was giving the justice Karma a random number, which would appear to be 'ready for elevation', but when at the shrine, is NOT 99 - the number required. Periodically the karma 'watching' functions will update your karma based off previous actions (delayed boosts) and/or restore a value past 99, to 99. \r\n\r\nSo it may have appeared that the ring was preventing the elevation, when really it was just the corrupted karma value for Justice. \r\n\r\nThat is my working theory, as I am able to elevate while the ring is in use now."
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760657317
