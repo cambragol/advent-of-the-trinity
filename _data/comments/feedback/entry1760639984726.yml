@@ -1,0 +1,8 @@
+_id: 7be66ea0-aabf-11f0-b942-4584b46f7c2b
+message: "A note to anyone else who might try to track down bugs in this fashion- just backing up PARTY.SAV is insufficient. I was juggling PARTY.SAV files in my testing, and when I got back to playing, my horse and all my boats had disappeared from the world map...\r\n\r\nSo, back up your entire game folder instead. :P \r\n\r\nOther minor bugs/issues from my time looking into this one:\r\n* Just wanted to point again at the Ring/Shrine issue I posted above: having the Ring active prevented the Shrine of Justice from seeing that I was eligible for elevation\r\n* In caves there are some rooms where monsters spawn on rocks (making them invulnerable until they move) or, in one case in Dewmire, on the same space as a party member. Not that big a deal, but maybe worth mentioning.\r\n* Talking to Asher in Dwimmerstone, he asks if I've found any Orbs of the Moons. I haven't found any in the Underdeep yet, but I found the one that is in a very logical place if you've played Ultima V, so I answered \"YES\", and immediately lost my eighth in Humility. I don't know (a) why this would be Humility rather than Honesty, and (b) why I lose an eighth when I answer correctly that I have, in fact, found an Orb. \r\n\r\nI've been experimenting with talking to people diagonally and seeing if I can trigger the Map/Justice bug, but so far it hasn't worked."
+name: Goldenflame Dragon
+email: 2281c24bcbf6219ec833a25e908bb0ac
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760639984
