@@ -1,0 +1,8 @@
+_id: 5d97fcc0-aa51-11f0-88ca-7fa219c7b860
+message: "@Goldenflame Dragon - following your guidance, I have *finally* seen this bug happen. I was able to immediately save and open the file, showing that the cause is most likely a memory overflow from somewhere. Tracking that down is still tricky, but the map is clearly a culprit.\r\n\r\nIf I can't track it down and fix the memory leak, I will look at a bandaid solution, which I already have in mind. Failing that, I would likely have to cut the map.\r\n\r\nKeep any info coming though, as I haven't licked it yet. But getting closer.\r\n\r\nThanks for all your help!"
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760592689
