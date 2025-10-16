@@ -1,0 +1,8 @@
+_id: 6f20e120-aa40-11f0-9080-2f4ca83a3683
+message: "Still no save file, but I had it happen after getting out of a floor fight with ghosts, getting the chest, and then Using the Map. The chest can't be a necessary prerequisite for the bug, as it isn't a factor when I'm leaving a room, but it's interesting to know that the bug can happen even if it's a turn or two after the fight ended. And it's very good to know that it is not actually linked to rooms.\r\n\r\nI ran around saving after every fight for a dozen fights, and then the next fight there I DIDN'T save after, the bug triggered. That is way too small a sample size to say saving makes the bug not happen, but it's either that or very aggravating timing."
+name: Goldenflame Dragon
+email: 2281c24bcbf6219ec833a25e908bb0ac
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760585417
