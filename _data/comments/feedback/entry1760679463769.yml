@@ -1,0 +1,8 @@
+_id: 675ead10-ab1b-11f0-bfe6-65976ea4770c
+message: "@Goldenflame Dragon -\r\n\r\nRegarding overworld ships/horses/chests disappearing - the logic will erase chests first, then horses and ships. However, there isn't, nor has there ever been, much room for storing things in the world space. Honestly, it should all disappear once you leave it. So I am happy with the balance now, which is close to vanilla - less room for objects, but a smarter (non-random) erasing. \r\n\r\nYour things will disappear, so don't be surprised when they do!\r\n\r\nI will venture in to Dewmire and SpiderCave now - must these dungeons were all made in pure hex, so never easy to visualize things.\r\n\r\nAlso, Asher is fixed - had a byte set wrong.\r\n\r\nI should note that the bug-testers did a great job. They tested the heck out of the game - however, the game is so big that more than half the content was never even reached by them, and they were trying! So, I think the issues have been relatively minor so far. To my relief.\r\n\r\nPlease try to enjoy the game from here."
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1760679463
