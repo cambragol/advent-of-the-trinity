@@ -8,10 +8,10 @@ tags: [Ultima IV, Ultima 4, release, download, Threat of the Trinity]
 image: 
 ---
 
-* **Note 1**: You will need a DOS emulator to run 'Threat of the Trinity'. You cannot use it with XU4. It is a pure DOS, stand alone game.
-* **Note 2**: If you wish to use a save from an existing install of Ultima IV, all your save info is stored in "party.sav" - keep that file, then add it to your 'Threat of the Trinity' install, overwriting, and you should be able to pick up where you left off.
-* **Note 3**: There was a small hotfix, so if you downloaded before the 20th, you might want to redownload. You can preserve your game state by not overwriting '.sav' files.
-   
+* **Note 1**: The game has been updated to version 1.01 - Save games are compatible - If updating, save all your current *.sav files and add them to the 1.01 release, overwriting any files if prompted.
+* **Note 2**: You will need a DOS emulator to run 'Threat of the Trinity'. You cannot use it with XU4. It is a pure DOS, stand alone game.
+* **Note 3**: If you wish to use a save from an existing install of Ultima IV, all your save info is stored in "party.sav" - keep that file, then add it to your 'Threat of the Trinity' install, overwriting, and you should be able to pick up where you left off.
+
 <!--more-->
 
 ### Instructions:
