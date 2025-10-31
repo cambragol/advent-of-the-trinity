@@ -1,0 +1,18 @@
+_id: f11e5460-b624-11f0-8ff2-ffd1c47db76f
+message: >-
+  Yeah, if you're having the same issue I did when I first tried, FAT16 has a
+  root directory size limit of like 256 files or something like that. If you
+  make a folder, you can put as many files as you want in the folder as long as
+  it'll fit on a standard 1.44MB floppy. I used 512KB as the cluster size as
+  well, and a USB floppy drive. I have not attempted to do it yet with a DOS
+  system, but the floppies I made all work in DOSBox. Unfortunately, to do this,
+  I had to axe the feelies from it, but those could easily be included on
+  another disk. Another issue is that modern file explorers suck for copying
+  files to floppy disk. I had to use xcopy in DOSBox-X on a windows 8 laptop to
+  do that properly, and it still took forever.
+name: PossumPower
+email: 27eb5a2012026628cb38e804c95cc450
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: Honesty
+hidden: ''
+date: 1761893023
