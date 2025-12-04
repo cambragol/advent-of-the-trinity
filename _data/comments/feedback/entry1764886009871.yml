@@ -1,0 +1,8 @@
+_id: 883ba7a0-d15d-11f0-a486-ef78d4249d0a
+message: "Never noted the slept character can't be cured. It makes sense because the cure spell deals with the current status, which would be sleep, so would fail. I'd need to specifically code it to check for the underlying status as well, and... well, code space is just not available.\r\n\r\nPhantoms and a few other creatures/things are able to be walked on/over, in the original game. In Threat of the Trinity this becomes a little more important in a few instances."
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1764886009
