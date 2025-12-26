@@ -1,0 +1,8 @@
+_id: cf9ddc30-e247-11f0-85c1-ef99201f61f3
+message: "Saves should be compatible, for the most part, though if moving back and forth, some info could be lost. ToTT saves would *not* be compatible with Quest of the Avatar. There may also be some states that cause issues when moving between games. The save game file (party.sav) was not changed at all, hence the compatibility. However, it is read differently by the ToTT exe, and some info is hidden in unsed bytes of the original Quest save. Or used differently.\r\n\r\nIn this case for some reason the z-index of the party is not set correctly, so the party has 'underground' lighting. It can be fixed by going up or down a ladder. This may only effect new games, where the z-index has not been set yet (in the Quest of the Avatar)\r\n\r\nToTT has more saves to reflect in town saves, underdeep related saves, items, and karma."
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1766745850
