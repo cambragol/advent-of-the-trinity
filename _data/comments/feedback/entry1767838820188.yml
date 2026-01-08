@@ -1,0 +1,8 @@
+_id: 9455a590-ec38-11f0-9369-055dc03e1408
+message: "Feedback to @Cambragol\r\n\r\nI saw you mentioned you use ‘Boxer’ from https://github.com/MaddTheSane/Boxer. I am also using Boxer in macOS to play Ultima 4 Threat of the Trinity. However, after saving the games, I found it kept the following files in its own under under Boxer:\r\n\r\nKARMA.SAV\r\nMONSTERS.SAV\r\nPARTY.SAV\r\nOUTMONST.SAV\r\nTOWNMAP.SAV\r\n\r\nBut when I copied these save games files back to the Ultima IV Threat of the Trinity dosgames folder for DosBox-X, then I started the game from DoBox-X and found that it couldn't load the previous save games progress. How do I fix this ?"
+name: Wyatt Wong
+email: 28eb7e915eee150c3841de99d15f7ea2
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: Honesty
+hidden: ''
+date: 1767838820
