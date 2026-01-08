@@ -1,0 +1,8 @@
+_id: 2fcf5410-ec54-11f0-9469-0b0feb1f2b54
+message: "@Wyatt - I am no expert on Boxer - there are also multiple versions out there now. I have had issues like the one you describe. It seems that boxer saves the game files or 'game state' to a different folder sometimes. Retrieving what appear to be the correct files proves not to be the case. \r\n\r\nThe current build I am using does not do that. It saves the file directly to the boxer folder that was used to install the game. I can't remember if I made a custom version of boxer, or what. It has been some time.\r\n\r\nYou may need to look around inside the boxer app, or in application support, to find the actual files that your progress was being saved onto."
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1767850677
