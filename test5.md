@@ -1,5 +1,5 @@
 ---
-layout: video_header3
+layout: post-light-feature
 title:
 permalink: /test5.html
 description:
