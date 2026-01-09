@@ -7,6 +7,8 @@ comments: false
 tags: [Ultima IV, Ultima 4, release, download, Threat of the Trinity]
 image: 
 ---
+
+Forum
 <script>
   (function() {
       if (location.pathname === '/') {
