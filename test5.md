@@ -7,12 +7,16 @@ comments: false
 tags: [Ultima IV, Ultima 4, release, download, Threat of the Trinity]
 image: 
 ---
-
-
-<script src="https://utteranc.es/client.js"
-        repo="cambragol/advent-of-the-trinity"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
+<script>
+  (function() {
+      if (location.pathname === '/') {
+      	return;
+      }
+      var main = document.querySelector('main');
+      var script = document.createElement('script');
+      script.src='https://utteranc.es/client.js'
+      script.setAttribute('repo', 'cambragol/advent-of-the-trinity');
+      script.setAttribute('issue-term', 'pathname');
+      main.appendChild(script);
+  })();  
 </script>
