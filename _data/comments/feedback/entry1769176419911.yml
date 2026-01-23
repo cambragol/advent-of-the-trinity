@@ -1,0 +1,8 @@
+_id: ebe19b80-f862-11f0-8cb1-693daf8f6f7b
+message: "Hi Hoyty,\r\n\r\nThe only way that could happen is if you somehow exited during the 'closing' process of the Crypt. When the crypt is closed (permanently) the entrance is changed into a mountain. So if you climbed up from below, you would die. However, there should be no case where you could be *inside* the crypt, after having closed it. You are automatically teleported out. Can you elaborate a bit on what happened?"
+name: Cambragol
+email: 0f92fefa51187a6743e585571eec1224
+url: 'https://cambragol.github.io/advent-of-the-trinity/feedback.html'
+avatar_test: honesty
+hidden: ''
+date: 1769176419
